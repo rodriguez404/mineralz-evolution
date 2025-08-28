@@ -1,0 +1,1807 @@
+***-----PATCH 7.0-----*** (June, 2022)
+Added 2 Final Skins. Rewarded by high lvl and ???
+MULE Skin removed.
+Added Fotress of Mercenaries. New Mercs: *Colossus*, *Raynor*, *A.R.E.S*.
+Removed one relic in mid (Total = *3* relics)
+Added 4 1-charge abilities to probe.
+Fixed Mysterious Box damage.
+Fixed Odin's Barrage damage being lower than attack damage.
+Drastically increased early nights bosses strength.
+Goliath A-A: -50% cost.
+Reaper, Stalker skins: reduced bonuses to SCV and Sentry values.
+Night 5 is now followed with **Hydralisk** bosses instead of **Zombie Golems**.
+
+`Toss grenade:` 
+> 2000 -> 2500 dmg
+
+`Seeker Missile:`
+>   Moved to lvl 10.
+>   Damage: 125 000 -> 75 000
+>   C.D. 4 min -> 3 min
+
+`Psi Storm:`
+>   Moved to lvl 25.
+>   C.D. 3 min -> 4 min
+
+`Yamato Cannon:` 
+>   C.D. 8 min -> 5 min
+
+`Nuclear Strike:` 
+>   C.D. 8 min -> 6 min
+
+`Vortex:`
+>   C.D. 9 min -> 8 min
+>    Duration 5 sec -> 8 sec
+>    Radius 2.5 -> 3.5
+
+`Immortal:`
+>    Fixed having a bit lower range than stated.
+>    Blink C.D.: 120 sec -> 20 sec
+>    AOE Damage: 50% -> 75% (radius remains same)
+>    Plasma cost 90k -> 80k
+
+`Crystal wall:`
+>    Now also has Shield Armor (Equal to Life armor)
+>    Wall T4: Armor 6 -> 12
+>    Wall T5: Armor 8 -> 25
+>    Final Wall: Shield regen 12 -> 48
+
+`Artifact:`
+>    60 -> 30 sec cooldown
+>    Nova damage 250000 -> 200000 (Total damage 350000 -> 300000)
+
+`Firebats:` 
+>    Added +50% bonus dmg to light targets. 
+>    Added life regen for all levels.
+>    Reduced Vespene required to attack for Firebats 2-6.
+>    Firebats 1: HP 400 -> 800
+>    Firebats 2: HP 800 -> 1600
+>    Firebats 3: HP 3200 -> 6400
+>    Firebats 4: HP 12800 -> 25600, Armor 6 -> 12
+>   Firebats 5: HP 50000 -> 100000, Armor 8 -> 25
+>    Firebats 6: HP 125000 -> 250000
+>    Firebats 6: Now properly displays required vespene for attack
+
+`Robotic Cannon:`
+>    Light -> Psionic bonus dmg.
+>    Robotic Cannon T5: HP 25000 -> 12800
+>    Robotic Cannon T6: HP 50000 -> 25000
+
+
+**-----PATCH 7.1-----** (June, 2022)
+Further hotkeys and tooltips adjustments.
+General cannons up: cost inflation 1000 plasma -> 2000 plasma
+General generators up: cost inflation 2000 red -> 3000 red
+General healers up: cost inflation 2000 green -> 3000 green
+Melee Hybrid Boss: dmg increased by 20%
+Kerrigan Boss: dmg increased by 20%
+Leviathan Boss: dmg increased by 20%
+`Refinery:`
+>    Default HP 500 -> 1000. HP bonus from Ups remains same.
+>    Cap 2000 -> 1000
+>    Improve harvest +100 cost: 4500 all -> 9000 all
+
+
+**-----PATCH 7.2-----** (June, 2022)
+Fixed Artifact placement.
+Fixed Odin's Nuclear strike dmg being lower than stated.
+Firebats: removed vespene cost to attack.
+Boss Zeratul: increased strength in all aspects by ~25%. Faster, tougher, stronger...
+Boss Hydralisse: changed type from Armored to Light.
+`Probe Lvl Abilities:`
+>    Now all have same C.D. of 3 minutes
+>    Increased lvl required to unlock abilities
+>    Seeker Missile: dmg 75000 -> 25000
+>    Yamato: dmg 250k + lvl x2500 -> 100k + lvl x1000
+>    Nuclear strike: dmg 250k + lvl x3000 -> 100k + lvl x2000, launch range 30 -> 20
+
+**-----PATCH 7.3-----** (July, 2022)
+*Nightmare difficulty added.*
+
+
+**-----PATCH 7.4-----** (July, 2022)
+Removed damage limitations for Yamato and Nuclear strike abilities.
+Fortress of Mercenaries: cost 10000/2500/7500/2500 -> 15000/5000/10000/5000
+Raynor: Added Stimpack ability
+Final Photon Cannon: energy required to shot is now equal to 0.5 of damage (previously 1.0) for all cannon ups lvls.
+
+**-----PATCH 7.5-----** (July, 2022)
+Last skins: now require same conditions to obtain but on nightmare difficulty.
+Final Hybrid: Removed 'Armored' tag.
+Increased generator ups limit from 50 to 100.
+Overcharge: can now be auto-casted.
+`General upgrades cost:`
+>    Cannons: 22 000 -> 28 000
+>    Healers & Gens: 16 000 -> 20 000
+
+`Raynor:`
+>    Cost: 15000/9500/120000/9500 -> 25000/9500/100000/9500.
+>    Railgun damage: 150 000 + 5000/up -> 200 000 + 4000/up
+
+
+**-----PATCH 7.6-----** (July, 2022)
+Added new skill for probe (only for solo, otherwise bug)
+Fixed Nightmare difficulty not granting nights for elite difficulty (probably)
+Anti-air Turret range: 11 (16 improved) -> 12 (15 improved)
+Increased difficulty of secret night.
+Increased Raynor's Penetrating Round splash width by 150%
+Increased damage reduction on some bosses
+Some tooltip fixes.
+
+
+**-----PATCH 7.7-----** (July, 2022)
+Added Infestor boss for 13th night for all difficulties. (n10 nightmare).
+Mutalisks: HP 500 -> 2500.
+Fixed secret night having same strength for all difficulties and number of players.
+Remove Mineral: C.D. 10 sec -> 60 sec (amount of charges is same).
+Maximum Probe lvl increased from 101 to 200 (more shields, more dmg for Yamato and Nuclear strike skills)
+Fixed Obelisk damaging rocks.
+General quantum healers & gens upgrade Starting cost: 20 000 -> 22 000
+Minor tooltip fixes.
+ARES Cost: 160k/9500/50k/9500 -> 220k/15k/50k/15k
+
+`Nightmare difficulty:`
+>    Added early mutalisks.
+>    Removed Infested Golem boss. All bosses come earlier now (1st night Queens, 2nd Hydralisks etc...)
+>    (Zeratul, Kerrigan etc arent affected. At least for now...)
+
+`Goliath A-A:`
+>    Range: 11 -> 10 (x)
+>    Now attacks only air units.
+>    Damage: 244 (x2) -> 640 (x4)
+
+`Odin's Nuclear strike:`
+>    Damage: 200k -> 500k
+>    Radius: 10 -> 16
+>    Cost: 0/2k/2k/2k -> 9500 each
+>    Cooldown: 2 min -> 1 min
+
+`Raynor:`
+>    Attack speed 1.5 -> 2
+>    Cost: 25k/9500/100k/9500 -> 35k/15k/120k/15k
+>    Railgun snipe:
+>            Cast Range: 12 -> 25
+>            Penetrating range: cast range -> whole map
+>            Now hits air targets too.
+
+`Colossus:`
+>    HP 200 000 -> 100 000
+>    Starting damage 3000 -> 6000
+>    Attack speed: 1.5 -> 2
+>    Range 14 -> 16
+
+
+**-----PATCH 7.8-----** (July, 2022)
+Easy difficulty added (rewards for beating: scv, sentry, reaper, stalker, high templar skins)
+Added -control chat command (shares control with all other players)
+Added -builder 2 -builder 3 etc.
+fixed Odin's weapon display showing x2 value of the actual damage (dmg itself is unchanged).
+Little update for loading screen.
+A.R.E.S Armor cost: 5000 (50000) -> 6000 (60000)
+
+
+**-----PATCH 7.9-----** (8th August, 2022)
+Fixed secret night strength not suiting selected difficulty.
+Removed chunk of unused code (bit faster loading).
+Removed 300k limit for Probe's Nuke skill.
+Fixed Mercs requirements.
+Fixed Scourge's damage not reducing by armor.
+An attempt to fix Leviathan's attack sometimes not shooting projectile.
+Increased movement speed of Melee Hybrid and Leviathan.
+Anti-Air Turrets now dont attack melee Hybrid boss.
+Mutalisks: HP 2500 -> 1500
+
+`Colossus:`
+>    Damage 6000 -> 4000
+>    Attack speed 2 -> 1.5
+>    Removed attack speed limit (animation cap).
+
+`Goliath A-A:`
+>    Damage 640 (x4) -> 720 (x2)
+>    Armor 2 -> 10
+>    Cost: 1250/0/2000/250 -> 2500/0/4000/500
+
+
+***-----PATCH 8.0-----*** (19th August, 2022)
+
+`Fixed:`
+> Instant Heal destroying units.
+> Vortex gas gain.
+> Kerrigan's, Leviathan's attacks.
+> Obelisks bounce models.
+> Tough Plate + Particle beams upgrade limit.
+> Nightmare diff giving Elite Nights only upon win and not by actual nights survived.
+> Dead probes receiving Remove Minerals ability.
+> Showing message 'easy beaten' for difficulties other than easy.
+> Photon Cannon actors overlaying.
+> Secret night reset stats
+> Other niche fixes.
+
+`Nightmare difficulty:`
+> Now contains Two Stone Zealot Bosses (timings are different, be aware!)
+
+`Anti-air Turret:`
+> Not detector anymore.
+
+`Obelisk:`
+> Can now be Upgraded to Sentinel Obelisk.
+
+`Brutalisk, Ultralisk, Hybrid, Final Hybrid bosses:`
+> Splash Radius 2.1 -> 2
+
+`Robotic Cannon:`
+> Psionic -> Light bonus.
+
+`Photon Cannon:`
+> Overcharge does not drain energy for use anymore. (Previously 50%)
+> Starting energy: 100 000 -> 200 000 (Final Tier)
+
+`Firebats:`
+> Removed life regen.
+> T4 Firebats Armor 12 -> 10.
+> T5 Firebats Armor 25 -> 20.
+> Light -> bio bonus.
+
+`Infestor Boss:`
+> Now visible in Fog.
+
+`Instant Heal:`
+> Vitals 22% + 75 -> 25% + 75
+
+***Custom launched on NA server among with discord server***
+
+
+**-----PATCH 8.1-----** (21th August, 2022)
+
+Duplicate: now doesnt turn off night progression if cant be used.
+Lil bit of text adjustment.
+Few fixes to resets (Should be a bit less of them now, also resets are numerated now for future fixes)
+`Tesla, Immortal, Obelisk:`
+> Shield regeneration delay set to 0 (should fix issue of healers not restoring shields)
+
+`ARES Re-work`*
+> Cost 220k/15k/50k/15k -> 160k/9500/50k/9500
+> Doesn't stack armor anymore.
+> Cannot use Absorber Shield anymore.
+> Added 2 new passives.
+
+*Might be reverted back or changed again soon.
+
+
+**-----PATCH 8.2-----** (28th August, 2022)
+
+`Fixed:`
+> Final Skins showing as default archon on Low quality.
+> ARES attacking while moving when attack is on hold fire.
+> ARES Hero icon.
+> Bosses instant deaths (I hope so?)
+> Sentinel Obelisk bounces damage (previously was same with default obelisks bounces, meant to be x3 higher at start)
+> Probe's Yamato & Myst Box being able to blast in Fog
+> Resets fix
+
+`Obelisk:`
+> -1 Sight range
+> Sentinel Obelisk:
+> +3000 Damage -> +2000 Damage
+
+`Overcharge:`
+> Cooldown: 30 sec -> 25 sec
+> Cannot be auto-casted anymore.
+
+`ARES:`
+> Adamantium armor passive removed.
+> Now can have shields and use absorber.
+> Passive's cap 90k -> 85k.
+
+`Raynor:`
+> Added new passive.
+
+`Odin:`
+> Added new passive.
+
+`Leviathan:`
+> Now increases range with night progression (previously was removed for some fixes, but now its ok to get back).
+
+`Final Hybride:`
+> Is now flying unit :monkaW:
+
+`Secret Night:`
+> Hybrid dmg reduced.
+> Night duration 190 sec -> 110 sec
+
+Added more colors (The last one - Pink - is actually White)
+
+
+**-----PATCH 8.2.1-----** (28th August, 2022)
+
+`N36:`
+> Hybrid dmg reduced.
+> Night duration 190 sec -> 110 sec
+
+- Fix for n36 lose
+
+
+**-----PATCH 8.3-----** (5th September, 2022)
+
+Fixed Archons (normal and elite) animations for low qualities.
+Mutalisk's damage to probes increased by 100%
+Zerg's damage now upgrade smoother in later nights (meaning increased difficulty for mid-late nights and bit decreased diff for final nights). Easy diff not affected.
+
+`ARES:`
+> No longer has Nanosteel Plates passive (Moved to Immortal)
+> Now has changed version of Adamantium Armor passive
+
+`Immortal:`
+> Now has weakened version of Nanosteel Plates (*Hardened Shield*)
+
+`Night shift:`
+> Refineries are now upgradable to a limit of +250.
+
+`Night 36:`
+> Duration 110 sec -> 100 sec
+> Hybride Final:
+>	Damage reduced by -5%
+>	Spawn 25% less frequent now.
+
+- Fixed 'wrong version' resets
+- Colossus lag fix
+
+
+**-----PATCH 8.4-----** (10th September, 2022)
+
+`Fixed:`
+> Nukes, Railgun Snipe sometimes not damaging air units.
+
+`Artifact:`
+> Not detector anymore.
+
+`Raynor's Railgun Snipe:`
+> Does not upgrade damage with cannons upgrades anymore.
+> Starting damage 200 000 -> 300 000
+
+`1-charge abilities:`
+> +1 cast range (except Snipe)
+
+`Immortal:`
+> Hardened Shield cap 95k -> 90k
+
+`N36:`
+> Hybrids spawn less frequent.
+
+
+**-----PATCH 8.5-----** (18th September, 2022)
+
+Added Prestiges:
+Reset progress to get some bonuses.
+Not meant to be 'grind to win' and stand as little bonuses for long-time players.
+
+Added Special Rewards for first teams to beat Nightmare 36 (post 8.4 patch)
+
+Player's nicknames are now colorized at starting menu dialog.
+Can now see player's handlers if hover mouse to their nick at starting menu dialog.
+
+
+**-----PATCH 8.5.2-----** (19th September, 2022)
+
+Fixed dead probes & duplicate obtaining Speed up gen ability.
+Fixed -Duplicate not being able to  work if have 36 elite.
+
+
+Пофиксить ямато, нюку триггер не дает веспен (сделать небольш задержку чтоб юзалось вместе со снарядом)
+добавить хоткеи в базу на минералы
+добавить -zoom
+пофиксить двойное нажатие кнопок?
+
+- Fixed easy diff giving normal nights
+- Red Hybrids dont spawn at easy difficulty anymore.
+- Readjusted base hotkeys
+
+
+**-----PATCH 8.6-----** (22th September, 2022)
+
+`FlameThrower:`
+> Damage 2% hp/s -> 3% hp/s
+
+`Core inside:`
+> Moved to Prestige 4.
+
+`Healing zone:`
+> Move to Prestige 7.
+
+`Night shift:`
+> Refineries specializations' price 4000 -> 0
+> Can now specialize from the beginning.
+> Once specialized, can't change color.
+
+
+**-----PATCH 8.7-----** (25th September, 2022)
+
+`Fixed:`
+> Experimental Plasma Gun dealing more damage than stated
+> Speed up generators regen'ing charges
+> Night shift 'cores' stat in table
+> Healing zone fixes
+
+Night shift:
+> Refs can switch colors again
+
+- Text adjustment for easy diff skin obtainment
+
+
+**-----PATCH 8.8-----** (7th October, 2022)
+
+`Fixed:`
+> Multiple button presses at starting dialog.
+
+`Healing zone:`
+> Heal 2%/s -> 1.5%/s.
+> Range: +1
+
+New Unit in Fortress of Mercenaries: 
+**Specialist**
+> Offensive caster, which uses its abilities to support defence by taking out enemies.
+> Uses energy to cast some of his abils. Energy can not be restored from generators but regens over time.
+
+
+(8th October, 2022)
+- Fixed Mysterious Box
+
+- Changed Specialist's command panel
+- Tac Nuke: Radius 16 -> 12
+
+- N36 adjustments
+
+
+(10th October, 2022)
+`Healing Zone:`
+> Moved to Prestige 10
+
+`Crazy Mineralz:`
+> Moved to Prestige 7
+
+`FlameThrower:`
+> Damage 3%/s -> 4%/s
+
+`Specialist:`
+> Cost 15k/9500/25k/9500 -> 25k/15k/35k/15k
+
+
+(12th October, 2022)
+`Fixed:`
+> Elite mode granting more nights than supposed to.
+> Probe's harvest reset after death (using prestige 1)
+
+
+
+**-----PATCH 8.9-----** (3rd November, 2022)
+
+`Probe's Nuclear Strike:`
+> Now lands faster.
+
+`Yamato:`
+> Launch range: 20 -> 16
+
+`Vortex:`
+> Radius: 3.5 -> 3.0
+> Duration: 8s -> 6s
+
+`Specialist:`
+> Now can gain levels.
+
+`Raynor:`
+> Plasma cost: 120k -> 100k
+
+Added -zoom command.
+
+- Fixed nuke cooldown for duplicate
+
+
+**-----PATCH 9.0-----** (13th November, 2022)
+
+- Fixed nuke cooldown for duplicate
+- Removed unnecesary commands (-restart, -see, -trade)
+- Removed '+5% dmg / each 30 sec' message for Easy difficulty (zergs don't get this bonus on Easy)
+
+All probes now have mini-blink ability (can't be used at the beginning).
+Nightmare mode now grants 2 win if won.
+
+`Fortress of Mercenaries:`
+> Can now upgrade Hp/Armor
+
+**Elite&Nightmare skins:**
+
+`Zeratul:`
+> +200% Range, -50% cooldown, +1 charge for Blink
+
+`Tassadar:`
+> +25% move speed compared to other elite skins (+75% total)
+
+`Elite archon:`
+> +30% attack speed
+
+`Red archon:`
+> is now Nightmare Archon - granted for 35 nightmare (-0.05 bonus harvest and +10% move speed, total -0.25 harvest and +60% move speed)
+
+`Ascended archon:`
+> Can't one-shot rocks anymore.
+> Now has all unique bonuses of elite & nightmare skins.
+
+
+**-----PATCH 9.0.1-----** (13th November, 2022)
+
+`Blink:`
+> Initial cooldown 360s -> 540s
+
+`Ascended archon:`
+> +10% move speed, +10% attack speed
+> Now has 2 charges for 1-charge abilities
+> Global range for 1-charge abilities.
+
+
+**-----PATCH 9.1-----** (18th November, 2022)
+
+- Fixed Core Inside prestige
+- Fixed Boss Randomizer
+
+`Nightmare:` 
+> More early mutalisks spawned.
+> Now spawns 1 mutalisk at 5th night.
+
+- Boss randomizer: now gives +1 win (any difficulty)
+
+***Prestiges:***
+- New prestiges: Chrono boost (lvl 3), Hallucinator (lvl 5), Destroyer (lvl 10)
+- Healing Zone: moved to prestige 9
+- Damage Aura: Range: 9 -> 15
+
+
+(20th November, 2022)
+- Fixed Nightmare's Stone Zealots
+- Fixed Crazy Brutalisk damaging himself
+
+Immortal: plasma cost 80k -> 100k
+
+
+**-----PATCH 9.2-----** (27th November, 2022)
+
+- Nightmare now requires majority votes instead of all
+
+**New difficulty:** ***Hell***
+
+***Prestiges:***
+
+- Removed FlameThrower Prestige
+
+`Damage aura:`
+> Moved to prestige 2.
+> Damage 15% -> 20%
+> Doesn't stack
+
+New prestige: Grenade (lvl 6)
+
+
+**-----PATCH 9.2.1-----** (27th November, 2022)
+
+`Hallucinator:`
+> Hallucinations duration 30s -> 60s
+
+`Chrono accelerator:`
+> Time Scale 25% -> 50%
+> Cooldown 50s -> 90s
+
+- Added in base a button to vote for hiding effects (same as 'hide special effects' but global)
+- more effects will be hidden with this function in future updates
+
+
+**-----PATCH 9.2.2-----** (29th November, 2022)
+
+- Fixed n27+ banelings damage
+- Fixed generators with 'Hide special effects'
+
+Local button to hide beam effects remains same;
+Global vote to hide effects now affects more units (healers, gens, roaches, tanks, corruptors, kerrigan, artifact)
+
+`Robot-Wall A.R.E.S:`
+> Adamantium armor -25% -> -30% against bosses
+
+
+**-----PATCH 9.3-----** (5th December, 2022)
+
+Added Timer for nights 36+
+
+`Specialist:`
+> Snipe doesn't apply poison anymore. Now permanently removes life and shield regen.
+
+**Prestiges:**
+
+`Grenade:`
+> Moved to lvl 2.
+
+`Damage aura:`
+> Moved to lvl 3.
+
+`Chrono Accelerator:`
+> Moved to lvl 6.
+> Added Permanent version
+
+`Speed Up:`
+> Technical and Visual improvements
+
+
+**-----PATCH 9.4-----** (6th December, 2022)
+
+- some tooltip fixes
+
+`Toss Shredder Grenade:`
+> Now also hits air units
+
+`Nightmare Archon:`
+> Changed bonuses from: 
+> -0.05 harvest and +10% move speed
+> To: 
+> Reduced bonuses of all elite skins combined. (blink, move speed, attack speed).
+
+`Night Shift:`
+> Abilities now have little bit reduced cooldowns, to keep up with bosses' timings.
+> Refineries are upgradable to +300
+
+**-----PATCH 9.5-----** (10th December, 2022)
+
+- Added '-control off' command
+
+***Prestiges:***
+
+[Chrono Boost] Fixed permanent Boost visuals
+
+[Hallucinator] Now properly displays mining rate of worker hallucination
+               Hallucination probe doesn't benefit from Turbine upgrades anymore
+               Increased move speed, sight radius for Observer hallucination
+	       Fixed bug with cores
+
+[Speed Up] Fixed possibility to speed up non-gens
+
+
+**-----PATCH 9.6-----** (15th December, 2022)
+
+`Chrono Accelerator:`
+> Temporary boost now cancels permanent boost
+> Updated visuals for temporary boost
+> Permanent boost: 8% -> 10%
+
+`Robot-Wall A.R.E.S.:`
+> Absorber shield ability (-50%) replaced with A.R.E.S. Shield
+> Quick Reparation ability replaced with A.R.E.S. Reparation
+> Added visuals for Adamantium Armor passive
+> Added area damage to main weapon
+> Fixed a bug when A.R.E.S. shoots second time at already dead target
+
+`Immortal:`
+> Damage cap passive: 90k -> 95k
+
+`Absorber Shield -50% (Probe's 1-charge):`
+> Now can't be applied if target is already shielded
+
+`Night shift & Hell:`
+> When both are chosen, night's duration are set to default. (Removes bonus duration from Hell)
+
+`Specialist:`
+> Fixed being able to target allies.
+
+Other:
+- Fixed right top corner Table's incorrect lines if player leaves before game starts
+- Prestige level is now Red colored if player has completed Hell difficulty (also added tooltip to it)
+- Chosen prestiges, skins etc. are now clearer to see
+
+
+**-----PATCH 9.7-----** (23rd December, 2022)
+
+-kekw, -crycat chat commands are now available for everyone
+
+Photon Cannon:
+> Bonus damage: Armored -> Psionic
+
+`Nightmare Archon:`
+> Increased bonuses from 'reduced bonuses of all elite skins' to 'bonuses of all elite skins'
+
+`Ascended Archon:`
+> Bonus damage dealt: +50 -> +75
+
+`Core Inside:`
+> Resources 16*Night -> 24*Night
+
+`Crazy Mineralz:`
+> Resources 1*Night/second -> 1-2(randomly)*Night/second
+> Now shows gained resources every second (can be turned off)
+
+`Hallucinator:`
+> Both abilities are now targeted to use
+
+--------------------------------
+***Winter Event has started:***
+- Normal-Hell difficulties give +1 additional win each.
+- Map has winter theme
+- Probes got some christmas stuff
+
+
+**-----PATCH 9.7.1-----** (23rd December, 2022)
+
+`Healing Zone:`
+> Range 10 -> 15
+> Heal per second: 1.5% -> 1.2%
+
+- Grenade prestige replaced with Seeker Missile prestige
+
+- Fixed Robot-Wall A.R.E.S. missing reparation ability
+
+- Fixed Core Inside showing notification for everyone instead of only owner
+
+- Fixed several bugs with 2nd life for probes
+
+
+(24th December, 2022)
+`Hallucinator [High Templar]:`
+> Cooldown: 80s -> 40s
+> Active time: 60s -> 40s
+> Move speed increased by 10%
+
+- Snow is darkened by little bit
+
+
+**-----PATCH 9.7.2-----** (30th December, 2022)
+
+- Fixed Worker Hallucination targeting probe
+- Fixed Crazy Mineralz not working with -duplicate
+
+- Overcharge can be auto-casted again
+
+`Colossus:`
+> Replaced Overcharge wirh *Overload*
+
+`Destroyer:`
+> Damage dealt to structures +100% -> Damage dealt +100%
+
+
+**-----PATCH 9.8-----** (20th January, 2023)
+
+- Starting timer increased from 60 seconds to 300 seconds (for less frequent pauses)
+- Updated icons for buffs (skin, speciality etc) on probe
+- Updated Visual effects for Probe blink, Archon Blink, Overload
+- Fixed Time Accelerator (Tower Aura T5 ability) being too big on Immortal
+- Zeratul boss has only 1 life on easy mode now
+
+*Prestiges:*
+
+`Seeker Missile:`
+> Replaced with Psi Storm prestige
+
+`Damage Aura:`
+> Bonus damage: 20% -> 18%
+
+`Core Inside`:
+> Renamed to 'Accumulative Reserves'
+
+`Accelerator:`
+> No longer limited at 2 generators
+> Can now accelerate multiple generators with weaker effect, and 1 generator with full effect
+> Updated visuals for single target Acceleration
+> Added sounds for applying acceleration
+> Visuals can be turned off with global vote to hide effects (doesn't hide already existing visuals but prevents them from appearing in the future)
+
+`Destroyer:`
+> Now also increases minerals gained from rocks by +100%
+> 'True Archon' now also receives Destroyer if player has it chosen
+
+***New prestiges: Guardian Shield (p11), Core Inside (p12)***
+
+- Map layout is back to default
+
+
+(21st January, 2023)
+- Accelerator (full effect) now overrides weaker effect on a generator when applied. (previously couldnt be applied)
+- Fixed Guardian Shield unable to protect Quantum Diamond
+
+- Fixed Firebats being able to target allies
+
+
+**-----PATCH 10.0-----** (9th February, 2023)
+
+- Lowered target priority for Specialist, Raynor
+- Raynor's snipe: increased cast range, increased penetration width by 20%
+- Global vote to hide effects now also hides corruptors' glowing
+- Buildings no longer give resources back if **killed** by player
+- Duplicate no longer disables night progression
+- Seeker Missile now flies much faster towards target
+- Fixed various bugs with probe's second life
+- Fixed glitching Damage Aura
+- Starting timer reduced to 120 seconds
+- Players with "-swap" command can now swap back to chosen worker by "-swap default"
+
+**Game is now separate in 4 game modes:**
+1. Role-based
+> Players can choose a role and receive various buffs depending on role
+> Builder, share commands become available only from day 25
+> Resource sending disabled
+
+2. Builder
+> All players share control from start
+> At day 2 all players automatically share resources and send them to First player (equals to builder 1 and -share for everyone)
+> Other builder can be manually changed with -builder # command
+> Builder, share, cannot be turned off
+
+3. Classic
+> Normal game mode with no changes made
+
+4. Sandbox
+> Mode with disabled progression
+> Player can use various cheat commands (use '-commands' to see the list)
+
+All modes share progression. However, some new progress can be obtained and used only in role-based games
+
+
+**-----PATCH 10.1-----** (14th January, 2023)
+Role-based:
+
+Roles and Max unlocked Masteries can now be chosen in lobby:
+Choosing role in lobby will automatically set it in game
+Mastery is just visual setting to let other ppl know your progress from lobby (it doesn't unlock anything)
+
+-Builder and -share commands now become available on different days depending on difficulty:
+Easy == day 25
+Normal == day 24
+Elite == day 23
+Nightmare == day 22
+Hell == (night) 21
+
+Cannon role
+> Mastery 2: now grants +100% xp from kills
+
+Healer role
+> Mastery 1&2 combined. 
+> New effect for mastery 2: healers cost 25% less
+> Mastery 3's defensive matrix: cooldown 60s -> 30s, duration 7s -> 11s
+
+Economy role
+> Mastery 4:
+> Turbines bonus -0.1s -> -0.2s 
+> Modifications' harvest bonus: -0.5s -> -0.3s
+> Command center now requires T3 base
+
+- various bug fixes
+
+**-----PATCH 10.2-----** (22nd February, 2023)
+
+- fixed secret night hybrid's damage
+- fixed turret's experience gain
+- improved ARES weapon AI
+- unsieged tanks can now hold fire
+
+Role-based:
+> -builder and -share commands available 5 days earlier (20-16 easy-hell)
+
+SandBox:
+> Added new commands: -players #, -role #, -cooldown / -cd
+> No longer need to build Base to build structures
+> Can hire both ARES and Odin
+> All "1 per player" units and buildings have 5 charges
+> "Remove minerals" ability has increased charges
+
+
+**-----PATCH 10.2.1-----** (27th February, 2023)
+
+Role-based:
+> fixed "bio-stasis" HP Degen passing through Wall Mastery 4's invulnerability
+> fixed Cannon Mastery 5 xp gain
+
+SandBox:
+> fixed "-sos" command glitching nydus/overmind
+> fixed "-day" command breaking night's cycles of enemy types
+> fixed "-day" command setting 180s day if used after "-sos"
+
+- sieged tanks can now hold/unhold fire
+
+
+- small fixes and adjustments
+- added new upgrade in Command Center
+
+
+**-----PATCH 10.3-----** (22nd March, 2023)
+
+**Role-based:**
+> Renamed to "Roleplay"
+> Player's progression moved from prestige number to role icon
+> Choosing role Now highlights only unlocked Masteries (instead of all)
+> Typing "-builder" or "-share" commands before they get enabled now shows the day at which they become available
+> Added Dual Masteries (unlocked by having 40 wins in two roles, can be picked by both of them)
+- Beta: Reworked Trade Menu (currently only for Roleplay mode)
+
+Economy Mastery 4
+> Harvesters: now start with +5 (previously +4) and are upgradable up to +15 (prev. +12)
+> Harvesters now can dynamically change their modifications
+> SCV Enhancer 1 & 2: increased price
+> SCV Enhancer 1: increased limit of Harvesters 2 -> 4
+> Small fixes to tooltips and textures
+
+Economy Mastery 5
+> (Night shift) Specializing refineries for all minerals costs resources
+
+Fixed various bugs with leavers:
+- Builder mode: if player 1 (builder) leaves, player 2 becomes builder (and so on)
+- fixed resource panel display with leavers
+- no longer can send resources to leaver (if already is sending to player and he leaves, you stop sending)
+
+
+**-----PATCH 10.4-----** (15th April, 2023)
+
+- Fixed some bugs and tooltips
+- Tanks no longer can hold position
+
+Economy Mastery 4:
+> Increased harvester cost: 50/50/50/50 -> 100/100/100/100
+
+Economy Mastery 5:
+> Now grants charges back if Greatest Core/Refinery has been destroyed/salvaged
+
+Wall Mastery 5:
+> "100k HP/100 Armor" armor Upgrades now also give Shield armor
+
+Healer Mastery 3:
+> Defensive Matrix from Quantum healers now also scales with General upgrades of healers (+500 damage absorbed per level)
+
+Nuke station:
+> Rebalanced damage, radius, cooldown for Nukes
+> Damage no longer scales from Tier of Base
+> Now has several upgrades
+
+
+**-----PATCH 10.5-----** (27th April, 2023)
+
+*BETA: Moved chat so it doesnt cover players' stats at starting screen 
+* – To be changed after feedback
+
+- Increased secret night duration by 20 seconds
+- "Max mastery available" now also supports Dual Masteries
+- "-duplicate" command is no longer available in Roleplay solo games
+- fixed an issue with not attacking Photon cannons in Roleplay mode
+
+Cannon Mastery 3:
+> Increased bonus range for firebat: +2 -> +3
+
+Nuke station:
+> Nuke Damage 4 (Lethal nuke upgrade) now requires Cannon Mastery 5 to unlock
+> Nuke Radius upgrades' effects are now halved for Lethal Nuke
+
+Economy Mastery 5:
+> Amount of charges now depends on amount of players (num of players = num of charges, maxes at 4)
+
+Accelerator prestige:
+> Multi-Accelerator: work speed +20% -> +35%
+> fixed some small bugs
+
+Guardian Shield prestige:
+> Final tier's damage reduction: 7% -> 8%
+
+Sandbox:
+> "-players X" command renamed to "-set players x"
+> fixed damage scaling from "-set players X" command
+> "-role X" command renamed to "-set role X"
+> added clarifying notifications when changing roles
+> "-difficulty " command renamed to "-set difficulty "
+
+
+(3rd May, 2023)
+- Fixed Robotic Cannon 5 missing Rapid Learning (Cannon Mastery 2)
+- Fixed several issues with simple command card
+- Fixed Hell Kamikaze Baneling's damage
+
+
+**-----PATCH 10.6-----** (16th May, 2023)
+
+***New difficulty*** (temporarily unavailable in Sandbox mode)
+***New worker***
+
+- Removed science vessel skin
+- Fixed Hell Baneling Kamikaze timings (should no longer spawn too late)
+- Fixed Firebats 5 missing +1000 damage upgrade with Cannon Mastery
+- Fixed Artifact not shooting with Generator Role
+- Fixed some "-builder" command issues with leavers
+- Fixed Economy M5's charges disappear if consumed by leaver or votekicked player
+- Fixed Wall M4 not triggering against infestor's bio-stasis (finally)
+- Minor fixes for Economy M4
+- Hovering to Prestige number now also shows if player has completed Night 36
+- Minor improvements to votekick system
+- Successful votekick now immediately gives supply points
+- In-game emojis are now available for everyone (list: -doge, -pepecool, -monkas, -crycat, -bonk, -kekw)
+
+Boss Randomizer:
+> Now randomizes every boss spawned
+
+Photon Cannon:
+> Overcharge is replaced with Overload
+
+Dual Mastery Wall + Cannon:
+> Final Firebats now also have +50% damage
+
+Healer Mastery 3:
+> Defensive Matrix: energy cost 85% -> 35%
+> Defensive Matrix (Quantum healer): damage absorbed per general healers lvl +500 -> +750
+
+Specialist:
+> Suppressive shot: energy cost 400 -> 100, cooldown 0s -> 15s
+> EMP: energy cost 750 -> 600
+
+Increased move speed of following bosses:
+> Stone Zealot: 1 -> 1.5
+> Hell Baneling Kamikaze: 2 -> 2.5
+
+Prestiges:
+Damage Aura: damage 18% -> 20%
+Healing Aura: heal 1.2% -> 1.5%
+
+Sandbox:
+> "-set role X" command now also supports roles' names (e.g. "-set role healer")
+
+
+(17th May, 2023)
+Roleplay mode:
+> Board now shows players' roles and Economy M4 Harvesters (next to 'cores')
+
+- Tweaks for later nights on impossible difficulty
+- Fixed photon cannons' overload autocast (starting from cannon mastery 2)
+- Some cheaters banned
+
+
+**-----PATCH 10.7-----** (23rd May, 2023)
+
+- Hybrid Destroyer (impossible) no longer goes for Raynor
+- Global vote to hide effects hides some more effects (new: obelisk's bounces, overload, colossuses' burning ground, robotic/photon/anti-air turrets' attacks)
+- All Overcharge effects are replaced with Overload
+- Slightly increased strength of Banelings on higher difficulties
+- Local damage upgrades (+250 / +500 / +1000) are now affected by all damage multipliers (Overload, Wall+Cannon M6 etc)
+- Fixed Enemy damage not reducing after player has left/died/votekicked
+- Fixed Zeratul's voice lines on Easy difficulty
+- Fixed double Overload bug for Colossus
+- Fixed Robotic Cannon attack models
+- Fixed Trade Menu (Roleplay) not disappearing at the end of the game
+
+Colossus:
+> Attack speed: 1.5 -> 2
+> Starting damage: 4000 -> 8000
+
+Anti-Air turret:
+> Starting damage: 250 (x2) -> 500 (x2)
+
+Overload:
+> Changed hotkey to avoid conflicts
+> Auto-cast is no longer Initially On (Cannon Mastery 2)
+> Cooldown: 25s -> 30s
+
+Wall Mastery 2:
+> Now also reduces cooldown of A.R.E.S. Shield
+
+Robot-Wall A.R.E.S.:
+> Starting damage: 2500 (x2) -> 5000 (x2)
+
+Odin:
+> Nuclear Missile: cost 9500 all -> 4500 all
+
+
+(31st May, 2023)
+Fixed not being able to disable -share (Roleplay)
+
+SandBox:
+> "-set players X" now also affects zergs/bosses amount (previously affected only dmg)
+> "-set role X" now correctly supports double masteries
+
+
+**-----PATCH 10.7.1-----** (10th June, 2023)
+
+- Final Firebats now has hp bar button
+- Global vote to hide effects now also hides ref's resource notifications
+- Fixed 2 Hybrid Destroyers in Impossible n34
+- Fixed Robotic Cannons have Overload without Cannon M1
+- Chat is moved back to default
+
+Cancel Specialization (Refinery):
+> Reduced penalty duration: 20s -> 10s
+> No longer sends on cooldown Refinery upgrades
+
+Core Inside:
+> No longer interrupts probe's mining
+
+Crazy Mineralz:
+> Switch no longer interrupts probe's mining
+
+Sandbox:
+> "-allin" now also includes "-cd"
+> Fixed "-cd" not reducing blink cooldown
+> "-set role X" now supports all roles per once with "-set role 6" / "-set role all"
+> New command: "-godmode" / "-gm": gives godmode to all player's currently alive units and buildings.
+> Godmoded units still take damage but cant die
+> Godmode can be deactivated/activated by re-typing command
+
+
+(11th June, 2023)
+- Rebalanced healing minerals for both default Healers and Replenishers (mostly weakened)
+- Some bugs fixed
+
+Specialist:
+> Energy regen rate: 2 -> 3
+
+- Fixed 'Cancel Specialization's penalty duration being longer than stated
+- Fixed healing minerals
+- Specialist now has higher energy regen in Sandbox
+- "-godmode" / "-gm" now also affects all built in the future buildings (and not just currently alive ones)
+- "-allin" now also includes "-gm"
+
+
+(15th June, 2023)
+- Increased Damage for both Hybrid Destroyer's abilities
+- Fixed Hybrid Destroyer's death lines
+- True Archon now ignores armor
+- DNA fixed
+
+Destroyer:
+> True Archon duration: +50% -> +100%
+
+Raynor:
+> Penetrator Snipe now properly displays damage ups with each level
+
+
+
+**-----PATCH 11.0-----** (8th July, 2023)
+
+**The Game is slowed down to use real-time timer**
+**Day-Night cycle timers are shortened respectively**
+(Increased move speed of all enemies to negate slow)
+(Increased probe's move speed, attack speed to negate slow)
+(All other game values are slowered by 40%)
+
+**Mutators** renamed into **Modifiers**
+**New modifier: Mutators**
+
+Chrono Boost prestige:
+> Temporary Chrono Boost cd: 90s -> 45s
+
+Generators:
+> No longer give energy while under construction
+> Changed visuals for Energy Beams
+
+Quantum Healers:
+> Shield heal / HP heal are combined in one ability
+> Model is back to default
+
+Wall Mastery 2:
+> No longer makes skills free to use
+> Now reduces skills costs by 75%
+
+Healer Mastery 3:
+> Duration: 11s or until depleted -> 60s or until depleted
+> Can now be used on Probes
+
+Healer Mastery 5:
+> No longer grants +3 Range
+> Now grants +20% to all Heal provided (including Recombinators and Replenishers)
+> Bonus Heal does not increase energy drain
+
+Greatest Core T4+:
+> Cost: 8k all -> 6k all
+
+A.R.E.S.:
+> Adamantium Armor: no longer reduces dmg taken from bosses by 30%
+> Now reduces all damage taken by 20%
+
+Purifier Warrior:
+> Can no longer TP out of bounds and in structures/minerals
+> Now Requires vision to TP
+> Now has his own True Archon (no Global CD)
+> Fixed being unselectable
+
+Destroyer (P10):
+> Allows to oneshot rocks with any circumstances
+
+Nuke Station, Command Center:
+> Now can only be built once per game
+> Increased starting hp, armor
+
+- All probe specialities now decrease harvest time by -0.2 instead of -0.15
+- Impossible is now available in Sandbox
+- Crystal Ores are no longer hidden in fog
+- Easy difficulty now has increased day time (not only first day)
+- Minor text update to the selection screen
+- Night Shift now grants +1 win
+- Enemy Banelings no longer have Friendly Fire
+- No longer possible to Teleport probe using True Archon
+- All maximum shields/health were reduced from 524.000 to 500.000 (except Overmind)
+- All Bosses no longer die "to sun" between nights if there's no daytime (Night shift / Hell / Impossible)
+- Updated Portraits for Probes
+- Moved Trade's Send messages to the left side
+- Reduced levels granted for win in hell and impossible difficulties
+- some bugs fixed
+
+
+**-----PATCH 11.0.1-----** (13rd July, 2023)
+
+First day duration increased:
+> Easy: +60 seconds
+> Normal/Elite: +30 seconds
+> Nightmare: +15 seconds
+
+Economy Mastery 1:
+> Now also reduces cost for Probe's Stronger Turbines by -50%
+
+Economy Mastery 5:
+> Greatest Core cost reduced:
+> T1: 64 all -> 48 all
+> T2: 256 all -> 192 all
+> T3: 1024 all -> 768 all
+> T4: 4096 all -> 3072 all
+Note: with earlier changes economy role has been restricted to 1 player, but it receives some buffs
+
+Automated Refineries:
+> Now harvest every 1.5 sec instead of 1.8 sec (all modes)
+> Night Shift: Now upgradable up to +250 instead of +300 
+Note: (night shift) total income per night for maxed refinery is unchanged, but better at start
+
+- Probes in Night Shift no longer have hidden buff for slightly accelerated cooldowns
+- Reduced cooldowns for probe's skills, blinks
+- Fixed Photon Cannon Final losing prestige range bonus
+- Fixes for healing minerals
+- Fixed cores not giving income at day 2
+
+
+**-----PATCH 11.1-----** (21st July, 2023)
+
+- Fixed Core Inside's Greatest Core price (P12)
+- Possibly fixed Bankfile erasing in some niche cases (power cut)
+- Suppressive shot (specialist) duration: permanent -> 30 seconds
+- Zerg's creep now decays faster (adjusted value due to game speed change)
+- Reduced damage of all zergs at later nights (31-35)
+
+Wall Mastery 4:
+> Cooldown: 60s -> 40s (adjusted value due to game speed change)
+
+Leviathan:
+> Slightly reduced range gained per night upgrades
+> At maximum upgrades, total range decrease is -1.44
+
+Corruptor:
+> Range reduced by 0.5
+
+Command Center:
+> Cost 384/192/192/256 -> 256/128/128/192
+> Now Requires T2 Base instead of T3 Base
+
+Hell Difficulty:
+> Now reduces income from rocks by -25%
+Impossible Difficulty:
+> Now reduces income from rocks by -50%
+
+- New game mode: ***Versus*** (Beta)
+- "Versus" shares your progression from other modes, but doesnt unlock / give any reward (at time of Beta state)
+
+Bonus wins and levels granted for every difficulty (more info in announcements)
+
+
+**-----PATCH 11.2-----** (9th August, 2023)
+
+Mutators modifier:
+> Added 5 new mutators (some of which are new Positive mutators)
+> Increased reward for victory: now also provides bonus levels (depends on negative mutators)
+> Reworked "Low Oxygen" mutator
+> Drastically nerfed damage augments from "Mutated Swarm" mutator
+> Slightly nerfed "Utter Darkness" mutator
+
+Odin, Barrage skill:
+> Barrage now uses Odin's attack damage (instead of damage which equals to attack damage)
+> It means Barrage will receive damage buffs from levels, Overload, damage aura etc.
+
+Robotic Cannon:
+Splash radius: 1.5 -> 1.0
+
+- Fixed timer bug
+- Fixed cannons descriptions for prestiges
+
+
+**-----PATCH 11.3-----** (25th August, 2023)
+
+Mutators:
+Plague:
+> Now is removed from probe upon triggering probe's "last chance"
+> Now is removed upon triggering Wall Mastery 4
+> No longer spreads if infected unit has died to sun burn (day) 
+> DoT duration: 60s -> 40s
+
+Low Oxygen:
+> Starting timer: 90s -> 100s
+
+Energy Field:
+> Fixed incorrect working
+
+Mutated Swarm:
+> Chance of spawning mutated unit: 35% -> 55%
+
+We Move Unseen:
+> Now unlocks Detector Tower to build
+
+Wheel of Misfortune:
+> Bonus levels for win: 5 -> 8
+
+Prestiges:
+> Healer role's passive bonus now also gives +2% to defensive matrix absorption
+
+Anti-Air Turret:
+> Improvement A-A: Cost 14k/0/28k/9800 -> 14k/0/21k/9500
+> (Improved) Range: 15 -> 16
+
+Wall Mastery 4:
+> When on cooldown, now displays remaining cooldown duration (when hover to icon)
+
+- Emotes are no longer spammable (15s cooldown between emotes)
+- Improved description for healer's heal rate (per energy drained)
+- New building: Engineering bay
+
+
+(27th August, 2023)
+- fixed earthquake oneshotting turrets
+- 1 new upgrade for engineering bay
+- fixed detection tower's upgrade cost
+
+
+**-----PATCH 11.3.1-----** (26th September, 2023)
+
+ - moved mutator list to not overlay
+ - fixed wall hp ups for P40 wall mastery
+ - added advanced ping panel
+ - reset is now only available during selection screen
+ - new chat command: "-savezoom X" - stores a value from 1 to 100 and works as an auto zoom at start of every game
+
+
+**-----PATCH 12.0-----** (7th December, 2023)
+
+- Reworked Selection Screen
+- Added Third side for building
+- Two side relics are now randomized between Three sides
+- Now the game at start automatically selects best unlocked skin (it does not limit your options to change it)
+- Night shift no longer gives +1 win (again)
+- Reduced Double Speciality level requirement from 99 to 49
+- Changed Economy role icon from Grey core to Golden Core
+- Removed "Builder" game mode from the game
+- Removed passive prestige bonuses from "Classic" and "Versus" modes
+- Fixed "-builder" command issues with leavers
+- Fixed "Rich Minerals" mistakenly having too high chances
+- Leaderboard now shows player's roles
+- Secondary probe skills no longer assigned to worker and can be manually chosen
+- Overload nerf: +300% (x4) damage -> +200% (x3) damage
+- Added new mutators
+- Mercenaries can now pickup relics
+- New Mercenary: Hel's Angel
+- Sandbox: Engineering Bay now has accelerated upgrade research speed
+- Sandbox: new chat commands — "-relics", "-mutator " (-allin now also includes "-relics")
+- "-swap" command replaced with "-skins" command
+
+- Statue Mini-Game rework:
+> - No longer gives an ancient relic upon activating statues
+> - Now activates the Teleports to unavailable zone, where the relic has to be found
+> - Statues no longer disappear after first day's alert message and can be accessed later
+> - Statues now disappear / portals get destroyed in 90 seconds after going through first portal
+
+- Wall Mastery 2 rework:
+> - No longer reduces cooldown of Quick Reparation & Absorber Shield
+> - Quick Reparation & Absorber Shield become free to use
+> - Quick Reparation becomes available at all crystal wall / firebats tiers
+
+- Quick Reparation rework:
+> - No longer instantly restores 45k HP
+> - Now restores 6.4% of wall's maximum life over 2 seconds (3.2% / sec)
+
+- Purifier Relocation rework:
+> No longer teleports to any location
+> Now relocates to any location in radius of 24 (2 times more than Archon Blink)
+> Cooldown reduced to 10 seconds (Archon Blink level)
+
+- Core Inside (P12):
+> Blue-Green-Purple-Red cores now give +100% income to yourself (up from +50%)
+
+- Guardian Shield damage reduction increased:
+> - T1: 35% -> 50%
+> - T2: 30%: -> 40%
+> - T3: 25%: -> 30%
+> - T4: 20%: -> 25%
+> - T5: 15%: -> 20%
+> - Final Tier: 8% -> 12%
+
+**Global update & rebalance for The Thing in Versus** (still Beta though)
+Versus:
+ - Zerg's starting bonus damage reduced from Nightmare Difficulty (+100%) to Elite difficulty (+50%) (early mutalisks are still in present)
+ - Zerg player now can upgrade/research zergs at nydus
+ - Added periodic random events for zerg player
+ - Selection Time increased by +40s
+ - Probes get +50% income from rocks
+ - Probes have brand new & some rebalanced skills, which have different effects against unstoppable / non-unstoppable targets
+ - Unstoppable units are: The Thing, Hybrid Behemoth, Hybrid Destroyer, Stone Zealot / Non-Unstoppable: everything else (x)
+ - Probe's one-charge skills are replaced with healing beam (scales with healer m5 mastery)
+ - Day time increased: 15s -> 50s
+ - Night time reduced: 120s -> 90s
+ - Share day is now Day 30
+ - Specialist is no longer available in Versus
+ - Fixed eco not being able to send res to 6th player
+
+  The Thing:
+> Now takes much more damage from Day Burn (but can't die, at least 1 HP remaining)
+> Now has auto-teleport to Nydus first 400 seconds after spawn
+> No longer Spell Damage Immune / Drakken Laser Immune / Archon Immune
+> Constricting Slime: cooldown increased 15s -> 25s
+> Now takes maximum of 75 000 dmg per hit
+> Added 7th evolution tier
+> Evolutions are cheapened by 50%
+> Evolutions also increase periodic income (depends on evolution tier, +2 - +7)
+> Evolutions give more HP, but less damage, armor and damage reduction
+> "Income increased +1" - increased price
+> T1 & T2 Shield Upgrades cost 50% less
+> Attacks no longer deal splash damage
+> Damage to rocks reduced: 20% -> 10%
+> Now deals 2 attacks per once
+> Starting armor: 0 -> 2
+> Armor upgrades' bonuses are halved
+> Reworked last armor upgrade to not give dmg reduc, but be purchasable multiple times
+> Starting move speed: 4 -> 5
+> The Thing's Absorber Shield:
+> - Drains less shields per usage
+> - Now is researched after T3 shields (down from T4)
+> - Shield & Shield enhancer upgrade costs reduced by -50%
+> Damage upgrades:
+> - Give 50% less damage
+> - Have 25 max level on all tiers (except final)
+> - Have reduced starting price by -50%
+> - Increase in price with each purchase
+> - Automatically jump to next tier upon evolutioning
+
+
+**-----PATCH 12.0.1-----** (8th December, 2023)
+
+- Fixed Hell Kamikaze Baneling not spawning
+- Fixed Relativity Tower not working
+- Fixed enemy pathing interaction with statue mini-game
+- Fixed personal skins not properly saving between games
+- Fixed some damage interactions with "Fragile" / "Lone Wolf" mutators
+- Versus: Seeker Missile duration 6s -> 12s
+- Versus: updated few descriptions to match info for unstoppable/non-unstoppable effects
+- Destroyer: Probe's damage reduced +100% -> +75%
+- "Destroyer" / "Lone Wolf" no longer increase damage of probe's skills
+- Rebalanced Probe's move speed: first row's skins are now a bit faster (+20% speed for default probe), 2nd row skins are a bit slower
+
+- Hel's Angel:
+> - Fixed costing supply
+> - Now scales from general cannons
+> - Move speed increased: 3.15 (ground) / 3.85 (air) -> 4 (ground) / 5 (air)
+
+- Fixed mercenaries picking up DNA
+
+
+(22th December, 2023)
+- Fixed AI zergs attacking mid statues
+- Fixed P12 income 
+- Fixed Creepfestation mutator
+- Fixed being able to go through destroyed portals
+- Fixes to healing minerals
+
+- Added Event mutator
+
+
+**-----PATCH 12.0.3-----** (23th March, 2024)
+
+- Fixed rare issues with duplicating mutators
+- Fixed amount of bosses on impossible difficulty
+- Readjusted boss timings for hell-impossible difficulties
+
+- interface now displays more than 6 modifiers per once
+
+
+(24th March, 2024)
+- muted people can now communicate in game by adding ":" prefix at start of message
+two notes:
+if used by unmuted player, messages will be duplicating.
+the game should be unpaused for sending messages this way
+
+
+**-----PATCH 12.1-----** (15th June, 2024)
+
+- minor terrain rework for bottom side
+- "mutator structures" renamed to "special structures" 
+- enemy pathing reworks
+- added secret building
+- added new secondary skill: Cryo Grenade
+- added donor stuff
+- added new chat command: "-prestige X" (works at start and allows you to downscale your prestige level)
+- added new sandbox commands: "-kill rocks", "-kill minerals" (removes all rocks from map / removes all minerals from map)
+- "-allin" sandbox command now also includes "-kill rocks" and "-kill minerals"
+- hell difficulty now requires majority of votes instead of all
+- reworked "-commands" command (now also works in non-sandbox modes)
+- muted communication: ":" prefix no longer duplicates messages with only 1 letter (such as ":)", ":D" etc.)
+- increased cooldown for probe's first blink (all types)
+- minor tooltip fixes and adjustments
+
+Wall Role:
+> Passive prestige bonuses no longer give bonus armor
+
+Wall Mastery 5:
+> Complete rework
+
+Engineering Bay:
+> Added upgrades for an Artifact
+> Reduced research price for Quantum Diamond Storm by -20%
+> Reduced research time for Thunder Tower by 180 seconds
+> Increased research time by 40 seconds and price by +20% for Anti-Air turret's "Ignore Armor"
+> Railgun Snipe cooldown: -10s -> -5s
+
+ARES:
+> Adamantium armor: 20% reduction -> 25% reduction
+
+Hellstorm missiles upgrade:
+> x8 missiles for 10% dmg each -> x3 missiles for 25% dmg each
+
+Utter Darkness:
+> Added mutator-specific building
+
+Low Oxygen:
+> Added sound warning when probe starts losing HP
+
+Thunder Tower:
+> Now adds +2000 damage (x)
+> Fixed being ignored by Hybrid Dominator's abilities
+
+Economy Mastery 4:
+> Added few mutator-specific upgrades to Harvesters
+> Now limited to 8 harvesters by default
+
+Specialist:
+> Bonus damage to heroic: +50% -> +33%
+
+Versus:
+> Stone Idol's damage drastically reduced
+> Zerg Events: damage & attack speed buffs +50% -> +33%
+> -UI temporarily disabled for The Thing player
+> Fixed Grenade damage against unstoppables
+> Feedback's Non-unstoppable Damage: 75% of Current HP -> 75% of Max HP
+
+The Thing:
+> The Thing is now probe-damage-immune
+> Increased The Thing's scan radius
+> Fixed The Thing's cooldowns
+> The Thing'starting damage: 16 (x2) -> 12 (x2)
+
+
+(19th June, 2024)
+- fixed Science Facility requirements
+- fixed Grenade damage
+- fixed 7th custom skin
+- fixed Railgun Snipe upgrade description
+- fixed Low Oxygen sound
+
+
+**-----PATCH 12.2-----** (2nd July, 2024)
+
+- added secret enemy
+- added new Modifier: Hardcore
+- Laser and Artifact now take time to build
+
+Engineering Bay:
+> Railgun Snipe "Sniped": cost 15k/12k/9500/4500 -> 35k/25k/15k/15k
+
+Economy Mastery 4:
+> Autonomous Oxygen: cost 512 each -> 4096 each
+> Flashlight: cost 128 each -> 256 each
+
+
+
+- Hardcore now also disables mutator buildings (except Oxygen Station)
+- Sandbox is now available for 5 players (everyone should have access to commands)
+- Destroyer prestige no longer increases duration of True Archon if used from other players
+
+
+
+Wall Mastery 1:
+> Life regen and shield regen bonuses no longer apply to final tiers
+> Now decreases Crystal Wall cost by 25%
+
+Wall Mastery 5:
+> Drones can now also be deployed by Firebats
+
+Drone improvements:
+> - Place Drone cooldown: 30s -> 20s
+> Seeker Mode: damage 500/1500/5500/15000/50000/150000 -> 1000/3000/10000/25000/75000/150000
+> Defensive Matrix Mode: duration 10/10/10/10/15/20s -> 6s, cooldown 25s -> 20s, damage absorbed 100/200/400/1600/25000/100000 -> 120/240/480/2400/25000/100000
+> Seeker Mode: range 7 -> 9
+> Drones can now upgrade Drone Capacity from any mode
+
+
+Dual mastery Wall + Cannon:
+> No longer decreases Firebats cost
+
+
+**-----PATCH 12.4-----** (22nd January, 2025)
+
+Healing Zone:
+> Heal effect: 1.6% max hp/s -> 1.2% hp/s
+
+Aura tower final tier:
+> Doesn't act as a generator anymore
+
+Photon cannon:
+> Range 9 -> 10
+
+Odin:
+> Attack period: 1.5 -> 1.0
+
+Quantum Diamond:
+> Psi storm effect: fixed not dealing quantum diamond's base damage periodically (and only -2%)
+
+Cryo grenade:
+> Cooldown 420s -> 300s
+
+Black Death:
+> Duration: 40 sec -> 30 sec
+
+We Move Unseen:
+> Detector Tower: cost increased by 8 times. Detection range: 11 -> 6
+
+Engineering Bay:
+> Anti-air turret: "Ignore armor" upgrade reworked into "Armor penetration" upgrade. Now penetrates 50% armor
+> Quantum diamond storm: research time 240s -> 200s
+
+Wall Mastery 1:
+> Life regen and shield regen bonuses no longer apply to final tiers
+> Now decreases Crystal Wall cost by 25%
+
+Wall mastery 4:
+> Death prevention cooldown: 40 sec -> 50 sec
+
+Wall Mastery 5:
+> Drones can now also be deployed by Firebats
+Drone improvements:
+> - Place Drone cooldown: 30s -> 20s
+> - Assault Mode: range 5 -> 6, attack speed 0.86 -> 0.5; damage 6/12/24/96/384/1500 (x3 light) -> 8/16/64/256/1024/1500 (x3 light)
+> - Seeker Mode:  range 7 -> 9; damage 500/1500/5500/15000/50000/150000 -> 1000/3000/10000/25000/75000/150000
+> - Defensive Matrix Mode: duration 10/10/10/10/15/20s -> 8s, cooldown 25s -> 20s, damage absorbed 100/200/400/1600/25000/100000 -> 120/240/480/2400/25000/200000
+> - Drones can now upgrade Drone Capacity from any mode
+
+Dual mastery Wall + Cannon:
+> Firebats cost: -50% -> -25%
+
+Passive prestige bonuses:
+> Wall role: no longer increases regeneration rate
+> Cannon role: bonus to starting damage per level: 10% -> 5%
+
+- Role passives (at probe) now show current player's bonuses instead of full list
+- Minor improvements and fixes
+
+Engineering Bay:
+> Anti-air turret: "Armor penetration" 50% -> 65% penetration
+> Thunder Tower: cost 50k/15k/70k/25k -> 25k/20k/45k/20k, research time 420s -> 300s
+
+Wall Mastery 5:
+> Assault Drone: +200% damage to Light -> +100% damage to Light
+
+Tesla Tower & Thunder Tower:
+> Cost 25k/25k/45k/25k -> 25k/20k/45k/20k
+
+- (untested) Sandbox now allows up to 5 players (everyone can use commands, beware of bugs)
+
+
+(12nd February, 2025)
+- Fixed Tower Aura Final boosting non-attackers
+- Godlisk rework. Godlisk skin reset (have to obtain it again)
+
+Healer Role:
+- Bonus Heal rate (both mastery and prestiges) now increases energy drain. Affects Healers, Mineralz Replenishers and Rock Recombinators.
+
+Engineering Bay:
+> Anti-air Turrets:
+> - HellStorm Missiles: 25% dmg-> 33% dmg
+> - Reworked Armor Penetration upgrade. Is now considered a Modification
+> - Reworked Anti-armor upgrade. Is now considered a regular upgrade
+
+
+
+**-----PATCH 12.5-----** (25th August, 2025)
+
+- New emote: pepegun
+- Going beyond 400 wins no longer marks legit players as cheaters
+- New beginner bonus: first 10 wins grant x2 mastery wins
+
+
+- Mercenary role release as WIP stuff (for Hell donors or above)
+- Performance optimizations
+
+- No longer can take control over people in replays
+- Increased amount of enemy spawns for most difficulties (starting from Elite). Gradually increases enemy spawns with higher difficulties
+- Increased limit of enemies existing per once for later waves (n31+).
+- Enemies now spawn one after another with short delay, instead of whole pack per once.
+- Ascended Archon & Purifier Warrior: no longer grant second charge to defensive 1-charge abilities (still grant extra charge to offensive abils)
+- 1-charge Absorber Shield: duration 14s -> 9s
+- Science Facility is now Salvageable (be careful, you won't be able to build again if sell accidentally)
+
+**Early Mutalisks (Nightmare+):**
+> Changed behavior to be more violent ||(now they hunt for workers)||
+> Reduced spawns from 4 Mutalisks per wave to 3
+
+Vortex:
+> Duration: 6s -> 5s
+> Radius: 3.0 -> 2.5
+
+Secondary Probe Abilities:
+- Cryo Grenade: Range 8 -> 12
+- Removed "Ascended True Archon" ability
+- True Archon:
+> Duration 12s -> 10s
+> No longer starts will full Energy. Now starts with 0 but rapidly regenerates 
+
+Immortal:
+> Hardened Shield rework. No longer caps damage. Now reduces damage taken from bosses by 25%
+
+Specialist:
+> No longer has +500 damage increased (+1000 for cannon role). Now has +250 damage increased (+500 for cannon role)
+
+Tower Aura Final:
+> No longer has unlimited amount of targets. Now limited at 10
+> Attack speed bonus: 200% -> 180% (Time Accelerator ability still provides 200% boost)
+
+Firebats: 
+> Fixed splash behavior. Now properly works with increased range. This also results in wider splash in general 
+> Bonus damage to biological: +50% -> +25%
+
+Mutators:
+- Lone Wolf: take less & deal 15% more damage -> 12%
+- Energy Field: -25% energy required for healers -> -20% energy
+
+Prestiges:
+- Speed up (p6): cooldowns 30s -> 20s
+- Healing Zone (p9): prestige removed. New prestige 9: Calldown Repair Drone
+- Core Inside (p12): 
+> golden color no longer gives +50% self-income
+> no longer able to choose color. Available color now matches selected role
+> No longer able to sell Core Inside
+
+Passive Prestige Bonuses:
+> Wall role: +2.5% HP/Shields per prestige -> +1% HP/Shields per prestige
+> Cannon role: +0.1 range per prestige -> +0.05 range per prestige
+
+Masteries:
+- Cannon Mastery 3: halved range bonus for Firebats
+- Economy Mastery 4:
+> Harvester: bonus HP per turbine +100 -> +50
+- Wall Mastery 5:
+> Assault Mode: Damage reduced by 50% on all levels; no longer has bonus against Light
+> Matrix Mode: T6 Matrix' vitals decreased 200.000 -> 100.000. Now increases with general healer ups (+3000 vitals per level)
+
+Ancient portals:
+> Portal side is now unbuildable
+> Increased duration before portals get destroyed (extended by +30s, 90s -> 120s)
+> Timer now starts when you complete statue mini-game, instead of when you enter first portal
+
+- Fixed issues with hotkeys breaking (поубирать hotkey alias)
+- Fixed estimated wins/levels counter not adding up Hardcore bonus wins
+- Fixed Railgun Snipe (Raynor) sometimes dealing double damage
+- Fixed "Change color" interrupting attacks
+- Further working with enemy pathing (possibly fixed pathing issues)
+
+
+(26th August, 2025)
+- Mercenary role buffs (prices, cooldowns, range, damage, life, eco etc)
+> (Junk Dogs) "Thorns" now reflect % of attacker's Damage and also ignores armor
+
+- Fixed Target Lockdown model of Hybrid Nemesis'es ability
+- Fixed Raynor's Railgun Snipe description
+- Goliaths no longer get damaged by Earthquake
+
+
+(27th August, 2025)
+- Low Oxygen Sound: No longer triggered by Mercs. Also triggers less often for probes and at lower health mark
+- Mercenary role: units produce faster (Raynor's Raiders & Junk Dogs); reduced unit cooldowns (Mira's Marauders)
+
+
+TO-DO:
+- Fixed Guardian Shield (P11) interaction with Merc buildings
+- Fixed Energy beam on generators
+- Merc role: increased wall's lives; increased damage up from general cannons
+> Junk Dogs: Spiked Wall now gains levels; Thorns now get upgraded from levels 
