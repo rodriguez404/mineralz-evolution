@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CLight id="ArtanisEx2Portrait" parent="default">
+        <ToDInfoArray index="0">
+            <Id value="ArtanisEx2Portrait"/>
+            <AmbientColor value="0.090196,0.137255,0.176471"/>
+            <AmbientEnvironmentMultiplier value="0.661000"/>
+            <OperatorHDR value="4"/>
+            <Param index="HDRExposure" value="1.000000"/>
+            <Param index="CreepSpecularExp" value="40.000000"/>
+            <Param index="ShadowPenumbraSize" value="0.133000"/>
+            <DirectionalLight index="Key">
+                <Color value="0.992157,0.929412,0.858824"/>
+                <ColorMultiplier value="1.216000"/>
+                <SpecularColor value="1.000000,0.945098,0.878431"/>
+                <SpecColorMultiplier value="0.473000"/>
+                <Direction value="0.799411,0.361620,-0.479764"/>
+            </DirectionalLight>
+            <DirectionalLight index="Fill" Color="0.074510,0.419608,1.000000" ColorMultiplier="0.537000" Direction="-0.814733,0.574092,-0.081417"/>
+            <DirectionalLight index="Back" Color="1.000000,0.800000,0.674510" ColorMultiplier="1.445000" Direction="-0.617105,-0.752346,-0.230559"/>
+        </ToDInfoArray>
+        <EditorCategories value="LightGroup:PortraitsUnitsProtoss"/>
+        <AmbientEnvironmentMap value="Assets\Textures\smx2_ambientcubemap_bridge_default.dds"/>
+    </CLight>
+    <CLight id="BelShir">
+        <ToDInfoArray index="0" Id="00:00:00">
+            <DirectionalLight index="Key" Color="0.937255,0.929412,0.811765" Direction="0.866519,-0.169533,-0.469471"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="BelShirFindeNuit" parent="default">
+        <ToDInfoArray index="0" Id="00:00:00" AmbientColor="0.000000,0.000000,1.000000" Colorize="1">
+            <Param index="HDRExposure" value="1.500000"/>
+            <Param index="HDRWhitePoint" value="1.850000"/>
+            <Param index="TerrainSpecularExp" value="11.210000"/>
+            <Param index="TerrainHDRSpecular" value="3.750000"/>
+            <Param index="CreepSpecularExp" value="30.000000"/>
+            <Param index="CreepHDRSpecMultiplier" value="3.000000"/>
+            <Param index="ColorizationContrast" value="1.066000"/>
+            <Param index="ColorizationHue" value="0.001000"/>
+            <Param index="ColorizationBlend" value="0.300000"/>
+            <DirectionalLight index="Key">
+                <Color value="0.501961,0.749020,1.000000"/>
+                <ColorMultiplier value="0.162000"/>
+                <SpecColorMultiplier value="0.513000"/>
+                <Direction value="0.714305,0.255055,-0.651702"/>
+            </DirectionalLight>
+            <DirectionalLight index="Fill" Color="0.211765,0.529412,0.529412" ColorMultiplier="1.500000" Direction="-0.463854,-0.769851,0.438371"/>
+            <DirectionalLight index="Back" Color="0.082353,0.121569,0.200000" ColorMultiplier="1.400000" Direction="-0.668793,-0.021251,0.743145"/>
+        </ToDInfoArray>
+        <EditorCategories value="LightGroup:Tilesets"/>
+    </CLight>
+    <CLight id="BelShirFindejourne" parent="default">
+        <ToDInfoArray index="0" Id="00:00:00" AmbientColor="0.000000,0.250980,0.501961" Colorize="1">
+            <Param index="HDRExposure" value="1.500000"/>
+            <Param index="HDRWhitePoint" value="1.850000"/>
+            <Param index="TerrainSpecularExp" value="11.210000"/>
+            <Param index="TerrainHDRSpecular" value="3.750000"/>
+            <Param index="CreepSpecularExp" value="30.000000"/>
+            <Param index="CreepHDRSpecMultiplier" value="3.000000"/>
+            <Param index="ColorizationContrast" value="1.066000"/>
+            <Param index="ColorizationHue" value="0.001000"/>
+            <Param index="ColorizationBlend" value="0.300000"/>
+            <DirectionalLight index="Key">
+                <Color value="1.000000,0.588235,0.023529"/>
+                <ColorMultiplier value="1.080000"/>
+                <SpecColorMultiplier value="1.250000"/>
+                <Direction value="-0.925420,-0.202789,-0.320117"/>
+            </DirectionalLight>
+            <DirectionalLight index="Fill" Color="0.211765,0.529412,0.529412" ColorMultiplier="1.500000" Direction="-0.463854,-0.769851,0.438371"/>
+            <DirectionalLight index="Back" Color="0.082353,0.121569,0.200000" ColorMultiplier="1.400000" Direction="-0.668793,-0.021251,0.743145"/>
+        </ToDInfoArray>
+        <EditorCategories value="LightGroup:Tilesets"/>
+    </CLight>
+    <CLight id="BelShirNight" parent="default">
+        <ToDInfoArray index="0" Id="00:00:00" AmbientColor="0.125490,0.250980,1.000000" Colorize="1">
+            <Param index="HDRExposure" value="1.500000"/>
+            <Param index="HDRWhitePoint" value="1.850000"/>
+            <Param index="TerrainSpecularExp" value="11.210000"/>
+            <Param index="TerrainHDRSpecular" value="3.750000"/>
+            <Param index="CreepSpecularExp" value="30.000000"/>
+            <Param index="CreepHDRSpecMultiplier" value="3.000000"/>
+            <Param index="ColorizationContrast" value="1.066000"/>
+            <Param index="ColorizationHue" value="0.001000"/>
+            <Param index="ColorizationBlend" value="0.300000"/>
+            <DirectionalLight index="Key">
+                <Color value="0.000000,0.501961,0.749020"/>
+                <ColorMultiplier value="0.316000"/>
+                <SpecColorMultiplier value="0.484000"/>
+                <Direction value="-0.700219,-0.164751,-0.694659"/>
+            </DirectionalLight>
+            <DirectionalLight index="Fill" Color="0.211765,0.529412,0.529412" ColorMultiplier="1.500000" Direction="-0.463854,-0.769851,0.438371"/>
+            <DirectionalLight index="Back" Color="0.082353,0.121569,0.200000" ColorMultiplier="1.400000" Direction="-0.668793,-0.021251,0.743145"/>
+        </ToDInfoArray>
+        <EditorCategories value="LightGroup:Tilesets"/>
+    </CLight>
+    <CLight id="HybridDestroyer" parent="default">
+        <ToDInfoArray index="0">
+            <Id value="HybridProtossAdvanced"/>
+            <AmbientColor value="0.050980,0.043137,0.243137"/>
+            <AmbientEnvironmentMultiplier value="0.068000"/>
+            <OperatorHDR value="3"/>
+            <Param index="HDRExposure" value="1.350000"/>
+            <Param index="HDRBloomThreshold" value="0.425000"/>
+            <Param index="HDRAmbientMultiplier" value="0.660000"/>
+            <Param index="HDRDiffuseMultiplier" value="0.660000"/>
+            <Param index="HDRSpecMultiplier" value="1.200000"/>
+            <Param index="HDREmisMultiplier" value="0.710000"/>
+            <Param index="HDRGain" value="0.000000"/>
+            <Param index="HDRScale" value="0.000000"/>
+            <Param index="TerrainSpecularExp" value="53.889999"/>
+            <Param index="ColorizationInputGamma" value="1.108000"/>
+            <Param index="ColorizationBrightness" value="1.015000"/>
+            <Param index="AOOcclusionRadius" value="1.000000"/>
+            <Param index="AONoOcclusion" value="0.900000"/>
+            <Param index="AOOcclusionPower" value="2.000000"/>
+            <Param index="AODetailOcclusionRadius" value="0.010000"/>
+            <Param index="AODetailNoOcclusion" value="0.060000"/>
+            <Param index="AODetailOcclusionPower" value="4.000000"/>
+            <DirectionalLight index="Key">
+                <Color value="0.909804,0.909804,0.909804"/>
+                <ColorMultiplier value="1.531000"/>
+                <SpecColorMultiplier value="0.661000"/>
+                <Direction value="0.395640,0.252730,0.882948"/>
+            </DirectionalLight>
+            <DirectionalLight index="Fill" Color="0.639216,0.941177,0.364706" ColorMultiplier="0.750000" Direction="-0.414297,0.403449,0.815835"/>
+            <DirectionalLight index="Back" Color="0.313726,0.874510,0.992157" ColorMultiplier="3.055000" Direction="-0.920771,-0.251894,0.297875"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="HybridNemesis" parent="default">
+        <ToDInfoArray index="0">
+            <Id value="ShakurasCity"/>
+            <AmbientColor value="0.282353,0.282353,0.282353"/>
+            <AmbientEnvironmentMultiplier value="0.313000"/>
+            <Colorize value="1"/>
+            <Param index="HDRExposure" value="1.350000"/>
+            <Param index="HDRBloomThreshold" value="0.800000"/>
+            <Param index="HDRWhitePoint" value="1.850000"/>
+            <Param index="HDREmisMultiplier" value="1.380000"/>
+            <Param index="TerrainSpecularExp" value="11.210000"/>
+            <Param index="TerrainHDRSpecular" value="3.750000"/>
+            <Param index="CreepSpecularExp" value="18.240000"/>
+            <Param index="CreepHDRSpecMultiplier" value="3.000000"/>
+            <Param index="ColorizationContrast" value="1.177000"/>
+            <Param index="ColorizationHue" value="-0.362000"/>
+            <Param index="ColorizationSaturation" value="0.246000"/>
+            <Param index="ColorizationLightness" value="0.214000"/>
+            <Param index="ColorizationBlend" value="0.331000"/>
+            <DirectionalLight index="Key">
+                <Color value="0.729412,0.721569,0.713726"/>
+                <ColorMultiplier value="0.733000"/>
+                <SpecColorMultiplier value="1.000000"/>
+                <Direction value="0.694127,-0.217526,-0.686199"/>
+            </DirectionalLight>
+            <DirectionalLight index="Fill" Color="0.184314,0.227451,0.231373" ColorMultiplier="1.445000" Direction="0.087874,0.175711,-0.980512"/>
+            <DirectionalLight index="Back" Color="0.156863,0.184314,0.219608" ColorMultiplier="2.692000" Direction="-0.709236,0.246704,0.660395"/>
+        </ToDInfoArray>
+    </CLight>
+    <CLight id="HybridZergPortrait2" parent="default">
+        <ToDInfoArray index="0">
+            <Id value="HybridZergAdvanced"/>
+            <AmbientColor value="0.278431,0.415686,0.486275"/>
+            <OperatorHDR value="4"/>
+            <Colorize value="1"/>
+            <Param index="HDRExposure" value="1.500000"/>
+            <Param index="HDRBloomThreshold" value="2.775000"/>
+            <Param index="HDRWhitePoint" value="1.850000"/>
+            <Param index="HDREmisMultiplier" value="1.500000"/>
+            <Param index="HDRGain" value="0.000000"/>
+            <Param index="HDRScale" value="0.000000"/>
+            <Param index="TerrainSpecularExp" value="11.210000"/>
+            <Param index="TerrainHDRSpecular" value="3.750000"/>
+            <Param index="CreepSpecularExp" value="30.000000"/>
+            <Param index="CreepHDRSpecMultiplier" value="3.000000"/>
+            <Param index="ColorizationContrast" value="1.066000"/>
+            <Param index="ColorizationHue" value="0.001000"/>
+            <Param index="ColorizationBlend" value="0.180000"/>
+            <Param index="AOOcclusionRadius" value="1.000000"/>
+            <Param index="AONoOcclusion" value="0.900000"/>
+            <Param index="AOOcclusionPower" value="2.000000"/>
+            <Param index="AODetailOcclusionRadius" value="0.010000"/>
+            <Param index="AODetailNoOcclusion" value="0.060000"/>
+            <Param index="AODetailOcclusionPower" value="4.000000"/>
+            <DirectionalLight index="Key">
+                <Color value="0.466667,0.721569,0.929412"/>
+                <ColorMultiplier value="2.065000"/>
+                <SpecularColor value="0.858824,0.917647,0.984314"/>
+                <SpecColorMultiplier value="1.758000"/>
+                <Direction value="0.569980,-0.627940,-0.529919"/>
+            </DirectionalLight>
+            <DirectionalLight index="Fill" Color="0.976471,0.235294,0.235294" ColorMultiplier="2.399000" Direction="-0.286114,0.385113,0.877398"/>
+            <DirectionalLight index="Back" Color="0.701961,0.721569,0.984314" ColorMultiplier="10.000000" Direction="-0.718239,-0.531663,-0.448851"/>
+        </ToDInfoArray>
+        <EditorCategories value="LightGroup:PortraitsUnitsZerg"/>
+    </CLight>
+</Catalog>

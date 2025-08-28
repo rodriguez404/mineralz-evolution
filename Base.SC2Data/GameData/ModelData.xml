@@ -1,0 +1,2528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="ARESBossReductionViz">
+        <Model value="Assets\COOP\Stetmann\Effects\Zergling_Stetmann_COOP_HardenedShield\Zergling_Stetmann_COOP_HardenedShield.m3"/>
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+    </CModel>
+    <CModel id="ARESShield">
+        <Model value="Assets\Effects\Terran\ArcadeVikingShield\ArcadeVikingShield.m3"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="BarracksSpecOps" parent="BarracksBase">
+        <Model value="Assets\Buildings\Terran\Barracks_CovertOps\Barracks_CovertOps.m3"/>
+    </CModel>
+    <CModel id="BarracksSpecOpsDeath" parent="BarracksDeathBase">
+        <Model value="Assets\Buildings\Terran\Barracks_CovertOps_Death\Barracks_CovertOps_Death.m3"/>
+    </CModel>
+    <CModel id="BarracksJunkDogs" parent="BarracksBase">
+        <Model value="Assets\Models\Junk_Dogs_Faction\Junker_Barracks.m3"/>
+    </CModel>
+    <CModel id="BarracksSpecOpsPlacement" parent="BarracksPlacementBase" low="BarracksSpecOps">
+        <Model value="Assets\Buildings\Terran\Barracks_CovertOps_Placement\Barracks_CovertOps_Placement.m3"/>
+    </CModel>
+    <CModel id="BioWaveShockwave" parent="OneShotSpellFX">
+        <Model value="Assets\Models\BioWaveShockwave.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="EnergyNovaShockwave"/>
+        <ScaleMax value="0.480000,0.480000,0.480000"/>
+        <ScaleMin value="0.480000,0.480000,0.480000"/>
+        <SelectionRadius value="2.000000"/>
+        <ShadowRadius value="2.000000"/>
+    </CModel>
+    <CModel id="Collector" parent="Unit" Race="Zerg">
+        <Model value="Assets\Units\Terran\SecurityDrone\SecurityDrone.m3"/>
+        <Lighting value="Blizzcon17_Drone"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid04"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="Star2CameraMid04"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.400000"/>
+        <TipabilityWidth value="0.400000"/>
+        <UnitGlossaryCamera value="Star2CameraMid04"/>
+    </CModel>
+    <CModel id="CustomSkin2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Custom_skins\Golden_MothershipCore.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="CustomSkin3" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Custom_skins\Corgi.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="2.200000,2.200000,2.200000"/>
+        <ScaleMin value="2.200000,2.200000,2.200000"/>
+        <SelectionRadius value="0.200000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="CustomSkin4" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Custom_skins\storm_merc_hvh2_punisher_mortarrr.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="CustomSkin5" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Custom_skins\SpaceCowTC.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="CustomSkin6" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Custom_skins\Talon_Crystalwing.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="FlamingBetty">
+        <ScaleMax value="0.950000,0.950000,0.950000"/>
+        <ScaleMin value="0.950000,0.950000,0.950000"/>
+    </CModel>
+    <CModel id="FlamingBettyPlacement">
+        <ScaleMax value="0.950000,0.950000,0.950000"/>
+        <ScaleMin value="0.950000,0.950000,0.950000"/>
+    </CModel>
+    <CModel id="Mineral">
+        <Model value="Assets\Buildings\Resources\GasBlob\GasBlob.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Lighting value="GasCanisterZerg"/>
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+        <SelectionLayer value="100"/>
+        <SelectionRadius value="0.384500"/>
+        <ShadowRadius value="0.384500"/>
+    </CModel>
+    <CModel id="PortraitSwapSka" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Zerg\PrimalZerg03Portrait\PrimalZerg03Portrait.m3"/>
+        <RequiredAnims value="Assets\Portraits\Zerg\PrimalZergPortrait_RequiredAnims\PrimalZergPortrait_RequiredAnims.m3a"/>
+        <Image value="Assets\Textures\PortraitSwapBaldi_Static.dds"/>
+    </CModel>
+    <CModel id="PortraitSwapEltoro2" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\War3_KelThuzadGhost_Portrait.m3"/>
+    </CModel>
+    <CModel id="PortraitSwapYata" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Hybrid_Protoss_Advanced_Portrait\Hybrid_Protoss_Advanced_Portrait.m3"/>
+        <Image value="Assets\Textures\hybridprotossadvancedportrait_static.dds"/>
+    </CModel>
+    <CModel id="RedCrystalPallet">
+        <Model value="Assets\Buildings\Resources\NaturalMineralsRed\NaturalMineralsRed.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Lighting value="PalletMinerals"/>
+        <SelectionLayer value="100"/>
+    </CModel>
+    <CModel id="SpecOpsPunisherGrenadesLMWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Terran\Marauder_ConcussiveShell_MP_Missile\Marauder_ConcussiveShell_MP_Missile.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="SniperTurret" parent="Building">
+        <Model value="Assets\Models\Mercenary_turrets\SniperTurret.m3"/>
+        <AttachProps Id="Ref_Hardpoint">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <EditorCategories value="Race:Terran"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Lighting value="FlamingBetty"/>
+        <Occlusion value="Show"/>
+        <Radius value="0.750000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="0.937500"/>
+        <ShadowRadius value="0.937500"/>
+    </CModel>
+    <CModel id="GrenadeTurret" parent="AutoTurretBase">
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+    </CModel>
+    <CModel id="GrenadeTurretPlacement" parent="AutoTurretPlacementBase" low="AutoTurret"/>
+    <CModel id="GrenadeTurretPlacementSmall" parent="AutoTurretPlacementBase" low="AutoTurret">
+        <Model value="Assets\Buildings\Terran\GrenadeTurretPlacement\GrenadeTurretPlacement.m3"/>
+    </CModel>
+    <CModel id="GrenadeTurret2" parent="Building">
+        <Model value="Assets\Buildings\Terran\GrenadeTurret\GrenadeTurret.m3"/>
+        <AttachProps Id="Ref_Hardpoint">
+            <Keys index="Turret" value="0"/>
+        </AttachProps>
+        <EditorCategories value="Race:Terran"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Occlusion value="Show"/>
+        <Radius value="0.750000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="0.937500"/>
+        <ShadowRadius value="0.937500"/>
+    </CModel>
+    <CModel id="SwapSka" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Zerg\PrimalZergMeleeHeavy\PrimalZergMeleeHeavy_02.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.600000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapSka2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\storm_hero_nova_ultimate_v01_withanims.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionRadius value="0.600000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapToro" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Zerg\Hologram_Skin_Zergling\Hologram_Skin_Zergling.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapToro2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\War3_KelthuzadGhost.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapYata" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Hybrid_ProtossAdvanced\Hybrid_ProtossAdvanced.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="HybridDestroyer"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="UpgradeStationSpecOps" parent="EngineeringBayBase">
+        <Model value="Assets\Buildings\Terran\EngineeringBay_CovertOps\EngineeringBay_CovertOps.m3"/>
+    </CModel>
+    <CModel id="UpgradeStationMirasMarauders" parent="EngineeringBayBase">
+        <Model value="Assets\Buildings\Terran\EngineeringBay_CovertOps\EngineeringBay_CovertOps.m3"/>
+    </CModel>
+    <CModel id="UpgradeStationSpecOpsDeath" parent="EngineeringBayDeathBase">
+        <Model value="Assets\Buildings\Terran\EngineeringBay_CovertOps_Death\EngineeringBay_CovertOps_Death.m3"/>
+    </CModel>
+    <CModel id="UpgradeStationMirasMaraudersDeath" parent="EngineeringBayDeathBase">
+        <Model value="Assets\Buildings\Terran\EngineeringBay_CovertOps_Death\EngineeringBay_CovertOps_Death.m3"/>
+    </CModel>
+    <CModel id="UpgradeStationSpecOpsPlacement" parent="EngineeringBayPlacementBase" low="UpgradeStationSpecOps">
+        <Model value="Assets\Buildings\Terran\EngineeringBay_CovertOps_Placement\EngineeringBay_CovertOps_Placement.m3"/>
+    </CModel>
+    <CModel id="UpgradeStationJunkDogs" parent="EngineeringBayBase">
+        <Model value="Assets\Buildings\Terran\EngineeringBay_HornerHan_COOP\EngineeringBay_HornerHan_COOP.m3"/>
+    </CModel>
+    <CModel id="UpgradeStationJunkDogsDeath" parent="EngineeringBayDeathBase">
+        <Model value="Assets\Buildings\Terran\EngineeringBay_HornerHan_COOP_Death\EngineeringBay_HornerHan_COOP_Death.m3"/>
+    </CModel>
+    <CModel id="UpgradeStationJunkDogsPlacement" parent="EngineeringBayPlacementBase" low="UpgradeStationJunkDogs">
+        <Model value="Assets\Buildings\Terran\EngineeringBay_HornerHan_COOP_Placement\EngineeringBay_HornerHan_COOP_Placement.m3"/>
+    </CModel>
+    <CModel id="FactorySpecOps" parent="FactoryBase">
+        <Model value="Assets\Buildings\Terran\Factory_CovertOps\Factory_CovertOps.m3"/>
+    </CModel>
+    <CModel id="FactorySpecOpsDeath" parent="FactoryDeathBase">
+        <Model value="Assets\Buildings\Terran\Factory_CovertOps_Death\Factory_CovertOps_Death.m3"/>
+    </CModel>
+    <CModel id="FactoryJunkDogs" parent="FactoryBase">
+        <Model value="Assets\Models\Junker_Factory.m3"/>
+    </CModel>
+    <CModel id="FactorySpecOpsPlacement" parent="FactoryPlacementBase" low="FactorySpecOps">
+        <Model value="Assets\Buildings\Terran\Factory_CovertOps_Placement\Factory_CovertOps_Placement.m3"/>
+    </CModel>
+    <CModel id="JunkDogsFactionPortrait" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Junk_Dogs_Faction\Assault_Galleon_Portrait.m3"/>
+        <Image value="Assets\Textures\AssaultGalleonPortrait_static.dds"/>
+        <Lighting value="Adjutant_HornerHan_Portrait"/>
+    </CModel>
+    <CModel id="JunkDogsFirebatPortrait" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Junk_Dogs_Faction\Assault_Galleon_Portrait.m3"/>
+        <Image value="Assets\Textures\AssaultGalleonPortrait_static.dds"/>
+        <Lighting value="Marauder_Deluxe_Collection_Portrait"/>
+    </CModel>
+    <CModel id="SkibisAngelPortrait" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Junk_Dogs_Faction\Assault_Galleon_Portrait.m3"/>
+        <Image value="Assets\Textures\AssaultGalleonPortrait_static.dds"/>
+        <Lighting value="Medivac_Silver_Portrait"/>
+    </CModel>
+    <CModel id="SkibisAngelMedicDeath" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Units\Terran\MedicMercenaryDeath\MedicMercenaryDeath.m3"/>
+        <LowQualityModel value="TerranBloodDeathLow"/>
+        <Lighting value="MedicDeath"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="SkibisAngelMedic" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\MedicMercenary\MedicMercenary.m3"/>
+        <Lighting value="Medic"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraMid03"/>
+        <Radius value="0.375000"/>
+        <SelectionRadius value="0.375000"/>
+        <ShadowRadius value="0.375000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="TechPurchaseInfantry"/>
+        <UnitGlossaryCamera value="Star2CameraMid03"/>
+    </CModel>
+    <CModel id="PortraitSwapOrion" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Talon_Cyber_Adept_Portrait.m3"/>
+        <Image value="Assets\Textures\Talon-CyberAdept-Static-Portrait.dds"/>
+        <Lighting value="PortraitSwapwr0s"/>
+    </CModel>
+    <CModel id="JunkDogsMedicPortrait" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Junk_Dogs_Faction\Assault_Galleon_Portrait.m3"/>
+        <Image value="Assets\Textures\AssaultGalleonPortrait_static.dds"/>
+        <Lighting value="Medivac_Silver_Portrait"/>
+    </CModel>
+    <CModel id="SpikedWall" Prefix="Buildings\" Race="Terran">
+        <Model value="Assets\Buildings\Terran\SupplyDepot_HornerHan_Coop\SupplyDepot_HornerHan_Coop.m3"/>
+        <Lighting value="SupplyDepot"/>
+        <Radius value="1.250000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.083000"/>
+        <ShadowRadius value="2.083000"/>
+        <SquibTypeDefault value="Metal"/>
+        <Tipability value="0.250000"/>
+    </CModel>
+    <CModel id="ReinforcedWall" Prefix="Buildings\" Race="Terran">
+        <Model value="Assets\Buildings\Terran\SupplyDepotXPReward\SupplyDepotXPReward.m3"/>
+        <Lighting value="SupplyDepot"/>
+        <Radius value="1.250000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.083000"/>
+        <ShadowRadius value="2.083000"/>
+        <SquibTypeDefault value="Metal"/>
+        <Tipability value="0.250000"/>
+    </CModel>
+    <CModel id="SpecOpsWall" Prefix="Buildings\" Race="Terran">
+        <Model value="Assets\Buildings\Terran\SupplyDepot_CovertsOps\SupplyDepot_CovertsOps.m3"/>
+        <Lighting value="SupplyDepot"/>
+        <Radius value="1.250000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.083000"/>
+        <ShadowRadius value="2.083000"/>
+        <SquibTypeDefault value="Metal"/>
+        <Tipability value="0.250000"/>
+    </CModel>
+    <CModel id="SpikedWallDeath" Prefix="Buildings\" Race="Terran" low="TerranBuildingDeathLow">
+        <Model value="Assets\Buildings\Terran\SupplyDepot_HornerHan_Coop_Death\SupplyDepot_HornerHan_Coop_Death.m3"/>
+        <LowQualityModel value="TerranBuildingDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.966000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,01"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,02"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Lighting value="SupplyDepotDeath"/>
+    </CModel>
+    <CModel id="ReinforcedWallDeath" Prefix="Buildings\" Race="Terran" low="TerranBuildingDeathLow">
+        <Model value="Assets\Buildings\Terran\SupplyDepotXPRewardDeath\SupplyDepotXPRewardDeath.m3"/>
+        <LowQualityModel value="TerranBuildingDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.966000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,01"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,02"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Lighting value="SupplyDepotDeath"/>
+    </CModel>
+    <CModel id="SpecOpsWallDeath" Prefix="Buildings\" Race="Terran" low="TerranBuildingDeathLow">
+        <Model value="Assets\Buildings\Terran\SupplyDepot_CovertOps_Death\SupplyDepot_CovertOps_Death.m3"/>
+        <LowQualityModel value="TerranBuildingDeathLow"/>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranPreExplosionSmall"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,00"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.966000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,01"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Events>
+            <Anim value="Death,02"/>
+            <Name value="TerranExplosionMedium"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+        </Events>
+        <Lighting value="SupplyDepotDeath"/>
+    </CModel>
+    <CModel id="SpikedWallPlacement" Prefix="Buildings\" Race="Terran" low="SupplyDepot">
+        <Model value="Assets\Buildings\Terran\SupplyDepot_HornerHan_Coop_Placement\SupplyDepot_HornerHan_Coop_Placement.m3"/>
+        <LowQualityModel value="SupplyDepot"/>
+        <Flags index="FOW" value="0"/>
+        <Lighting value="SupplyDepotPlacement"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="ReinforcedWallPlacement" Prefix="Buildings\" Race="Terran" low="SupplyDepot">
+        <Model value="Assets\Buildings\Terran\SupplyDepotXPRewardPlacement\SupplyDepotXPRewardPlacement.m3"/>
+        <LowQualityModel value="SupplyDepot"/>
+        <Flags index="FOW" value="0"/>
+        <Lighting value="SupplyDepotPlacement"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="SpecOpsWallPlacement" Prefix="Buildings\" Race="Terran" low="SupplyDepot">
+        <Model value="Assets\Buildings\Terran\SupplyDepot_CovertOps_Placement\SupplyDepot_CovertOps_Placement.m3"/>
+        <LowQualityModel value="SupplyDepot"/>
+        <Flags index="FOW" value="0"/>
+        <Lighting value="SupplyDepotPlacement"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="SwapOrion" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Talon_Cyber_Adept.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="CustomSkin7" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Custom_skins\storm_hero_imperius_animsfixed.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="PortraitSwapBaldi" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\DIMA_Vixen_Portrait.m3"/>
+        <Lighting value="AdeptPortrait"/>
+    </CModel>
+    <CModel id="PortraitSwapOverMyMind" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\DaveSpectrePortrait.m3"/>
+        <Image value="Assets\Textures\Davespectreportrait_static.dds"/>
+    </CModel>
+    <CModel id="PortraitSwapWhiteDuckee" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Necron Lord Portrait.m3"/>
+    </CModel>
+    <CModel id="PortraitSwapWhiteDuckee2" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Apex Genesis Swarmlord Portrait.m3"/>
+        <Image value="Assets\Textures\PortraitSwapWhiteDuckee_Static.dds"/>
+        <Lighting value="PortraitSwapWhiteDuckee"/>
+    </CModel>
+    <CModel id="SwapWhiteDuckee" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Necron Lord.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.300000"/>
+        <ScaleMax value="1.600000,1.600000,1.600000"/>
+        <ScaleMin value="1.600000,1.600000,1.600000"/>
+        <SelectionRadius value="0.450000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapBaldi" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\DIMA_Vixen.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="SwapCurino"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.350000,1.350000,1.350000"/>
+        <ScaleMin value="1.350000,1.350000,1.350000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapBaldi2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\wowdragonBluev067.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="SwapCurino"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapGlacio2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\HunterKiller.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapOverMyMind2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Tosh_ToshsGoons_HD.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapTonic2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\storm_hero_tyrael_base.m3"/>
+        <RequiredAnims value="Assets\Models\Personal_skins\storm_hero_tyrael_requiredanims_compressed.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapShniper" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\storm_hero_tyrael_ultimate.m3"/>
+        <RequiredAnims value="Assets\Models\Personal_skins\storm_hero_tyrael_requiredanims_compressed.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapPraj" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\storm_hero_tyrael_radiant.m3"/>
+        <RequiredAnims value="Assets\Models\Personal_skins\storm_hero_tyrael_requiredanims_compressed.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapJustus" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\WC3_Dreadlord.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="MatrixDrone" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\Defensive_Matrix_Drone\Defensive_Matrix_Drone.m3"/>
+        <PlanetPanelCamera value="Star2CamerMid05"/>
+        <Radius value="0.600000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionLayer value="1"/>
+        <SelectionRadius value="0.857100"/>
+        <ShadowRadius value="0.857100"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="AssaultDrone" parent="Unit" Race="Terran">
+        <Model value="Assets\COOP\Stetmann\Units\GARY_Stetmann_COOP\GARY_Stetmann_COOP.m3"/>
+        <PlanetPanelCamera value="Star2CamerMid05"/>
+        <Radius value="0.600000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionLayer value="1"/>
+        <SelectionRadius value="0.857100"/>
+        <ShadowRadius value="0.857100"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="PortraitSwapShynoxke" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\SolariteGodKarax_Portrait.m3"/>
+        <Image value="Assets\Textures\KaraxSolariteGod_Portrait_Static.dds"/>
+        <Lighting value="Medivac_Junker_Collection_Portrait"/>
+    </CModel>
+    <CModel id="ScienceFacility">
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="SeekerDrone" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\Hologram_Skin_PointDefenseDrone\Hologram_Skin_PointDefenseDrone.m3"/>
+        <PlanetPanelCamera value="Star2CamerMid05"/>
+        <Radius value="0.600000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionLayer value="1"/>
+        <SelectionRadius value="0.857100"/>
+        <ShadowRadius value="0.857100"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="RepairDrone2" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\SpaceHealingBot\SpaceHealingBot.m3"/>
+        <PlanetPanelCamera value="Star2CamerMid05"/>
+        <Radius value="0.600000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionLayer value="1"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="PortraitNetherDragon" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\War3_NetherDragon_Portrait.m3"/>
+        <Image value=""/>
+    </CModel>
+    <CModel id="Drone2" parent="Unit" Race="Terran">
+        <Model value="Assets\Units\Terran\PointDefenseDrone\PointDefenseDrone.m3"/>
+        <PlanetPanelCamera value="Star2CamerMid05"/>
+        <Radius value="0.600000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionLayer value="1"/>
+        <SelectionRadius value="0.857100"/>
+        <ShadowRadius value="0.857100"/>
+        <SquibTypeDefault value="Metal"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+    </CModel>
+    <CModel id="SwapBillyTheKid" parent="ProbeBase">
+        <Model value="Assets\Units\Terran\TaurenSpaceMarine\TaurenSpaceMarine.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="0.950000,0.950000,0.950000"/>
+        <ScaleMin value="0.950000,0.950000,0.950000"/>
+    </CModel>
+    <CModel id="SwapBillyTheKid2" parent="ProbeBase">
+        <Model value="Assets\Models\Personal_skins\War3_Illidan.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="0.950000,0.950000,0.950000"/>
+        <ScaleMin value="0.950000,0.950000,0.950000"/>
+    </CModel>
+    <CModel id="SwapPhilipB" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\COOP\Dehaka\Units\MammothClone_Dehaka_COOP\MammothClone_Dehaka_COOP.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapPhilipB2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\War3HD_HeroDemonHunter.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapOverMyMind" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\DaveSpectreFieldTechnicSuit.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapShynoxke" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\SolariteGodKarax.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapKataStrophe" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\SpiderMineSCBW.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapCommoner2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\War3_NetherDragon.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+        <SelectionRadius value="0.200000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapEmezer" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\TheButcher.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.300000"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+        <SelectionRadius value="0.600000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapEmezer2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\DarkStoneZealot.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.450000,0.450000,0.450000"/>
+        <ScaleMin value="0.450000,0.450000,0.450000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapKataStrophe2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\SpiderMineSCBW.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapKraveBlaze" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Neutral\Slayn_Elemental\Slayn_Elemental.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapDragonLord2" parent="ProbeBase">
+        <Model value="Assets\Models\Personal_skins\storm_hero_tyrael_pure.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <RequiredAnims value="Assets\Models\storm_hero_tyrael_requiredanims_compressed.m3a"/>
+    </CModel>
+    <CModel id="SwapFrosty" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Construct_Essence_Zeratul_COOP_MP.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapDragonLord" parent="ProbeBase">
+        <Model value="Assets\Models\Personal_skins\storm_hero_malthael_withanims.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="CustomSkin1" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Zerg\Ultralisk_Mecha\Ultralisk_Mecha.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapKraveBlaze2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Pretorian.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.050000,1.050000,1.050000"/>
+        <ScaleMin value="1.050000,1.050000,1.050000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapShynoxke2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Amon_Warrior.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapStormy" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Pandaren Serpent God.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapHoudini" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Mutator_Void_Reanimator\Mutator_Void_Reanimator.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="Godloc" parent="UltraliskBase">
+        <Model value="Assets\Units\Zerg\Ultralisk_Mecha\Ultralisk_Mecha.m3"/>
+    </CModel>
+    <CModel id="GodlocPortrait" parent="UltraliskPortraitBase">
+        <Model value="Assets\Portraits\Zerg\Ultralisk_Mecha_Portrait\Ultralisk_Mecha_Portrait.m3"/>
+        <Image value="Assets\Textures\ultralisk_mecha_portrait_static.dds"/>
+        <Lighting value="UltraliskPortrait"/>
+    </CModel>
+    <CModel id="SwapTonic" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\storm_merc_hvh_boss_hell_withanims.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapWhiteDuckee2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Apex Genesis Swarmlord.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.350000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="TerranAOECursorSplat">
+        <Radius value="1.000000"/>
+        <ShadowRadius value="0.500000"/>
+    </CModel>
+    <CModel id="UpgradeStationMirasMaraudersPlacement" parent="EngineeringBayPlacementBase" low="UpgradeStationMirasMarauders">
+        <Model value="Assets\Buildings\Terran\EngineeringBay_CovertOps_Placement\EngineeringBay_CovertOps_Placement.m3"/>
+    </CModel>
+    <CModel id="WickedWolf2" parent="ArchonPortraitBase">
+        <Model value="Assets\Models\Personal_skins\War3HD_SpiritWolf_Portrait.m3"/>
+        <Image value=""/>
+    </CModel>
+    <CModel id="PortraitSwapGlacio" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Eredas_Dragoon_Portrait.m3"/>
+        <Image value="Assets\Textures\EredasDragoonPortrait_Static.dds"/>
+        <Lighting value="ArtanisEx2Portrait"/>
+    </CModel>
+    <CModel id="PurifierTemplar" parent="ArchonPortraitBase">
+        <Model value="Assets\Portraits\Protoss\HighTemplar_Purifier_Collection_Portrait\HighTemplar_Purifier_Collection_Portrait.m3"/>
+        <Image value="Assets\Textures\hightemplar_purifier_collection_static.dds"/>
+        <Lighting value="ArchonPortrait"/>
+    </CModel>
+    <CModel id="PlanetaryFortressPlacement" parent="CommandCenterPlacementBase" low="CommandCenter">
+        <Model value="Buildings\Terran\PlanetaryFortress_Placement\PlanetaryFortress_Placement.m3"/>
+        <Lighting value="CommandCenterPlacement"/>
+    </CModel>
+    <CModel id="OxygenStationDeath" parent="SensorTowerDeathBase">
+        <Model value="Assets\Buildings\Terran\SigmaProjectorDeath\SigmaProjectorDeath.m3"/>
+        <LowQualityModel value=""/>
+        <EditorCategories value=""/>
+    </CModel>
+    <CModel id="OxygenStationPlacement" parent="Placement">
+        <Model value="Assets\Buildings\Terran\SigmaProjectorPlacement\SigmaProjectorPlacement.m3"/>
+        <EditorCategories value=""/>
+    </CModel>
+    <CModel id="PointDefenseDrone">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="PortraitKelThuzadLich" parent="Portrait">
+        <Model value="Assets\Models\Personal_skins\Unit_HeroLich_Portrait.m3"/>
+    </CModel>
+    <CModel id="Archon_Taldarim_Collection_Portrait2" parent="Portrait" Race="Protoss">
+        <Model value="Assets\COOP\Zeratul\Portraits\DarkArchon_Zeratul_COOP_Portrait\DarkArchon_Zeratul_COOP_Portrait.m3"/>
+        <Image value="Assets\Textures\Archon_Purifier_Collection_Portrait_Static.dds"/>
+        <Lighting value="Archon_Purifier_Collection_Portrait"/>
+    </CModel>
+    <CModel id="OxygenStation">
+        <Model value="Assets\Buildings\Terran\SigmaProjector\SigmaProjector.m3"/>
+    </CModel>
+    <CModel id="OxygenStationImpact" parent="ImpactFX">
+        <Model value="Assets\Models\HealingStationImpact.m3"/>
+    </CModel>
+    <CModel id="Hybrid3" parent="Unit" Race="Protoss">
+        <Model value="Hybrid_Zerg_Advanced_TeamcolorPlus.m3"/>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="HybridViper_AttackLaunch"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.200000"/>
+            <Payload value="HybridViper_AttackLaunch"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.390000"/>
+            <Payload value="HybridViper_AttackImpact"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.530000"/>
+            <Payload value="HybridViper_AttackImpact"/>
+        </Events>
+        <Flags index="AutoUnload" value="1"/>
+        <Lighting value="HybridReaver"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher16"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="0.650000,0.650000,0.650000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+        <TechPurchaseCamera value="Star2CameraHigher16"/>
+        <UnitGlossaryCamera value="Star2CameraHigher16"/>
+    </CModel>
+    <CModel id="InfestedVisuals" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Zerg\Infestation\Infestation.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Lighting value="InfestedVisual"/>
+    </CModel>
+    <CModel id="PortraitSwapMagyarerik" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\War3HD_HeroWarden_Portrait.m3"/>
+        <Image value="Assets\Textures\hybrid_protossadvanced_experimented_portrait_static.dds"/>
+        <Lighting value="PortraitSwapImpossible"/>
+    </CModel>
+    <CModel id="PortraitSwapSerenity" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Taldarim_Colossus_Portrait\Taldarim_Colossus_Portrait.m3"/>
+        <Image value="Assets\Textures\taldarimcolossusportrait_static.dds"/>
+        <Lighting value="PortraitSwapImpossible"/>
+    </CModel>
+    <CModel id="PortraitSwapwr0s" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Zerg\XelNaga_Kerrigan_Portrait\XelNaga_Kerrigan_Portrait.m3"/>
+        <Image value="Assets\Textures\xelnagakerriganportrait_static.dds"/>
+    </CModel>
+    <CModel id="PortraitSwapImpossible" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Hybrid_ProtossAdvanced_Experimented_Portrait\Hybrid_ProtossAdvanced_Experimented_Portrait.m3"/>
+        <Image value="Assets\Textures\hybrid_protossadvanced_experimented_portrait_static.dds"/>
+    </CModel>
+    <CModel id="EnergyBeam" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\DiamondbackBeam\DiamondbackBeam_Low.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="BehemothHybrid" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Zerg\Hybrid_Zerg_Advanced_Portrait\Hybrid_Zerg_Advanced_Portrait.m3"/>
+        <Image value="Assets\Textures\hybridzergadvancedportrait_static.dds"/>
+        <Lighting value="HybridZergPortrait2"/>
+        <PausedParticleSystemBehavior value="Automatic"/>
+    </CModel>
+    <CModel id="ArmoryBuild">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="2.000000"/>
+        <ShadowRadius value="2.000000"/>
+    </CModel>
+    <CModel id="HitTestSphere">
+        <Model value="Assets\Units\Test\HitTestSphere\HitTestSphere.m3"/>
+        <Radius value="0.200000"/>
+        <ScaleMax value="0.200000,0.200000,0.200000"/>
+        <ScaleMin value="0.200000,0.200000,0.200000"/>
+    </CModel>
+    <CModel id="HybridDestroyer2" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Hybrid_Protoss_Advanced_Portrait\Hybrid_Protoss_Advanced_Portrait.m3"/>
+        <Image value="Assets\Textures\hybridprotossadvancedportrait_static.dds"/>
+        <Lighting value="HybridDestroyer"/>
+        <PausedParticleSystemBehavior value="Automatic"/>
+    </CModel>
+    <CModel id="CorruptorDeath">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_Low.m3"/>
+    </CModel>
+    <CModel id="GuardianShield2">
+        <Model value="Assets\Effects\Terran\Nova_Blink_Shield\Nova_Blink_Shield.m3"/>
+        <PausedParticleSystemBehavior value="Continuous"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="ActorForceField2" parent="Doodad">
+        <Model value="Assets\Doodads\ActorForceField\ActorForceField.m3"/>
+    </CModel>
+    <CModel id="Archon">
+        <LowQualityModel value=""/>
+    </CModel>
+    <CModel id="ArchonDeath2" parent="ArchonDeathBase">
+        <Model value="Assets\Units\Protoss\ArchonDeath\ArchonDeath.m3"/>
+    </CModel>
+    <CModel id="ArchonPortrait2" parent="ArchonPortraitBase">
+        <Model value="Assets\Portraits\Protoss\ArchonPortrait\ArchonPortrait.m3"/>
+        <Image value="Assets\Textures\ArchonPortrait_Static.dds"/>
+        <Lighting value="ArchonPortrait"/>
+    </CModel>
+    <CModel id="AutomatedRefineryPlacement">
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="AutomatedRefinerySplat">
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Baneling2" parent="BanelingBase">
+        <Model value="Assets\Units\Zerg\BanelingEx1\BanelingEx1.m3"/>
+        <ScaleMax value="0.880000,0.880000,0.880000"/>
+        <ScaleMin value="0.720000,0.720000,0.720000"/>
+    </CModel>
+    <CModel id="BanelingDeath2" parent="BanelingDeathBase">
+        <Model value="Assets\Units\Zerg\BanelingEx1Death\BanelingEx1Death.m3"/>
+        <LowQualityModel value="BanelingDeath_Low"/>
+    </CModel>
+    <CModel id="BanelingPortrait2" parent="BanelingPortraitBase">
+        <Model value="Assets\Portraits\Zerg\BanelingPortrait\BanelingPortrait.m3"/>
+        <Image value="Assets\Textures\BanelingPortrait_Static.dds"/>
+        <Lighting value="BanelingPortrait"/>
+    </CModel>
+    <CModel id="BioPlasmidDischargeAttackImpact">
+        <Model value="Assets\Effects\Zerg\BioStasisMissileImpact\BioStasisMissileImpact.m3"/>
+    </CModel>
+    <CModel id="Brutalisk">
+        <Radius value="1.000000"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.800000"/>
+    </CModel>
+    <CModel id="Christmashat">
+        <Model value="Assets\Effects\Other\ChristmasHat\ChristmasHat.m3"/>
+    </CModel>
+    <CModel id="CyberneticsCore">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="CyberneticsCore2" parent="CyberneticsCore">
+        <Lighting value="CyberneticsCore2"/>
+    </CModel>
+    <CModel id="CyberneticsCoreBirth">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="CyberneticsCoreDeath">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="CyberneticsCorePlacement">
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="CyberneticsCorePlacement2" parent="Placement" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\CyberneticsCorePlacement\CyberneticsCorePlacement.m3"/>
+        <LowQualityModel value="CyberneticsCore"/>
+        <Radius value="-1.000000"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="CyberneticsCorePlacement3" parent="Placement" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\CyberneticsCorePlacement\CyberneticsCorePlacement.m3"/>
+        <LowQualityModel value="CyberneticsCore"/>
+        <Lighting value="CyberneticsCorePlacement"/>
+        <Radius value="-1.000000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="CyberneticsCoreSplat">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="CyberneticsCoreSplat2" parent="Splat">
+        <Model value="Assets\Splats\Splat_CyberneticsCore\Splat_CyberneticsCore.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="DarkVoice" parent="ArchonBase">
+        <Model value="Assets\COOP\Zeratul\Units\DarkArchon_Zeratul_COOP\DarkArchon_Zeratul_COOP.m3"/>
+        <LowQualityModel value=""/>
+        <Lighting value="Archon"/>
+    </CModel>
+    <CModel id="DarkShrine">
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+        <SelectionRadius value="1.000000"/>
+    </CModel>
+    <CModel id="DarkShrineBirth">
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+    </CModel>
+    <CModel id="DarkShrineDeath">
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+    </CModel>
+    <CModel id="DarkShrinePlacement">
+        <ScaleMax value="1.000000,1.000000,0.500000"/>
+        <ScaleMin value="1.000000,1.000000,0.500000"/>
+    </CModel>
+    <CModel id="DarkVoice1" parent="ArchonBase">
+        <Model value="Assets\Units\Protoss\Archon_Purifier_Collection\Archon_Purifier_Collection.m3"/>
+        <LowQualityModel value=""/>
+        <Lighting value="Archon"/>
+    </CModel>
+    <CModel id="Hybrid2" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Zerg\Hybrid_Zerg_Advanced\Hybrid_Zerg_Advanced.m3"/>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.100000"/>
+            <Payload value="HybridF_AttackLaunch"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.200000"/>
+            <Payload value="HybridF_AttackLaunch"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.390000"/>
+            <Payload value="HybridF_AttackImpact"/>
+        </Events>
+        <Events>
+            <Anim value="Attack,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.530000"/>
+            <Payload value="HybridF_AttackImpact"/>
+        </Events>
+        <Events>
+            <Anim value="Stand,Angry,00"/>
+            <Name value="HybridSounds"/>
+            <Type value="Sound"/>
+            <Time value="0.010000"/>
+            <Payload value="HybridF_Roar"/>
+        </Events>
+        <Flags index="AutoUnload" value="1"/>
+        <Lighting value="HybridZergPortrait2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher14"/>
+        <Radius value="1.000000"/>
+        <SelectionRadius value="1.250000"/>
+        <ShadowRadius value="1.250000"/>
+        <TechPurchaseCamera value="Star2CameraHigher14"/>
+        <UnitGlossaryCamera value="Star2CameraHigher14"/>
+    </CModel>
+    <CModel id="BehemothHybridDeath" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Units\Zerg\Hybrid_Zerg_Advanced_Death\Hybrid_Zerg_Advanced_Death.m3"/>
+        <Lighting value="HybridZergPortrait2"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="HybridNemesis2" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Protoss\Hybrid_Nemesis_Portrait\Hybrid_Nemesis_Portrait.m3"/>
+        <Image value="Assets\Textures\hybridnemesisportrait_static.dds"/>
+        <Lighting value="HybridNemesis"/>
+        <PausedParticleSystemBehavior value="Automatic"/>
+    </CModel>
+    <CModelFoliage id="HybridNemesisDeath" parent="UnitDeath">
+        <Model value="Assets\Units\Protoss\Hybrid_Nemesis_Death\Hybrid_Nemesis_Death.m3"/>
+        <EditorCategories value=""/>
+    </CModelFoliage>
+    <CModelFoliage id="HybridNemesisWeaponBeam" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\HybridEnergizeBeamLarge\HybridEnergizeBeamLarge.m3"/>
+        <RadiusLoose value="1.000000"/>
+    </CModelFoliage>
+    <CModel id="Maar2" parent="Unit" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Hybrid_ProtossAdvanced\Hybrid_ProtossAdvanced.m3"/>
+        <Flags index="AutoUnload" value="1"/>
+        <Lighting value="HybridDestroyer"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher08"/>
+        <Radius value="1.000000"/>
+        <SelectionRadius value="1.111000"/>
+        <ShadowRadius value="1.111000"/>
+        <TechPurchaseCamera value="Star2CameraHigher08"/>
+        <UnitGlossaryCamera value="Star2CameraHigher08"/>
+    </CModel>
+    <CModel id="HybridNemesis" parent="MutaliskBase">
+        <Model value="Assets\Units\Protoss\Hybrid_Nemesis\Hybrid_Nemesis.m3"/>
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="DNAPickup" parent="Unit" Race="Protoss">
+        <Model value="Assets\Doodads\DNAPickup\DNAPickup.m3"/>
+        <Lighting value="ProtossRelic"/>
+        <SelectionOffset value="0.000000,0.000000,0.900000"/>
+        <SelectionRadius value="0.000000"/>
+    </CModel>
+    <CModel id="MutatorPlague">
+        <Model value="Assets\Effects\Glaze\Glaze_BlackDeath_Coop\Glaze_BlackDeath_Coop.m3"/>
+    </CModel>
+    <CModel id="PortraitSwap36" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Zerg\Blizzcon17_Drone_Portrait\Blizzcon17_Drone_Portrait.m3"/>
+        <Image value="Assets\Textures\blizzcon17_drone_portrait_static.dds"/>
+        <Lighting value="PortraitSwapImpossible"/>
+    </CModel>
+    <CModel id="PortraitSwapKath" parent="Portrait" Race="Protoss">
+        <Model value="Assets\Portraits\Zerg\Apocalisk_Portrait\Apocalisk_Portrait.m3"/>
+        <Image value="Assets\Textures\apocaliskportrait_static.dds"/>
+        <Lighting value="PortraitSwapwr0s"/>
+    </CModel>
+    <CModel id="PortraitWickedWolf" parent="FXAPortrait">
+        <Model value="SMX1_Zagara_Background_Portrait.m3"/>
+        <Flags index="Download" value="1"/>
+        <Image value="Assets\Textures\smx1_infestedstukovportrait_static.dds"/>
+    </CModel>
+    <CModel id="PortraitWickedWolfForce3D" parent="FXAPortrait">
+        <Model value="SMX1_Zagara_Background_Portrait.m3"/>
+        <Flags index="ForcePortraitModel" value="1"/>
+        <Image value="Assets\Textures\smx1_infestedstukovportrait_static.dds"/>
+        <Lighting value="ZagaraPortrait"/>
+    </CModel>
+    <CModel id="RichMineralGlow" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Other\ActiveCrystals\ActiveCrystals.m3"/>
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="Roach">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="ShakurasStatueDeath" parent="Doodad">
+        <Model value="Assets\Doodads\Shakuras_Temple_Statue_Death\Shakuras_Temple_Statue_Death.m3"/>
+        <Lighting value="TempleStatue"/>
+        <Radius value="1.500000"/>
+        <SelectionRadius value="1.500000"/>
+        <ShadowRadius value="1.500000"/>
+        <VariationCount value="3"/>
+    </CModel>
+    <CModel id="StarShipAdun_TeleportPad2" parent="Doodad">
+        <Model value="Assets\Doodads\StarShipAdun_TeleportPad\StarShipAdun_TeleportPad.m3"/>
+        <Lighting value="StarShipAdun_TeleportPad"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="StarShipAdun_TeleportPad_Broken2" parent="Doodad">
+        <Model value="Assets\Doodads\StarShipAdun_TeleportPad_Broken\StarShipAdun_TeleportPad_Broken.m3"/>
+        <Lighting value="StarShipAdun_TeleportPad_Broken"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Swap36" parent="DroneBase" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Zerg\Blizzcon17_Drone\Blizzcon17_Drone.m3"/>
+        <RequiredAnims index="0" value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <AttachProps index="0" removed="1"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+        <SquibTypeDefault value="None"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <Tipability value="0.000000"/>
+        <TipabilityLength value="0.000000"/>
+        <TipabilityWidth value="0.000000"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="Cheater" parent="ProbeBase">
+        <Model value="Assets\Units\Critters\KarakMale\KarakMale.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+    </CModel>
+    <CModel id="SwapAltGamz" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\diablo.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapGlacio" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Eredas_Dragoon.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapHappyBee" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\storm_hero_tyrael_demon_p.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapSwift" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Stalker_Purifier\Stalker_Purifier.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapDonor0" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\COOP\Mengsk\Units\Trooper_Mengsk_COOP_SCV\Trooper_Mengsk_COOP_SCV.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapDonor1" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Terran\Cyclone_Umojan\Cyclone_Umojan.m3"/>
+        <RequiredAnims value="Assets\Units\Terran\Frontiers_Marine_RequiredAnims\Frontiers_Marine_RequiredAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapDonor2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Carrier_Taldarim\Carrier_Taldarim.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.900000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapDonor3" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Terran\Frontiers_Medic\Frontiers_Medic.m3"/>
+        <RequiredAnims value="Assets\Units\Terran\Frontiers_Medic_RequiredAnims\Frontiers_Medic_RequiredAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="0.900000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapEliteTaldarimArchon" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Prestige_skins\Archon_Elite_Taldarim.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="SwapEliteTaldarimZealot" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Prestige_skins\Zealot_Elite_Taldarim.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.990000,0.990000,0.990000"/>
+        <ScaleMin value="0.990000,0.990000,0.990000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapKarim2" parent="ProbeBase">
+        <Model value="Assets\Models\Personal_skins\storm_hero_hvh_boss_heaven_withanims_nomesh.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+        <SelectionRadius value="1.000000"/>
+    </CModel>
+    <CModel id="SwapMagyarerik" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\War3HD_HeroWarden.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapKiller" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Karax\Karax.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapKath" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Zerg\Apocalisk_Stukov_Coop\Apocalisk_Stukov_Coop.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapCommoner" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Cain.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.700000,1.700000,1.700000"/>
+        <ScaleMin value="1.700000,1.700000,1.700000"/>
+        <SelectionRadius value="0.200000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapSerenity2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Protoss\CarrierHero\CarrierHero.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapWickedWolf2" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\War3HD_SpiritWolf.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+        <ScaleMax value="1.010000,1.010000,1.010000"/>
+        <ScaleMin value="1.010000,1.010000,1.010000"/>
+    </CModel>
+    <CModel id="Swapwr0s" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Zerg\XelNaga_Kerrigan\XelNaga_Kerrigan.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="0.900000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapCurino" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Personal_skins\Unit_HeroLich.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+        <ScaleMax value="1.300000,1.300000,1.300000"/>
+        <ScaleMin value="1.300000,1.300000,1.300000"/>
+    </CModel>
+    <CModel id="SwapWickedWolf" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Zerg\InfestedStukov\InfestedStukov.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+        <ScaleMax value="1.010000,1.010000,1.010000"/>
+        <ScaleMin value="1.010000,1.010000,1.010000"/>
+    </CModel>
+    <CModel id="SwapSerenity" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Fenix\Fenix.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+        <SelectionRadius value="0.600000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapImpossible" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Protoss\Hybrid_ProtossAdvanced_Experimented\Hybrid_ProtossAdvanced_Experimented.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="PurifierZeratul" parent="SwapImpossible">
+        <Model value="Assets\Models\purifier_zera.m3"/>
+        <AttachProps Id="Ref_Weapon">
+            <Keys index="Weapon" value="0"/>
+        </AttachProps>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+    </CModel>
+    <CModel id="SwapCarbot" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Zerg\Carbot_Zergling\Carbot_Zergling.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.450000,1.450000,1.450000"/>
+        <ScaleMin value="1.450000,1.450000,1.450000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapAnanas" parent="ProbeBase">
+        <Model value="Assets\Doodads\Shapes\ShapePineapple\ShapePineapple.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+    </CModel>
+    <CModel id="SwapHikari" parent="ProbeBase">
+        <Model value="Assets\Models\Personal_skins\storm_hero_auriel_withanims.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="SwapRazdvaraz" parent="ProbeBase">
+        <Model value="Assets\Units\Protoss\Alarak_COOP\Alarak_COOP.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.554000"/>
+    </CModel>
+    <CModel id="SwapMecha" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Zerg\Drone_Mecha\Drone_Mecha.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="DiamondbackAttackBeam2" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\DiamondbackBeam\DiamondbackBeam.m3"/>
+        <LowQualityModel value="DiamondbackAttackBeamLow"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="FleetBeacon">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="MineralzReplenisherT1" parent="FleetBeacon">
+        <Model value="Assets\Buildings\Terran\Armory\Armory.m3"/>
+    </CModel>
+    <CModel id="FleetBeaconBirth">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="FleetBeaconDeath">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="FleetBeaconPlacement">
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+    </CModel>
+    <CModel id="FleetBeaconSplat">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="Forge">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="ForgeBirth">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="ForgeBirth2" parent="ForgeBirth"/>
+    <CModel id="ForgeDeath">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="ForgePlacement">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="ForgePlacement2" parent="Placement" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\ForgePlacement\ForgePlacement.m3"/>
+        <LowQualityModel value="Forge"/>
+        <Lighting value="Forge"/>
+        <Radius value="-1.000000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="FusionCore2" parent="Building" Race="Terran">
+        <Model value="Assets\Buildings\Protoss\Forge\Forge.m3"/>
+        <Radius value="1.500000"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="2.333000"/>
+        <ShadowRadius value="2.333000"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="FusionCorePlacement">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="Gateway">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="2.000000"/>
+        <ShadowRadius value="2.000000"/>
+    </CModel>
+    <CModel id="GatewayBirth">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="GatewayPlacement">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="GatewaySplat">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="GhostNukeCollateralFire2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\FireImpact\FireImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeCollateralFire222" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\FireImpact\FireImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeDrop2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\NukeFalling\NukeFalling.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeDrop222" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\NukeFalling\NukeFalling.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeExplode2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\Nuke\Nuke.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeExplode222" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\Nuke\Nuke.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeIndicator2" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\GhostLaseTargetTactical\GhostLaseTargetTactical.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeIndicator222" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\GhostLaseTargetTactical\GhostLaseTargetTactical.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeLaunch2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\NukeRising\NukeRising.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeLaunch222" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Terran\NukeRising\NukeRising.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeTarget2" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\GhostLaseTarget\GhostLaseTarget.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GhostNukeTarget222" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\GhostLaseTarget\GhostLaseTarget.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="GravitonBeamImpact">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="Deathpreventionshield">
+        <Model value="Assets\Effects\Protoss\ProtossWeatherShield\ProtossWeatherShield.m3"/>
+        <Lighting value="GuardianShield2"/>
+        <PausedParticleSystemBehavior value="Continuous"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="HallucinationDeath2" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\HallucinateDeath\HallucinateDeath.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Flags index="TeenSafe" value="1"/>
+    </CModel>
+    <CModel id="Immortal">
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="ImpactModelFlames2" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\FireImpact\FireImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="ImpactModelFlames3" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\FireImpact\FireImpact.m3"/>
+        <EditorCategories value="Race:Terran"/>
+    </CModel>
+    <CModel id="InfestedAbomination">
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.800000"/>
+    </CModel>
+    <CModel id="InfestedCivilian">
+        <SelectionRadius value="0.400000"/>
+    </CModel>
+    <CModel id="KerriganChar">
+        <SelectionRadius value="0.300000"/>
+        <AttachProps RadiusShield="1.000000">
+            <Keys index="Ground" value="0"/>
+            <Keys index="Shield" value="0"/>
+        </AttachProps>
+    </CModel>
+    <CModel id="MULE">
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+    </CModel>
+    <CModel id="MineralField2">
+        <Model value="Assets\Doodads\CharCrystal\CharCrystal.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Radius value="0.750000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="0.750000"/>
+        <ShadowRadius value="0.750000"/>
+        <TextureDeclares Prefix="rocks_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+        <VariationCount value="3"/>
+    </CModel>
+    <CModel id="MineralField22">
+        <Model value="Assets\Doodads\CrystalsSmall01\CrystalsSmall01.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Radius value="1.200000"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.200000"/>
+        <TextureDeclares Prefix="rocks_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="MineralField222">
+        <Model value="Assets\Doodads\CrystalsSmall02\CrystalsSmall02.m3"/>
+        <EditorCategories value="Race:Neutral"/>
+        <Radius value="1.200000"/>
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.200000"/>
+        <TextureDeclares Prefix="rocks_">
+            <Adaptions TriggerOnSubstring="_Diffuse" Slot="main"/>
+            <Adaptions TriggerOnSubstring="_Specular" Slot="main"/>
+        </TextureDeclares>
+    </CModel>
+    <CModel id="SwapKarim" parent="ProbeBase">
+        <Model value="Assets\Units\Zerg\Kerrigan\Kerrigan.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+    </CModel>
+    <CModel id="RockRecombinatorT1" parent="FleetBeacon">
+        <Model value="Assets\Buildings\Terran\HiveMindEmulator\HiveMindEmulator.m3"/>
+    </CModel>
+    <CModel id="MineralzReplenisherT3" parent="FleetBeacon">
+        <Model value="Assets\Units\Terran\Hologram_Skin_Armory\Hologram_Skin_Armory.m3"/>
+    </CModel>
+    <CModel id="MineralzReplenisherT5" parent="FleetBeacon">
+        <Model value="Assets\Buildings\Terran\Armory_CovertOps\Armory_CovertOps.m3"/>
+    </CModel>
+    <CModel id="MineralzReplenisherT6" parent="FleetBeacon">
+        <Model value="Assets\Buildings\Terran\Armory_Silver\Armory_Silver.m3"/>
+    </CModel>
+    <CModel id="MissileTurretPlacement2" parent="Placement" Race="Terran">
+        <Model value="Assets\Buildings\Terran\MissileTurretPlacement\MissileTurretPlacement.m3"/>
+        <LowQualityModel value="MissileTurret"/>
+        <Lighting value="MissileTurret"/>
+        <Radius value="-1.000000"/>
+        <ScaleMax value="1.000000,1.000000,0.100000"/>
+        <ScaleMin value="1.000000,1.000000,0.100000"/>
+        <SelectionRadius value="0.000000"/>
+        <ShadowRadius value="0.000000"/>
+    </CModel>
+    <CModel id="Mothership">
+        <ScaleMax value="0.300000,0.300000,0.300000"/>
+        <ScaleMin value="0.300000,0.300000,0.300000"/>
+    </CModel>
+    <CModel id="MutaliskAttackSegment2Impact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Zerg\MutaliskMissileImpact\MutaliskMissileImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Lighting value="MutaliskAttackSegment1Impact"/>
+    </CModel>
+    <CModel id="MutaliskAttackSegment3Impact2" parent="ImpactFX">
+        <Model value="Assets\Effects\Zerg\MutaliskMissileImpact\MutaliskMissileImpact.m3"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Lighting value="MutaliskAttackSegment1Impact"/>
+    </CModel>
+    <CModel id="Nexus">
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="NexusBirth">
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="NexusDeath">
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="NexusPlacement">
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="NexusSplat">
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="Obelisk">
+        <SelectionRadius value="1.000000"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="Obelisk2" parent="Building" Race="Protoss">
+        <Model value="Assets\Buildings\Protoss\Obelisk\Obelisk.m3"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+        <SelectionLayer value="2"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.176200"/>
+        <SquibTypeDefault value="Metal"/>
+    </CModel>
+    <CModel id="Overloadeffect" Race="Neutral">
+        <Model value="Assets\Effects\Protoss\FeedbackImpact\FeedbackImpact.m3"/>
+        <Flags index="Wait" value="0"/>
+        <Lighting value="ColossusAttackBeam"/>
+        <Priority value="24"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="PerditionTurretAttackLaunch2" parent="LaunchFX">
+        <Model value="Assets\Effects\Terran\FirebatFireSprite\FirebatFireSprite.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.600000,3.500000,0.650000"/>
+        <ScaleMin value="0.600000,3.500000,0.650000"/>
+        <SelectionRadius value="0.833200"/>
+        <ShadowRadius value="0.833200"/>
+    </CModel>
+    <CModel id="PhotonCannon">
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="PhotonCannonBirth">
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="PhotonCannonDeath">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="PhotonCannonDeathUnpowered">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="PhotonCannonPlacement">
+        <ScaleMax value="0.900000,0.900000,0.900000"/>
+        <ScaleMin value="0.900000,0.900000,0.900000"/>
+    </CModel>
+    <CModel id="ProtossBuildingBirthSmall">
+        <ScaleMax value="0.400000,0.400000,0.400000"/>
+        <ScaleMin value="0.400000,0.400000,0.400000"/>
+    </CModel>
+    <CModel id="ProtossMediumUnitDeath2" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossMediumUnitDeath\ProtossMediumUnitDeath.m3"/>
+        <LowQualityModel value="ProtossMediumUnitDeathLow"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="ProtossRelic"/>
+    <CModel id="ProtossSmallUnitDeathLow2" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="ProtossSmallUnitDeathLow3" parent="UnitDeath" Race="Protoss">
+        <Model value="Assets\Effects\Protoss\ProtossUnitDeath\ProtossUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.250000,1.250000,1.250000"/>
+        <ScaleMin value="1.250000,1.250000,1.250000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.400000"/>
+    </CModel>
+    <CModel id="Pylon">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="DarkPylne" parent="Pylon">
+        <Model value="Assets\Buildings\Protoss\DarkPylon\DarkPylon.m3"/>
+    </CModel>
+    <CModel id="PylonBirth">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="PylonPlacement">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="RaynorCommando">
+        <ScaleMax value="1.560000,1.560000,1.560000"/>
+        <ScaleMin value="1.560000,1.560000,1.560000"/>
+    </CModel>
+    <CModel id="RefineryPlacement">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="RefinerySplat">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="RoachDeath">
+        <Model value="Assets\Effects\Zerg\ZergMediumUnitDeath\ZergMediumUnitDeath.m3"/>
+    </CModel>
+    <CModel id="RoboticsBay">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="1.400000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBay">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBayBirth">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBayDeath">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBayDeathUnpowered">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="RoboticsSupportBayPlacement">
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="ScourgeDeath">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_Low.m3"/>
+        <LowQualityModel value=""/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+    </CModel>
+    <CModel id="ShieldAbsorbImmortalViz">
+        <ScaleMax value="1.400000,1.400000,1.400000"/>
+        <ScaleMin value="1.400000,1.400000,1.400000"/>
+    </CModel>
+    <CModel id="SignsFunny">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="SignsWarning">
+        <ScaleMax value="2.000000,2.000000,2.000000"/>
+        <ScaleMin value="2.000000,2.000000,2.000000"/>
+    </CModel>
+    <CModel id="Snowballthrow">
+        <Model value="Assets\Doodads\Shapes\ShapeBaseball\ShapeBaseball.m3"/>
+    </CModel>
+    <CModel id="Snowballthrowimpact">
+        <Model value="Assets\Effects\Other\PhysicsImpactSnowMassive\PhysicsImpactSnowMassive.m3"/>
+    </CModel>
+    <CModel id="Stalker">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="StalkerWeapon2" parent="MissileFX">
+        <Model value="Assets\Effects\Protoss\StalkerMissile\StalkerMissile.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.714000"/>
+        <ShadowRadius value="0.714000"/>
+    </CModel>
+    <CModel id="Stargate">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="StargateSplat">
+        <ScaleMax value="1.200000,1.200000,1.200000"/>
+        <ScaleMin value="1.200000,1.200000,1.200000"/>
+    </CModel>
+    <CModel id="SwapBMaks" parent="ProbeBase">
+        <Model value="Assets\Units\Protoss\Immortal_Taldarim_Coop\Immortal_Taldarim_Coop.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.650000,0.650000,0.650000"/>
+        <SelectionRadius value="1.000000"/>
+    </CModel>
+    <CModel id="SwapPurifierTemplar" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Units\Protoss\HighTemplar_Purifier_Collection\HighTemplar_Purifier_Collection.m3"/>
+        <RequiredAnims value="Assets\Units\Protoss\Zealot_SwarmAnims\Zealot_SwarmAnims.m3a"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.555400"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapDeathGoddess" Prefix="Units\" Color="255,255,255,255" Race="Protoss">
+        <Model value="Assets\Models\Prestige_skins\Unit_DeathGoddess_BC.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="DarkVoice2"/>
+        <Occlusion value="Show"/>
+        <PlanetPanelCamera value="Star2CameraHigher09"/>
+        <Radius value="0.400000"/>
+        <ScaleMax value="0.600000,0.600000,0.600000"/>
+        <ScaleMin value="0.600000,0.600000,0.600000"/>
+        <SelectionRadius value="0.400000"/>
+        <ShadowRadius value="0.555400"/>
+        <TechPurchaseCamera value="Star2CameraHigher09"/>
+        <UnitGlossaryCamera value="Star2CameraHigher09"/>
+    </CModel>
+    <CModel id="SwapUnari" parent="ProbeBase">
+        <Model value="Assets\Units\Protoss\Artanis\Artanis.m3"/>
+        <Lighting value="Probe"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.554000"/>
+    </CModel>
+    <CModel id="SwapPunkt" parent="Hybrid2">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <Events index="0" removed="1"/>
+        <Events index="1" removed="1"/>
+        <Events index="2" removed="1"/>
+        <Events index="3" removed="1"/>
+        <Events index="4" removed="1"/>
+    </CModel>
+    <CModelFoliage id="TargetLockdownImpact" parent="ImpactFX">
+        <Model value="Assets\Effects\Terran\Goliath_Lockdown_Impact\Goliath_Lockdown_Impact.m3"/>
+    </CModelFoliage>
+    <CModelFoliage id="TargetLockdownMissileWeapon" parent="MissileFX">
+        <Model value="Assets\Effects\Neutral\Aiur_VoidTendril_VoidZone_Missile\Aiur_VoidTendril_VoidZone_Missile.m3"/>
+    </CModelFoliage>
+    <CModel id="TargetLockdownPersistent2" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Terran\Goliath_Lockdown\Goliath_Lockdown.m3"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="ShakurasStatue" parent="Doodad">
+        <Model value="Assets\Doodads\Shakuras_Temple_Statue\Shakuras_Temple_Statue.m3"/>
+        <Lighting value="TempleStatue"/>
+        <Radius value="1.000000"/>
+        <SelectionRadius value="1.000000"/>
+        <ShadowRadius value="1.000000"/>
+        <VariationCount value="3"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow2" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TerranSmallUnitDeathLow3" parent="UnitDeath" Race="Terran">
+        <Model value="Assets\Effects\Terran\TerranSmallUnitDeath\TerranSmallUnitDeath_Low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <ScaleMax value="1.100000,1.100000,1.100000"/>
+        <ScaleMin value="1.100000,1.100000,1.100000"/>
+        <SelectionRadius value="0.454300"/>
+        <ShadowRadius value="0.454300"/>
+    </CModel>
+    <CModel id="TwilightCouncil">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="TwilightCouncilBirth">
+        <ScaleMax value="1.000000,1.000000,1.000000"/>
+        <ScaleMin value="1.000000,1.000000,1.000000"/>
+    </CModel>
+    <CModel id="TwilightCouncilPlacement">
+        <ScaleMax value="0.350000,0.350000,0.350000"/>
+        <ScaleMin value="0.350000,0.350000,0.350000"/>
+    </CModel>
+    <CModel id="SpeedUpGen" parent="PersistentSpellFX">
+        <Model value="Assets\Effects\Protoss\Karax_MassChronoBoost\Karax_MassChronoBoost.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="TimeWarp"/>
+        <RadiusLoose value="1.000000"/>
+    </CModel>
+    <CModel id="VortexModel">
+        <RadiusLoose value="0.850000"/>
+        <ScaleMax value="0.850000,0.850000,0.850000"/>
+        <ScaleMin value="0.850000,0.850000,0.850000"/>
+    </CModel>
+    <CModel id="Warbot">
+        <AttachProps RadiusShield="1.000000">
+            <Keys index="Ground" value="0"/>
+            <Keys index="Shield" value="0"/>
+        </AttachProps>
+    </CModel>
+    <CModel id="WarpgateDeath">
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+    </CModel>
+    <CModel id="XelNagaTurret">
+        <Model value="Assets\Doodads\XelNagaTurret\XelNagaTurret_01.m3"/>
+        <Radius value="1.000000"/>
+        <ScaleMax value="0.700000,0.700000,0.700000"/>
+        <ScaleMin value="0.700000,0.700000,0.700000"/>
+        <SelectionRadius value="0.700000"/>
+        <ShadowRadius value="1.000000"/>
+        <VariationCount value="1"/>
+    </CModel>
+    <CModel id="PurifierRelocationBlinkOut" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Stalker_Purifier_BlinkIn\Stalker_Purifier_BlinkIn.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="ZeratulBlinkOut"/>
+    </CModel>
+    <CModel id="PurifierRelocationBlinkIn" parent="OneShotSpellFX">
+        <Model value="Assets\Effects\Protoss\Stalker_Purifier_BlinkIn\Stalker_Purifier_BlinkIn.m3"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Lighting value="ZeratulBlinkIn"/>
+    </CModel>
+    <CModel id="WickedWolfPortrait3DAddition" parent="FXAPortrait">
+        <Model value="Assets\StoryModeCharacters\Zerg\SMX1_InfestedStukov\SMX1_InfestedStukov.m3"/>
+        <RequiredAnims value="Assets\StoryModeCharacters\Zerg\SMX1_InfestedStukov_FacialAnims\SMX1_InfestedStukov_FacialAnims.m3a"/>
+        <Flags index="ForcePortraitModel" value="1"/>
+    </CModel>
+    <CModel id="WickedWolfPortraitAddition" parent="FXAPortrait">
+        <Model value="Assets\StoryModeCharacters\Zerg\SMX1_InfestedStukov\SMX1_InfestedStukov.m3"/>
+        <RequiredAnims value="Assets\StoryModeCharacters\Zerg\SMX1_InfestedStukov_FacialAnims\SMX1_InfestedStukov_FacialAnims.m3a"/>
+        <EditorCategories value=""/>
+    </CModel>
+    <CModel id="ZergSmallUnitDeathLow3" parent="UnitDeath" Race="Zerg">
+        <Model value="Assets\Effects\Zerg\ZergSmallUnitDeath\ZergSmallUnitDeath_low.m3"/>
+        <Flags index="TeenSafe" value="1"/>
+        <Occlusion value="Show"/>
+        <ScaleMax value="0.800000,0.800000,0.800000"/>
+        <ScaleMin value="0.800000,0.800000,0.800000"/>
+        <SelectionRadius value="0.625000"/>
+        <ShadowRadius value="0.625000"/>
+    </CModel>
+    <CModel id="Zergling2" parent="Unit" Race="Zerg">
+        <Model value="Assets\Units\Zerg\Zergling\Zergling.m3"/>
+        <AttachProps Id="Ref_Weapon Left">
+            <Keys index="Weapon" value="1"/>
+            <Keys index="Work" value="0"/>
+        </AttachProps>
+        <AttachProps Id="Ref_Weapon Right">
+            <Keys index="Weapon" value="1"/>
+        </AttachProps>
+        <Occlusion value="Show"/>
+        <Radius value="0.300000"/>
+        <SquibTypeDefault value="Flesh"/>
+        <TechPurchaseCamera value="Star2CameraMid05"/>
+        <UnitGlossaryCamera value="Star2CameraMid05"/>
+        <PlanetPanelCamera value="Star2CameraMid05"/>
+        <ScaleMax value="1.500000,1.500000,1.500000"/>
+        <SelectionRadius value="0.441400"/>
+        <ShadowRadius value="0.441400"/>
+        <Tipability value="0.750000"/>
+        <TipabilityLength value="0.400000"/>
+        <TipabilityWidth value="0.400000"/>
+        <ScaleMin value="1.500000,1.500000,1.500000"/>
+    </CModel>
+    <CModel id="ZerglingDeath2" parent="UnitDeath">
+        <Model value="Assets\Units\Zerg\ZerglingDeath\ZerglingDeath.m3"/>
+        <LowQualityModel value="ZergSmallUnitDeathLow"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="ZerglingDeathEviscerate2" parent="UnitDeath" Race="Zerg">
+        <LowQualityModel value="ZergSmallUnitDeathLow"/>
+        <Occlusion value="Show"/>
+        <VariationCount value="2"/>
+        <Variations Number="0" Probability="1"/>
+        <Variations Number="1" Probability="9"/>
+    </CModel>
+    <CModel id="ZerglingDeathFire2" parent="UnitDeath" Race="Zerg">
+        <LowQualityModel value="ZergSmallUnitDeathLow"/>
+        <Lighting value="ZerglingDeath"/>
+        <Occlusion value="Show"/>
+    </CModel>
+    <CModel id="ZhakulDasObelisk">
+        <Model value="Assets\Doodads\XelNagaArtifact\XelNagaArtifact.m3"/>
+        <ScaleMax value="0.500000,0.500000,0.500000"/>
+        <ScaleMin value="0.500000,0.500000,0.500000"/>
+        <SelectionRadius value="1.500000"/>
+        <VariationCount value="1"/>
+    </CModel>
+    <CModel id="nukeCursorSplat2" parent="UI">
+        <Model value="Assets\UI\Cursors\NukeCursor1\NukeCursor1.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.200000,0.200000,0.200000"/>
+        <ScaleMin value="0.200000,0.200000,0.200000"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+    </CModel>
+    <CModel id="nukeCursorSplat222" parent="UI">
+        <Model value="Assets\UI\Cursors\NukeCursor1\NukeCursor1.m3"/>
+        <EditorCategories value="Race:Terran"/>
+        <ScaleMax value="0.200000,0.200000,0.200000"/>
+        <ScaleMin value="0.200000,0.200000,0.200000"/>
+        <SelectionRadius value="2.500000"/>
+        <ShadowRadius value="2.500000"/>
+    </CModel>
+</Catalog>

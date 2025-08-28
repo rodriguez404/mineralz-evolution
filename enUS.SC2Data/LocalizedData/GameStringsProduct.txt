@@ -1,0 +1,4 @@
+﻿UI/ResourceName0=Minerals
+UI/ResourceName1=Vespene
+UI/ResourceName2=Plasma
+UI/ResourceName3=Red

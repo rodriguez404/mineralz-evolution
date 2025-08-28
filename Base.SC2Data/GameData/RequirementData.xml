@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirement id="1Players">
+        <NodeArray index="Use" Link="CountUpgrade1PlayersQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="2Players">
+        <NodeArray index="Use" Link="CountUpgrade2PlayersQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="3Players">
+        <NodeArray index="Use" Link="CountUpgrade3PlayersQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="4Players">
+        <NodeArray index="Use" Link="CountUpgrade4PlayersQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="5Players">
+        <NodeArray index="Use" Link="CountUpgrade5PlayersQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AntiairTurretAoEarea">
+        <NodeArray index="Use" Link="NotCountUpgradeLanzerTorpedoes2CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeLanzerTorpedoes2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="BarrageAoEarea">
+        <NodeArray index="Use" Link="NotCountUpgradeBarrageUpgrade22CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeBarrageUpgrade22QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="BonesSamplePickup">
+        <NodeArray index="Show" Link="CountUpgradeBoneSamplesQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ChooseyourFaction">
+        <NodeArray index="Show" Link="AndCountUpgradeMercenaryroleQueuedOrBetterNotCountUpgradeRaynorsRaidersFactionQueuedOrBetterNotCountUpgradeJunkDogsFactionQueuedOrBetterNotCountUpgradeRaynorsRaidersFactionQueuedOrBetterNotCountUpgradeMirasMaraudersFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="JuggernautPlating">
+        <NodeArray index="Show" Link="NotCountUpgradeJuggernautPlating2QueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HammerSecuritiespurchased">
+        <NodeArray index="Show" Link="LTCountUpgradeMercenaryContractHammerSecuritiesCompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="MercenaryCompound">
+        <NodeArray index="Use" Link="AndCountUnitAlias_BaseCompleteOnly1043151301TechTreeCheatLT2399992530CountUnitMercCompound2QueuedOrBetter1"/>
+        <NodeArray index="Show" Link="CountUpgradeMirasMaraudersFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="KineticFoam">
+        <NodeArray index="Show" Link="NotCountUpgradeKineticFoamQueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="CombatShield2">
+        <NodeArray index="Show" Link="NotCountUpgradeCombatShield2QueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ConcussiveShells">
+        <NodeArray index="Show" Link="NotCountUpgradeConcussiveShellsQueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="LearnStimpack2">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+        <NodeArray index="Use" Link="And468680565CountUpgradeStimpack2CompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="LearnConcussiveShells">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+        <NodeArray index="Use" Link="And4280949968CountUpgradeConcussiveShellsCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="CombatShield">
+        <EditorCategories value="Race:Terran,TechType:Upgrade"/>
+        <NodeArray index="Use" Link="CountUpgradeCombatShield2CompleteOnly168716463"/>
+    </CRequirement>
+    <CRequirement id="LearnKineticFoam">
+        <EditorCategories value="Race:Terran,TechType:Ability"/>
+        <NodeArray index="Use" Link="And1255427609CountUpgradeKineticFoamCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="JunkDogsBarracks">
+        <NodeArray index="Use" Link="AndCountUnitAlias_BaseCompleteOnly1043151301TechTreeCheatLT434912448CountUnitBarracksJunkDogsQueuedOrBetter1"/>
+        <NodeArray index="Show" Link="CountUpgradeJunkDogsFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Stimpack">
+        <NodeArray index="Show" Link="NotCountUpgradeStimpack2QueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="IncineratorNozzles">
+        <NodeArray index="Show" Link="NotCountUpgradeIncineratorGauntletsQueuedOrBetterTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="UseIncineratorNozzles">
+        <NodeArray index="Use" Link="CountUpgradeIncineratorGauntletsCompleteOnly4053431342"/>
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="WarPigspurchased">
+        <NodeArray index="Show" Link="LTCountUpgradeMercenaryContractWarPigsCompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="RaynorsRaidersBarracks">
+        <NodeArray index="Use" Link="AndCountUnitAlias_BaseCompleteOnly1043151301TechTreeCheatLTCountUnitBarracksRaynorsRaidersQueuedOrBetter1"/>
+        <NodeArray index="Show" Link="CountUpgradeRaynorsRaidersFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="DetectorRange1">
+        <NodeArray index="Show" Link="NotCountUpgradeDetectorRange1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="DetectorRange12">
+        <NodeArray index="Show" Link="NotCountUpgradeDetectorRange2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="DetectorRange13">
+        <NodeArray index="Show" Link="NotCountUpgradeDetectorRange3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="DetectionSupplies">
+        <NodeArray index="Show" Link="NotCountUpgradeDetectionSuppliesQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Dronerequirements">
+        <NodeArray index="Use" Link="AndCountUpgradeWallMastery5QueuedOrBetterNot248751735CountBehaviorDroneTrackerInProgressOnly"/>
+        <NodeArray index="Show" Link="CountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Equipaflashlight">
+        <NodeArray index="Use" Link="And468614110CountUpgradeUtterDarknessQueuedOrBetter"/>
+        <NodeArray index="Show" Link="NotCountBehaviorFlashlightQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="AutoRefillOxygen">
+        <NodeArray index="Use" Link="And1345557588CountUpgradeLowOxygenMutatorLackofOxygenDummyQueuedOrBetter"/>
+        <NodeArray index="Show" Link="NotCountBehaviorOxygenAutoRefillerQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="HardcoreNOTactive">
+        <NodeArray index="Use" Link="And2063163324Not2063163324CountUpgradeHardcoreQueuedOrBetter2063163324"/>
+    </CRequirement>
+    <CRequirement id="Hardcoreactive">
+        <NodeArray index="Use" Link="And3068615478CountUpgradeHardcoreQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="JunkDogsFaction">
+        <NodeArray index="Show" Link="AndCountUpgradeMercenaryroleQueuedOrBetterCountUpgradeJunkDogsFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="MaxMULEsAmount">
+        <NodeArray index="Use" Link="LT337835658CountUnitMULE2QueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="MirasMaraudersFaction">
+        <NodeArray index="Show" Link="AndCountUpgradeMercenaryroleQueuedOrBetterCountUpgradeMirasMaraudersFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RaynorsRaidersCommandCenter">
+        <NodeArray index="Use" Link="AndCountUnitAlias_BaseCompleteOnly1043151301TechTreeCheatLTCountUnitCommandCenter22QueuedOrBetter1"/>
+        <NodeArray index="Show" Link="CountUpgradeRaynorsRaidersFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RaynorsRaidersUpgradeStation">
+        <NodeArray index="Use" Link="AndCountUnitAlias_BaseCompleteOnly1043151301TechTreeCheatLT3269637520CountUnitUpgradeStationRaynorsRaidersQueuedOrBetter2"/>
+        <NodeArray index="Show" Link="CountUpgradeRaynorsRaidersFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="SpecOpsFaction">
+        <NodeArray index="Show" Link="AndCountUpgradeMercenaryroleQueuedOrBetterCountUpgradeSpecOpsFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="MercenaryMastery1">
+        <NodeArray index="Use" Link="CountUpgradeMercenaryMastery1QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeMercenaryroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="MercenaryMastery2">
+        <NodeArray index="Use" Link="CountUpgradeMercenaryMastery2QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeMercenaryroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="MercenaryMastery3">
+        <NodeArray index="Use" Link="CountUpgradeMercenaryMastery3QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeMercenaryroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="MercenaryMastery4">
+        <NodeArray index="Use" Link="CountUpgradeMercenaryMastery4QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeMercenaryroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="MercenaryMastery5">
+        <NodeArray index="Use" Link="CountUpgradeMercenaryMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeMercenaryroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NotAvailableBlockStructures">
+        <NodeArray index="Show" Link="AndCountUpgradeMercenaryroleInProgressOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RaynorsRaidersFaction">
+        <NodeArray index="Show" Link="AndCountUpgradeMercenaryroleQueuedOrBetterCountUpgradeRaynorsRaidersFactionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RockRecombinatorMineralzReplenisher">
+        <NodeArray index="Use" Link="AndCountUpgradeHealerMastery1QueuedOrBetterNot991970187CountUpgradeHardcoreQueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeHealerroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="IncreaseZergDamage">
+        <NodeArray index="Show" Link="AndLTCountUpgradeIncreaseZergDamageQueuedOrBetter20"/>
+    </CRequirement>
+    <CRequirement id="IncreaseZergDamageReduction">
+        <NodeArray index="Show" Link="AndLTCountUpgradeIncreaseZergDamageReductionQueuedOrBetter10"/>
+    </CRequirement>
+    <CRequirement id="IncreaseZergLimit">
+        <NodeArray index="Show" Link="AndLTCountUpgradeIncreaseZergLimitQueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="Max2searchlights">
+        <NodeArray index="Use" Link="LT1435813324CountUnitSearchlightQueuedOrBetter2"/>
+        <NodeArray index="Show" Link="AndCountUpgradeUtterDarknessQueuedOrBetterEqCountUpgradeSearchlightSuppliesCompleteOnly1"/>
+    </CRequirement>
+    <CRequirement id="Max3searchlights">
+        <NodeArray index="Use" Link="LT3226752706CountUnitSearchlightQueuedOrBetter3"/>
+        <NodeArray index="Show" Link="AndCountUpgradeUtterDarknessQueuedOrBetterEqCountUpgradeSearchlightSuppliesCompleteOnly2"/>
+    </CRequirement>
+    <CRequirement id="Max8Harvesters">
+        <NodeArray index="Use" Link="LT2975257084CountUnitSCVQueuedOrBetter8"/>
+    </CRequirement>
+    <CRequirement id="Max1searchlights">
+        <NodeArray index="Use" Link="LT812483182CountUnitSearchlightQueuedOrBetter1"/>
+        <NodeArray index="Show" Link="AndCountUpgradeUtterDarknessQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NoModeonDrone">
+        <NodeArray index="Show" Link="AndNotCountBehaviorDefenseDroneAssaultModeQueuedOrBetterAtUnitNotNotNot"/>
+    </CRequirement>
+    <CRequirement id="NotVersusGameMode">
+        <NodeArray index="Use" Link="Not3836110819CountUpgradeVersusGameModeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NotVersusGameMode2">
+        <NodeArray index="Use" Link="Not3836110819CountUpgradeVersusGameModeQueuedOrBetter"/>
+        <NodeArray index="Show" Link="NotCountUpgradeVersusGameModeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AbilityListrequirements">
+        <NodeArray index="Use" Link="AndNot991970187CountUpgradeHardcoreQueuedOrBetter991970187Not2132243322CountUpgradeVersusGameModeQueuedOrBetter2132243322"/>
+        <NodeArray index="Show" Link="NotCountUpgradeVersusGameModeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="SearchlightVision">
+        <NodeArray index="Show" Link="LTCountUpgradeSearchlightVisionQueuedOrBetter4"/>
+    </CRequirement>
+    <CRequirement id="SearchlightSupplies">
+        <NodeArray index="Show" Link="LTCountUpgradeSearchlightSuppliesQueuedOrBetter2"/>
+    </CRequirement>
+    <CRequirement id="DroneCapacity">
+        <NodeArray index="Show" Link="LTCountUpgradeDroneCapacityQueuedOrBetter2"/>
+    </CRequirement>
+    <CRequirement id="MercenaryRoleshowpassiveCoreInside">
+        <NodeArray index="Show" Link="AndCountUpgradeMercenaryroleQueuedOrBetterNotEqCountUpgradeCoreInsidedummyshowpassiveQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="UseCombatShield">
+        <NodeArray index="Use" Link="CountUpgradeCombatShieldCompleteOnly"/>
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="UseJackhammerConcussiveGrenade">
+        <NodeArray index="Use" Link="CountUpgradeJackhammerConcussionGrenadesCompleteOnly"/>
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="UseJuggernautPlatingFirebat">
+        <NodeArray index="Use" Link="CountUpgradeFirebatJuggernautPlatingCompleteOnly3468642708"/>
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="DevilDogspurchased">
+        <NodeArray index="Show" Link="LTCountUpgradeMercenaryContractDevilDogsCompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="SkibisAngelspurchased">
+        <NodeArray index="Show" Link="LTCountUpgradeMercenaryContractSkibisAngelsCompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="WeaknessEffect">
+        <NodeArray index="Use" Link="NotCountUpgradeWeaknesseffectCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeWeaknesseffectQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="SearchlightRequirements">
+        <NodeArray index="Show" Link="AndCountUpgradeUtterDarknessQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="SpecialistRequirementsTier4NotVersusGameModeUse">
+        <NodeArray index="Use" Link="AndCountUnitNexus222CompleteOnlyTechTreeCheatNot2852893603CountUpgradeVersusGameModeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ResearchAirSwarmInvasion">
+        <NodeArray index="Show" Link="AndNotCountUpgradeResearchAirSwarmQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingEvolutionT252">
+        <NodeArray index="Show" Link="EqCountUpgradeEvolutionT7QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="RailgunSnipeCooldown">
+        <NodeArray index="Use" Link="NotCountUpgradeRailgunSnipeCooldownCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeRailgunSnipeCooldownQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RailgunSnipeABresearched">
+        <NodeArray index="Use" Link="NotCountUpgradeModernAmunition2CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeModernAmunition2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="RailgunSnipeABduration">
+        <NodeArray index="Use" Link="NotCountUpgradeModernAmunition22CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeModernAmunition22QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ResearchBossSwarmInvasion">
+        <NodeArray index="Show" Link="AndNotCountUpgradeResearchBossInvasionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ResearchGroundSwarmInvasion">
+        <NodeArray index="Show" Link="AndNotCountUpgradeResearchGroundSwarmQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ResearchHybridDestroyer">
+        <NodeArray index="Show" Link="AndNotCountUpgradeResearchHybridDestroyerQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ResearchHybridNemesis">
+        <NodeArray index="Show" Link="AndNotCountUpgradeResearchHybridNemesisQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ResearchHybridBehemoth">
+        <NodeArray index="Show" Link="AndNotCountUpgradeResearchHybridBehemothQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ThunderTower2">
+        <NodeArray index="Use" Link="NotCountUpgradeThunderTowerCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeThunderTowerQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AntiairTurretX88TAntiArmor">
+        <NodeArray index="Use" Link="AndNotCountUpgradeX328HellStormBatteriesCompleteOnlyNotCountUpgradeX88TAntiArmorCompleteOnly"/>
+        <NodeArray index="Show" Link="AndNotCountUpgradeX328HellStormBatteriesQueuedOrBetterNotCountUpgradeX88TAntiArmorQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AntiairTurretIgnoreArmor">
+        <NodeArray index="Use" Link="NotCountUpgradeLanzerTorpedoesCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeLanzerTorpedoesQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AntiairTurretHellStormMissiles">
+        <NodeArray index="Use" Link="AndNotCountUpgradeX328HellStormBatteriesCompleteOnlyNotCountUpgradeX88TAntiArmorCompleteOnly"/>
+        <NodeArray index="Show" Link="AndNotCountUpgradeX328HellStormBatteriesQueuedOrBetterNotCountUpgradeX88TAntiArmorQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AntiairTurretmissilespeed">
+        <NodeArray index="Use" Link="NotCountUpgradeLanzerTorpedoes32CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeLanzerTorpedoes32QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AntiairTurretAoEdamage">
+        <NodeArray index="Use" Link="NotCountUpgradeLanzerTorpedoes3CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeLanzerTorpedoes3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="BarrageAmountofShots">
+        <NodeArray index="Use" Link="NotCountUpgradeBarrageUpgradeCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeBarrageUpgradeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ArtifactAutonomousGeneratorMastery1">
+        <NodeArray index="Show" Link="CountUpgradeGeneratorMastery1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AuxilliaryPistons2">
+        <NodeArray index="Show" Link="NotCountUpgradeAuxiliaryPistons2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AuxilliaryPistons3">
+        <NodeArray index="Show" Link="NotCountUpgradeAuxiliaryPistons3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="BarrageCooldown">
+        <NodeArray index="Use" Link="NotCountUpgradeBarrageUpgrade3CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeBarrageUpgrade3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="BarrageSpeedofShots">
+        <NodeArray index="Use" Link="NotCountUpgradeBarrageUpgrade2CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeBarrageUpgrade2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AntiairTurretRange">
+        <NodeArray index="Use" Link="NotCountUpgradeLanzerTorpedoes323CompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeLanzerTorpedoes323QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="EngineAccelerator">
+        <NodeArray index="Show" Link="NotCountUpgradeEngineAcceleratorQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Bought5Colossuses">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="AndCountUnitNexus222CompleteOnlyTechTreeCheatLT4166546318CountUnitColossusQueuedOrBetter5"/>
+        <NodeArray index="Show" Link="CountUpgradeSandBoxGameModedummyQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="BoughtBlueModification">
+        <NodeArray index="Show" Link="AndNotCountBehaviorBlueHarvesterQueuedOrBetterAtUnitCountBehaviorBoughtBlueModificationQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="BoughtRedModification">
+        <NodeArray index="Show" Link="AndNotCountBehaviorRedHarvesterQueuedOrBetterAtUnitCountBehaviorBoughtRedModificationQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="BoughtGreenModification">
+        <NodeArray index="Show" Link="AndNotCountBehaviorVespeneHarvesterQueuedOrBetterAtUnitCountBehaviorBoughtGreenModificationQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="CannonMastery2">
+        <NodeArray index="Use" Link="CountUpgradeCannonMastery2QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeCannonroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Commandcenter">
+        <NodeArray index="Use" Link="AndCountUpgradeEconomyMastery4QueuedOrBetterCountUnitAlias_Base2CompleteOnly4242937238TechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeEconomyroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="CoreInsidePrestigeshowpassive">
+        <NodeArray index="Show" Link="AndCountBehaviorCoreInsideInProgressOrBetterAtUnitEqCountUpgradeCoreInsidedummyshowpassiveQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="CoreInsideprestige">
+        <NodeArray index="Show" Link="CountBehaviorCoreInsideQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="EasyDifficulty">
+        <NodeArray index="Use" Link="CountUpgradeEasyDifficultyQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="EconomyRoleshowpassive">
+        <NodeArray index="Show" Link="AndCountUpgradeEconomyroleQueuedOrBetterNotEqCountUpgradeCoreInsidedummyshowpassiveQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="CannonRoleshowpassiveCoreInside">
+        <NodeArray index="Show" Link="AndCountUpgradeCannonroleQueuedOrBetterNotEqCountUpgradeCoreInsidedummyshowpassiveQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="EngineAcceleratorAB">
+        <NodeArray index="Use" Link="CountUpgradeEngineAcceleratorQueuedOrBetter"/>
+        <NodeArray index="Show" Link="NotCountUpgradeEngineAcceleratorQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HealerRoleshowpassiveCoreInside">
+        <NodeArray index="Show" Link="AndCountUpgradeHealerroleQueuedOrBetterNotEqCountUpgradeCoreInsidedummyshowpassiveQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="HellStormMissilesnotresearched">
+        <NodeArray index="Use" Link="CountUpgradeX328HellStormBatteriesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ImpossibleDifficulty">
+        <NodeArray index="Use" Link="CountUpgradeImpossibleDifficultyQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Lethalityresearched">
+        <NodeArray index="Show" Link="CountUpgradeNukeDamageLethalQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Max4Harvesters">
+        <NodeArray index="Use" Link="LT792468971CountUnitSCVQueuedOrBetter4"/>
+        <NodeArray index="Show" Link="EqCountUpgradeSCVEnhancer1CompleteOnly1"/>
+    </CRequirement>
+    <CRequirement id="Max1Harvester">
+        <NodeArray index="Use" Link="LT731155208CountUnitSCVQueuedOrBetter1"/>
+        <NodeArray index="Show" Link="EqCountUpgradeSCVEnhancer2CompleteOnly1"/>
+    </CRequirement>
+    <CRequirement id="BoughtPlasmaModification">
+        <NodeArray index="Show" Link="AndNotCountBehaviorPlasmaHarvesterQueuedOrBetterAtUnitCountBehaviorBoughtPurpleModificationQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="Nobluemodification">
+        <NodeArray index="Show" Link="AndNotCountBehaviorBlueHarvesterQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="NoGreenModification">
+        <NodeArray index="Show" Link="AndNotCountBehaviorVespeneHarvesterQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="NoRedModification">
+        <NodeArray index="Show" Link="AndNotCountBehaviorRedHarvesterQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="NoPlasmaModification">
+        <NodeArray index="Show" Link="AndNotCountBehaviorPlasmaHarvesterQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="NukeCooldown1">
+        <NodeArray index="Show" Link="NotCountUpgradeNukeCooldown1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NukeRadius1">
+        <NodeArray index="Show" Link="NotCountUpgradeNukeRadius1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NukeDamage1">
+        <NodeArray index="Show" Link="NotCountUpgradeNukeDamage1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NukeDamage12">
+        <NodeArray index="Show" Link="NotCountUpgradeNukeDamage12QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NukeDamage13">
+        <NodeArray index="Show" Link="NotCountUpgradeNukeDamage13QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NukeDamage14">
+        <NodeArray index="Use" Link="CountUpgradeCannonMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="NotCountUpgradeNukeDamageLethalQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NukeRadius12">
+        <NodeArray index="Show" Link="NotCountUpgradeNukeRadius12QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="OxygenStationRequirements">
+        <NodeArray index="Use" Link="LT2719816840CountUnitOxygenStationQueuedOrBetter1"/>
+        <NodeArray index="Show" Link="CountUpgradeLowOxygenMutatorLackofOxygenDummyQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkPlasma8192">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark442CompleteOnlyTechTreeCheat31"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkRED8192">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark422CompleteOnlyTechTreeCheat31"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkVESPEN8192">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark432CompleteOnlyTechTreeCheat31"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingAbsorberShield">
+        <NodeArray index="Use" Link="AndCountUpgradeShieldUpgrade6QueuedOrBetter4262497063"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingArmorIncreased12">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT2QueuedOrBetterLTCountUpgradeArmorUpgrade2QueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingArmorIncreased13">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT3QueuedOrBetterLTCountUpgradeArmorUpgrade3QueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingArmorIncreased132">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT4QueuedOrBetterLTCountUpgradeArmorUpgrade4QueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingArmorIncreased1322">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT5QueuedOrBetterLTCountUpgradeArmorUpgrade5QueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingArmorIncreased1323">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT6QueuedOrBetterLTCountUpgradeArmorUpgrade6QueuedOrBetter99"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingAttackSpeed12">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT2QueuedOrBetterNotCountUpgradeAttackSpeed2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingAttackSpeed13">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT3QueuedOrBetterNotCountUpgradeAttackSpeed3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingAttackSpeed14">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT4QueuedOrBetterNotCountUpgradeAttackSpeed4QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingAttackSpeed15">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT5QueuedOrBetterNotCountUpgradeAttackSpeed5QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingAttackSpeed152">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT6QueuedOrBetterNotCountUpgradeAttackSpeed6QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingDamageIncreased152">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT6QueuedOrBetterLTCountUpgradeDamageUpgrade6QueuedOrBetter25NotCountUpgradeEvolutionT7QueuedOnly"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingDamageIncreased1522">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT7QueuedOrBetterLTCountUpgradeDamageUpgrade7QueuedOrBetter25"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingDamageIncreased1523">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT7QueuedOrBetterLTCountUpgradeDamageUpgrade8QueuedOrBetter99"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingEvolutionT2">
+        <NodeArray index="Show" Link="EqCountUpgradeEvolutionT2QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingEvolutionT22">
+        <NodeArray index="Show" Link="EqCountUpgradeEvolutionT3QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingEvolutionT23">
+        <NodeArray index="Show" Link="EqCountUpgradeEvolutionT4QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingEvolutionT24">
+        <NodeArray index="Show" Link="EqCountUpgradeEvolutionT5QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingEvolutionT25">
+        <NodeArray index="Show" Link="EqCountUpgradeEvolutionT6QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingHPIncreased152">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT5QueuedOrBetterLTCountUpgradeHPUpgrade2QueuedOrBetter25"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingMoveSpeed1">
+        <NodeArray index="Show" Link="EqCountUpgradeMoveSpeed1QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingHPIncreased1">
+        <NodeArray index="Show" Link="LTCountUpgradeHPUpgrade1QueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingDamageIncreased1">
+        <NodeArray index="Show" Link="AndLTCountUpgradeDamageUpgrade1QueuedOrBetter25NotCountUpgradeEvolutionT2QueuedOnly"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingDamageIncreased12">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT2QueuedOrBetterLTCountUpgradeDamageUpgrade2QueuedOrBetter25NotCountUpgradeEvolutionT3QueuedOnly"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingDamageIncreased13">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT3QueuedOrBetterLTCountUpgradeDamageUpgrade3QueuedOrBetter25NotCountUpgradeEvolutionT4QueuedOnly"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingDamageIncreased14">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT4QueuedOrBetterLTCountUpgradeDamageUpgrade4QueuedOrBetter25NotCountUpgradeEvolutionT5QueuedOnly"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingDamageIncreased15">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT5QueuedOrBetterLTCountUpgradeDamageUpgrade5QueuedOrBetter25NotCountUpgradeEvolutionT6QueuedOnly"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingArmorIncreased1">
+        <NodeArray index="Show" Link="AndLTCountUpgradeArmorUpgrade1QueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingHPIncreased12">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT2QueuedOrBetterLTCountUpgradeHPUpgrade2QueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingHPIncreased13">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT3QueuedOrBetterLTCountUpgradeHPUpgrade3QueuedOrBetter8"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingHPIncreased14">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT4QueuedOrBetterLTCountUpgradeHPUpgrade4QueuedOrBetter15"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingHPIncreased15">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT5QueuedOrBetterLTCountUpgradeHPUpgrade5QueuedOrBetter15"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingAttackSpeed1">
+        <NodeArray index="Show" Link="EqCountUpgradeAttackSpeed1QueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingMoveSpeed12">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT2QueuedOrBetterNotCountUpgradeMoveSpeed2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingMoveSpeed13">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT3QueuedOrBetterNotCountUpgradeMoveSpeed3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingMoveSpeed14">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT5QueuedOrBetterNotCountUpgradeMoveSpeed4QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingRegen1">
+        <NodeArray index="Show" Link="LTCountUpgradeRegenerationUpgrade1QueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingRegen12">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT2QueuedOrBetterLTCountUpgradeRegenerationUpgrade2QueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingRegen122">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT3QueuedOrBetterLTCountUpgradeRegenerationUpgrade3QueuedOrBetter8"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingRegen1222">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT4QueuedOrBetterLTCountUpgradeRegenerationUpgrade4QueuedOrBetter15"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingRegen12222">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT5QueuedOrBetterLTCountUpgradeRegenerationUpgrade5QueuedOrBetter25"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingShieldIncreased1">
+        <NodeArray index="Show" Link="LTCountUpgradeShieldUpgrade1QueuedOrBetter3"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingShieldIncreased12">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT2QueuedOrBetterLTCountUpgradeShieldUpgrade2QueuedOrBetter5"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingShieldIncreased13">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT3QueuedOrBetterLTCountUpgradeShieldUpgrade3QueuedOrBetter8"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingShieldIncreased14">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT4QueuedOrBetterLTCountUpgradeShieldUpgrade4QueuedOrBetter15"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingShieldIncreased15">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT5QueuedOrBetterLTCountUpgradeShieldUpgrade5QueuedOrBetter25"/>
+    </CRequirement>
+    <CRequirement id="PumpEnhancer1">
+        <NodeArray index="Show" Link="NotCountUpgradePumpEnhancer1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="AuxilliaryPistons1">
+        <NodeArray index="Show" Link="NotCountUpgradeAuxiliaryPistons1QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PumpEnhancer2">
+        <NodeArray index="Show" Link="NotCountUpgradePumpEnhancer2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ExpandedCylinders">
+        <NodeArray index="Show" Link="NotCountUpgradeExpandedCylindersQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PumpEnhancer3">
+        <NodeArray index="Show" Link="NotCountUpgradePumpEnhancer3QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PumpEnhancer4">
+        <NodeArray index="Show" Link="NotCountUpgradePumpEnhancer4QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PumpEnhancer5">
+        <NodeArray index="Show" Link="NotCountUpgradePumpEnhancer5QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="SensorTower">
+        <NodeArray index="Use" Link="LTCountUnitSensorTowerQueuedOrBetter1"/>
+        <NodeArray index="Show" Link="CountUpgradeWeMoveUnseenQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="SensorTower2">
+        <NodeArray index="Use" Link="LTCountUnitSensorTowerQueuedOrBetter3"/>
+        <NodeArray index="Show" Link="AndCountUpgradeWeMoveUnseenQueuedOrBetterCountUpgradeDetectionSuppliesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="ShieldUpgrade6">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT4QueuedOrBetterLTCountUpgradeShieldUpgrade6QueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingShieldIncreased17">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT4QueuedOrBetterLTCountUpgradeShieldUpgrade7QueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="PlayerTheThingShieldIncreased18">
+        <NodeArray index="Show" Link="AndCountUpgradeEvolutionT6QueuedOrBetterLTCountUpgradeShieldUpgrade8QueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="PrerequisGENERATORSDualMasteryHealersGenerators">
+        <NodeArray index="Show" Link="AndCountUpgradeDualMasteryHealersGeneratorsCompleteOnlyLTCountUpgradeProtossGroundArmorsLevel1CompleteOnly99"/>
+    </CRequirement>
+    <CRequirement id="PrerequisHEALERSDualMasteryHealersGenerators">
+        <NodeArray index="Show" Link="AndCountUpgradeDualMasteryHealersGeneratorsCompleteOnlyLTCountUpgradeProtossGroundWeaponsLevel2CompleteOnly99"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkBLUE8192">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark47CompleteOnlyTechTreeCheat31"/>
+    </CRequirement>
+    <CRequirement id="PrestigeUpgrades">
+        <NodeArray index="Show" Link="OrCountUpgradePrestigeLevelsUpgradesWallRoleQueuedOrBetterCountUpgradePrestigeLevelsUpgradesCannonRoleQueuedOrBetterCountUpgradePrestigeLevelsUpgradesHealerRoleQueuedOrBetterCountUpgradePrestigeLevels4143503341"/>
+    </CRequirement>
+    <CRequirement id="SCVEnhancer1">
+        <NodeArray index="Show" Link="LTCountUpgradeSCVEnhancer1CompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="SCVEnhancer12">
+        <NodeArray index="Show" Link="LTCountUpgradeSCVEnhancer2CompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="SandBoxGameMode">
+        <NodeArray index="Show" Link="CountUpgradeSandBoxGameModedummyQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="SpecializationonBlueMinerals">
+        <NodeArray index="Show" Link="AndNotCountBehaviorSpecializationOnMinerals4QueuedOrBetterAtUnitNotCountBehaviorSpecializationOnMinerals0QueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="SpecializationonGreenMinerals">
+        <NodeArray index="Show" Link="AndNotCountBehaviorSpecializationOnMinerals4QueuedOrBetterAtUnitNotCountBehaviorSpecializationOnMinerals1QueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="SpecializationonPlasmaMinerals">
+        <NodeArray index="Show" Link="AndNotCountBehaviorSpecializationOnMinerals4QueuedOrBetterAtUnitNotCountBehaviorSpecializationOnMinerals2QueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="SpecializationonRedMinerals">
+        <NodeArray index="Show" Link="AndNotCountBehaviorSpecializationOnMinerals4QueuedOrBetterAtUnitNotCountBehaviorSpecializationOnMinerals3QueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="NoSpecializationOnMinerals">
+        <NodeArray index="Show" Link="AndNotCountBehaviorSpecializationOnMinerals4QueuedOrBetterAtUnitOrCountBehaviorSpecializationOnMinerals0QueuedOrBetterAtUnitCountBehaviorSpecializationOnMinerals1QueuedOrBetterAtUnitCountBehaviorSpeci2027049662"/>
+    </CRequirement>
+    <CRequirement id="SpecializationonALLMinerals">
+        <NodeArray index="Use" Link="CountUpgradeEconomyMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="AndNotCountBehaviorSpecializationOnMinerals4QueuedOrBetterAtUnitCountUpgradeEconomyroleQueuedOrBetterCountUpgradeIsnightshiftQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="ThunderTower">
+        <NodeArray index="Use" Link="AndCountUpgradeThunderTowerCompleteOnly1055427853CountUnitNexus222CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="PenetratingRoundAoEarea">
+        <NodeArray index="Use" Link="NotCountUpgradeModernAmunitionCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeModernAmunitionQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="QuantumDiamondStorm">
+        <NodeArray index="Use" Link="NotCountUpgradeQuantumDiamondStormCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeQuantumDiamondStormQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="3DetectorTowers">
+        <NodeArray index="Show" Link="CountUpgradeDetectionSuppliesCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="EngineeringBay">
+        <NodeArray index="Use" Link="AndLT1706362673CountUnitEngineeringBay2QueuedOrBetter1CountUnitNexus222CompleteOnlyTechTreeCheatNot991970187CountUpgradeHardcoreQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="VersusGameMode">
+        <NodeArray index="Use" Link="CountUpgradeVersusGameModeQueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeVersusGameModeQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallCannonMastery6">
+        <NodeArray index="Use" Link="CountUpgradeDualMasteryWallCannonQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HealGenMastery6">
+        <NodeArray index="Use" Link="CountUpgradeDummyDualMasteryHealGenQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallRoleshowpassiveCoreInside">
+        <NodeArray index="Show" Link="AndCountUpgradeWallroleQueuedOrBetterNotEqCountUpgradeCoreInsidedummyshowpassiveQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="GeneratorRoleshowpassiveCoreInside">
+        <NodeArray index="Show" Link="AndCountUpgradeGeneratorroleQueuedOrBetterNotEqCountUpgradeCoreInsidedummyshowpassiveQueuedOrBetter1"/>
+    </CRequirement>
+    <CRequirement id="EliteDifficulty">
+        <NodeArray index="Use" Link="CountUpgradeEliteDifficultyQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="EliteDifficultyOrHigher">
+        <NodeArray index="Use" Link="OrCountUpgradeEliteDifficultyQueuedOrBetterCountUpgradeHellDifficultyQueuedOrBetterCountUpgradeNightmareDifficultyQueuedOrBetterCountUpgradeImpossibleDifficultyQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HellDifficulty">
+        <NodeArray index="Use" Link="CountUpgradeHellDifficultyQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Max5Greatestcoresperteam"/>
+    <CRequirement id="NightmareDifficulty">
+        <NodeArray index="Use" Link="CountUpgradeNightmareDifficultyCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="Nomodifications">
+        <NodeArray index="Show" Link="AndNotCountBehaviorBlueHarvesterQueuedOrBetterAtUnitNotCountBehaviorRedHarvesterQueuedOrBetterAtUnitNotCountBehaviorPlasmaHarvesterQueuedOrBetterAtUnitNotCountBehaviorVespeneHarvesterQueuedOrBetterAtUnit"/>
+    </CRequirement>
+    <CRequirement id="NotCannonMastery5">
+        <NodeArray index="Use" Link="NotCountUpgradeCannonMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="NotCountUpgradeCannonMastery5QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="CannonMastery4showabilities">
+        <NodeArray index="Show" Link="AndCountUpgradeCannonMastery4QueuedOrBetterCountUpgradeCannonroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NotnightshiftTier1Max1refinery">
+        <NodeArray index="Use" Link="AndCountUnitAlias_BaseCompleteOnly1043151301TechTreeCheatEq4185537261CountUnitAutomatedRefineryQueuedOrBetter0"/>
+        <NodeArray index="Show" Link="CountUpgradeIsnotnightshiftQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NukeNuclearTier2">
+        <NodeArray index="Show" Link="CountUnitAlias_Base2CompleteOnly3404111029TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="NukeNuclearTier22">
+        <NodeArray index="Show" Link="CountUnitAlias_Base3CompleteOnly3045992029TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="NukeNuclearTier23">
+        <NodeArray index="Show" Link="CountUnitNexus222CompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="NukeStation">
+        <NodeArray index="Use" Link="AndCountUnitAlias_BaseCompleteOnly1043151301TechTreeCheatEq674612113CountUnitGhostAcademyQueuedOrBetter0Not991970187CountUpgradeHardcoreQueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeCannonroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="OverloadEnergyNovaautocast">
+        <NodeArray index="Show" Link="CountUpgradeCannonMastery2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="CannonMastery3">
+        <NodeArray index="Use" Link="CountUpgradeCannonMastery3QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeCannonroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="CannonMastery4">
+        <NodeArray index="Use" Link="CountUpgradeCannonMastery4QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeCannonroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="CannonMastery5">
+        <NodeArray index="Use" Link="CountUpgradeCannonMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeCannonroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="EconomyMastery2">
+        <NodeArray index="Use" Link="CountUpgradeEconomyMastery2QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeEconomyroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="EconomyMastery3">
+        <NodeArray index="Use" Link="CountUpgradeEconomyMastery3QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeEconomyroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="EconomyMastery4">
+        <NodeArray index="Use" Link="CountUpgradeEconomyMastery4QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeEconomyroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="EconomyMastery5">
+        <NodeArray index="Use" Link="CountUpgradeEconomyMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeEconomyroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="GeneratorMastery1">
+        <NodeArray index="Use" Link="CountUpgradeGeneratorMastery1QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeGeneratorroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Cannonrole">
+        <NodeArray index="Show" Link="AndCountUpgradeCannonroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Economyrole">
+        <NodeArray index="Show" Link="CountUpgradeEconomyroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="GeneratorMastery2">
+        <NodeArray index="Use" Link="CountUpgradeGeneratorMastery2QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeGeneratorroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="GeneratorMastery3">
+        <NodeArray index="Use" Link="CountUpgradeGeneratorMastery3QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeGeneratorroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="GeneratorMastery4">
+        <NodeArray index="Use" Link="CountUpgradeGeneratorMastery4QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeGeneratorroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="GeneratorMastery5">
+        <NodeArray index="Use" Link="CountUpgradeGeneratorMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeGeneratorroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="EconomyMastery1">
+        <NodeArray index="Use" Link="CountUpgradeEconomyMastery1QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeEconomyroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Generatorrole">
+        <NodeArray index="Show" Link="CountUpgradeGeneratorroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HaveHideSpecialEffects">
+        <EditorCategories value="Race:Protoss"/>
+        <NodeArray index="Use" Link="CountUpgradeShowHideSpecialEffectsCompleteOnlyTechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="HaveOrbitalRelay">
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="HealerMastery2">
+        <NodeArray index="Use" Link="CountUpgradeHealerMastery2QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeHealerroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HealerMastery3">
+        <NodeArray index="Use" Link="CountUpgradeHealerMastery3QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeHealerroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HealerMastery14">
+        <NodeArray index="Use" Link="CountUpgradeHealerMastery4QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeHealerroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HealerMastery15">
+        <NodeArray index="Use" Link="CountUpgradeHealerMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeHealerroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Healerrole">
+        <NodeArray index="Show" Link="CountUpgradeHealerroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HideEffectsGlobal">
+        <EditorCategories value="Race:Protoss"/>
+        <NodeArray index="Show" Link="EqCountUpgradeHideEffectsGlobalQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="HideSpecialEffects">
+        <EditorCategories value="Race:Protoss"/>
+        <NodeArray index="Show" Link="AndEqCountUpgradeShowHideSpecialEffectsQueuedOrBetter1EqCountUpgradeHideEffectsGlobalQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="Immo99upgrade">
+        <EditorCategories value="TechType:Unit"/>
+        <NodeArray index="Show" Link="LTCountUpgradeImproveAttackrange1CompleteOnly99"/>
+    </CRequirement>
+    <CRequirement id="Artifact50upgrade">
+        <EditorCategories value="TechType:Unit"/>
+        <NodeArray index="Show" Link="LTCountUpgradeImproveyourArtifactCompleteOnly50"/>
+    </CRequirement>
+    <CRequirement id="LearnHunterSeekerMissiles">
+        <NodeArray index="Use" Link=""/>
+        <NodeArray index="Show" Link=""/>
+    </CRequirement>
+    <CRequirement id="LearnHunterSeekerMissiles2">
+        <EditorCategories value="Race:Terran"/>
+    </CRequirement>
+    <CRequirement id="LearnHunterSeekerMissiles22">
+        <EditorCategories value="Race:Terran"/>
+    </CRequirement>
+    <CRequirement id="LimitCannonsresourcesusers">
+        <EditorCategories value="TechType:Unit"/>
+        <NodeArray index="Show" Link="LTCountUpgradeImprovethesiegecannonsCompleteOnly100"/>
+    </CRequirement>
+    <CRequirement id="MothershipRequirements">
+        <NodeArray index="Use" Link="AndCountUnitNexus222CompleteOnlyTechTreeCheatEq2739550636CountUnitImmortalQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="BoughtOdin" parent="MothershipRequirements">
+        <NodeArray index="Use" Link="AndCountUnitNexus222CompleteOnlyTechTreeCheatEq3100884996CountUnitOdinQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="MothershipRequirements2">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="AndCountUnitNexus222CompleteOnlyTechTreeCheatEq2514628496CountUnitImmortalQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="BoughtColossus">
+        <EditorCategories value="Race:Protoss,TechType:Unit"/>
+        <NodeArray index="Use" Link="AndCountUnitNexus222CompleteOnlyTechTreeCheatEq2739550636CountUnitColossusQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="Bought5IMMORTALS" parent="MothershipRequirements">
+        <NodeArray index="Use" Link="AndCountUnitNexus222CompleteOnlyTechTreeCheatLT3132145757CountUnitImmortalQueuedOrBetter5"/>
+        <NodeArray index="Show" Link="CountUpgradeSandBoxGameModedummyQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="BoughtARES" parent="MothershipRequirements">
+        <NodeArray index="Use" Link="AndCountUnitNexus222CompleteOnlyTechTreeCheatEq3784508554CountUnitWarbotQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="NightshiftTier1">
+        <NodeArray index="Use" Link="CountUnitAlias_BaseCompleteOnly1043151301TechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeIsnightshiftQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="NotnightshiftTier1">
+        <NodeArray index="Use" Link="CountUnitAlias_BaseCompleteOnly1043151301TechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeIsnotnightshiftQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Notnightshift">
+        <NodeArray index="Show" Link="CountUpgradeIsnotnightshiftQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSparkCompleteOnlyTechTreeCheat99"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark2">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark3CompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark22">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark22CompleteOnlyTechTreeCheat99"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark222">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark2CompleteOnly15"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark23">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark332CompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark232">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark333CompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark2322">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark3323CompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark24">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark33CompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark25">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark3322CompleteOnly1"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark252">
+        <NodeArray index="Show" Link="LTCountAbilLifeUpCompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark3">
+        <NodeArray index="Show" Link="LTCountUpgradeProtossGroundArmorsLevel3CompleteOnlyTechTreeCheat100"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark32">
+        <NodeArray index="Show" Link="LTCountUpgradeProtossShieldsLevel2CompleteOnlyTechTreeCheat100"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark322">
+        <NodeArray index="Show" Link="LTCountUpgradeProtossShieldsLevel3CompleteOnlyTechTreeCheat50"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark323">
+        <NodeArray index="Show" Link="LTCountUpgradeCannonquantumimprovedCompleteOnlyTechTreeCheat10"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark3232">
+        <NodeArray index="Show" Link="LTCountUpgradeProtossShieldsLevel1CompleteOnlyTechTreeCheat1"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark324">
+        <NodeArray index="Show" Link="LTCountUpgradeProtossGroundArmorsLevel1CompleteOnly99"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark325">
+        <NodeArray index="Show" Link="LTCountUpgradeProtossGroundWeaponsLevel2CompleteOnlyTechTreeCheat99"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkPlasma">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark443CompleteOnlyTechTreeCheat5"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkRed">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark423CompleteOnlyTechTreeCheat5"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkAll">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark5CompleteOnlyTechTreeCheat5"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkVespene">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark433CompleteOnlyTechTreeCheat5"/>
+    </CRequirement>
+    <CRequirement id="PrerequisBeams">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark22CompleteOnly40"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkBLUE">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark48CompleteOnlyTechTreeCheat5"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkVESPEN">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark43CompleteOnlyTechTreeCheat8"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkRED">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark42CompleteOnlyTechTreeCheat8"/>
+    </CRequirement>
+    <CRequirement id="PiercingSpark326">
+        <NodeArray index="Show" Link="LTCountUpgradeProtossGroundWeaponsLevel3CompleteOnlyTechTreeCheat50"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkBLUE2">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark4CompleteOnlyTechTreeCheat8"/>
+    </CRequirement>
+    <CRequirement id="PiercingSparkPlasma2">
+        <NodeArray index="Show" Link="LTCountUpgradePiercingSpark44CompleteOnlyTechTreeCheat8"/>
+    </CRequirement>
+    <CRequirement id="RelicXelNaga">
+        <NodeArray index="Use" Link="EqCountUpgradePiercingSpark222CompleteOnly1"/>
+    </CRequirement>
+    <CRequirement id="Tier1">
+        <EditorCategories value="TechType:Unit"/>
+        <NodeArray index="Use" Link="OrCountUnitAlias_BaseCompleteOnly1043151301TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="Tier12">
+        <EditorCategories value="TechType:Unit"/>
+        <NodeArray index="Use" Link="OrCountUnitAlias_Base2CompleteOnly4242937238TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="Tier122">
+        <EditorCategories value="TechType:Unit"/>
+        <NodeArray index="Use" Link="OrCountUnitAlias_Base3CompleteOnly192301488TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="Odin99upgrade">
+        <EditorCategories value="TechType:Unit"/>
+        <NodeArray index="Show" Link="LTCountUpgradeImprovethecannonsofOdinCompleteOnly99"/>
+    </CRequirement>
+    <CRequirement id="Tier1222">
+        <EditorCategories value="TechType:Unit"/>
+        <NodeArray index="Use" Link="CountUnitNexus222CompleteOnly220570152TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="ShowSpecialEffects">
+        <EditorCategories value="Race:Protoss"/>
+        <NodeArray index="Show" Link="AndEqCountUpgradeShowHideSpecialEffectsQueuedOrBetter0EqCountUpgradeHideEffectsGlobalQueuedOrBetter0"/>
+    </CRequirement>
+    <CRequirement id="TowerAuraFinal">
+        <NodeArray index="Use" Link="AndCountUpgradeEconomyMastery2QueuedOrBetter677159492CountUnitNexus222CompleteOnly220570152TechTreeCheat"/>
+        <NodeArray index="Show" Link="CountUpgradeEconomyroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Trademenu">
+        <NodeArray index="Use" Link="CountUpgradeEconomyroleQueuedOrBetter"/>
+        <NodeArray index="Show" Link="OrCountUpgradeCannonroleQueuedOrBetterCountUpgradeEconomyroleQueuedOrBetterCountUpgradeGeneratorroleQueuedOrBetterCountUpgradeHealerroleQueuedOrBetterCountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="UseCharge">
+        <NodeArray index="Use" Link="CountUnitZealotCompleteOnly741246168TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="UseSiegeMode">
+        <NodeArray index="Use" Link="CountUnitProbeCompleteOnly1543571089TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="UseWarpGate">
+        <NodeArray index="Use" Link="CountUnitProbeCompleteOnly1267823580TechTreeCheat"/>
+    </CRequirement>
+    <CRequirement id="CannonMastery1">
+        <NodeArray index="Use" Link="CountUpgradeCannonMastery1QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeCannonroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallMastery22">
+        <NodeArray index="Use" Link="CountUpgradeWallMastery2QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeWallMastery2QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallMastery5showability">
+        <NodeArray index="Use" Link="CountUpgradeWallMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeWallMastery5QueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallorCannonrole">
+        <NodeArray index="Show" Link="OrCountUpgradeCannonroleQueuedOrBetterCountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallorCannonroleTier4">
+        <NodeArray index="Use" Link="CountUnitNexus222CompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeCannonroleInProgressOrBetterCountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="CannonorGeneratorroleTier4">
+        <NodeArray index="Use" Link="CountUnitNexus222CompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeCannonroleInProgressOrBetterCountUpgradeGeneratorroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallroleTier4">
+        <NodeArray index="Use" Link="CountUnitNexus222CompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Wallrole">
+        <NodeArray index="Show" Link="CountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="CannonroleTier4">
+        <NodeArray index="Use" Link="CountUnitNexus222CompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeCannonroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="GeneratorroleTier4">
+        <NodeArray index="Use" Link="CountUnitNexus222CompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeGeneratorroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HealerroleTier4">
+        <NodeArray index="Use" Link="CountUnitNexus222CompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeHealerroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="EconomyRoleTier4">
+        <NodeArray index="Use" Link="CountUnitNexus222CompleteOnlyTechTreeCheat"/>
+        <NodeArray index="Show" Link="OrCountUpgradeEconomyroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallMastery1">
+        <NodeArray index="Use" Link="CountUpgradeWallMastery1QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallMastery2">
+        <NodeArray index="Use" Link="CountUpgradeWallMastery2QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallMastery3">
+        <NodeArray index="Use" Link="CountUpgradeWallMastery3QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallMastery4">
+        <NodeArray index="Use" Link="CountUpgradeWallMastery4QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WallMastery5">
+        <NodeArray index="Use" Link="CountUpgradeWallMastery5QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeWallroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="HealerMastery1">
+        <NodeArray index="Use" Link="CountUpgradeHealerMastery1QueuedOrBetter"/>
+        <NodeArray index="Show" Link="CountUpgradeHealerroleQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="WeaknessDuration">
+        <NodeArray index="Use" Link="NotCountUpgradeWeaknessDurationCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeWeaknessDurationQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="Suppressioneffect">
+        <NodeArray index="Use" Link="NotCountUpgradeSuppressioneffectCompleteOnly"/>
+        <NodeArray index="Show" Link="NotCountUpgradeSuppressioneffectQueuedOrBetter"/>
+    </CRequirement>
+</Catalog>

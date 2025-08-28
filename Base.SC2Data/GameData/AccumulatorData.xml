@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAccumulatorVitals id="AlienIncubationDamage">
+        <Ratio value="0.2"/>
+        <ModificationType value="PerUnitMaxVital"/>
+    </CAccumulatorVitals>
+    <CAccumulatorConstant id="BonusEnergyRate">
+        <ApplicationRule value="Multiply"/>
+        <Amount value="1"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant0add"/>
+    <CAccumulatorConstant id="Constant12Add">
+        <Amount value="12"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant10Add">
+        <Amount value="10"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant2Multiply">
+        <ApplicationRule value="Multiply"/>
+        <Amount value="2"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant24">
+        <Amount value="24"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant1Add">
+        <Amount value="1"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant1Multiply">
+        <ApplicationRule value="Multiply"/>
+        <Amount value="1"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant2">
+        <Amount value="2"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant20">
+        <Amount value="20"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant3">
+        <Amount value="3"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant4">
+        <Amount value="4"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant5">
+        <Amount value="5"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant6">
+        <Amount value="6"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant7">
+        <Amount value="7"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant8">
+        <Amount value="8"/>
+    </CAccumulatorConstant>
+    <CAccumulatorBehavior id="CountBehaviorT5Greatest">
+        <Behavior value="GreatestCoreT5"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorBehavior id="CountBehaviorT5Blue">
+        <Behavior value="BlueCoreT5"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorBehavior id="CountBehaviorT5Green">
+        <Behavior value="GreenCoreT5"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorBehavior id="CountBehaviorT5Purple">
+        <Behavior value="PurpleCoreT5"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorBehavior id="CountBehaviorT5Red">
+        <Behavior value="RedCoreT5"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="CountCurrentIncomeBlue">
+        <Parameters value="0">
+            <AccumulatorArray value="CountBehaviorT5Blue"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="Upgrade4000coreConstant"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="CountCurrentIncomeRed">
+        <Parameters value="0">
+            <AccumulatorArray value="CountBehaviorT5Red"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="Upgrade4000coreConstant"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="CountCurrentIncomePurple">
+        <Parameters value="0">
+            <AccumulatorArray value="CountBehaviorT5Purple"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="Upgrade4000coreConstant"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="CountCurrentIncomeGreen">
+        <Parameters value="0">
+            <AccumulatorArray value="CountBehaviorT5Green"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="Upgrade4000coreConstant"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorConstant id="EnergyField">
+        <ApplicationRule value="Multiply"/>
+        <Amount value="1"/>
+    </CAccumulatorConstant>
+    <CAccumulatorSwitch id="Generator20Targets">
+        <CaseArray Validator="GeneratorrolePlayerrequirement" Accumulator="Constant20"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorSwitch id="GeneratorMastery3">
+        <ApplicationRule value="Multiply"/>
+        <CaseArray Validator="GeneratorMastery3PlayerRequirement" Accumulator="Generators25"/>
+        <CaseDefault value="Constant1Multiply"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorConstant id="GeneratorRoleUpgradesConstantMultiply">
+        <ApplicationRule value="Multiply"/>
+        <Amount value="1"/>
+    </CAccumulatorConstant>
+    <CAccumulatorSwitch id="GeneratorTiertargets">
+        <CaseArray Validator="Gen1" Accumulator="Constant3"/>
+        <CaseArray Validator="Gen12" Accumulator="Constant4"/>
+        <CaseArray Validator="Gen13" Accumulator="Constant5"/>
+        <CaseArray Validator="Gen14" Accumulator="Constant6"/>
+        <CaseArray Validator="Gen15" Accumulator="Constant7"/>
+        <CaseArray Validator="Gen152" Accumulator="Constant8"/>
+        <CaseArray Validator="GeneratorrolePlayerrequirement" Accumulator="Constant20"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorConstant id="Generators25">
+        <ApplicationRule value="Multiply"/>
+        <Amount value="1.25"/>
+    </CAccumulatorConstant>
+    <CAccumulatorSwitch id="25EnergyCost">
+        <ApplicationRule value="Multiply"/>
+        <CaseArray Validator="HasHealerMastery5" Accumulator="Healers25EnergyCost"/>
+        <CaseDefault value="Constant1Multiply"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorSwitch id="Generatorunlimitedtargets">
+        <CaseArray Validator="GeneratorrolePlayerrequirement" Accumulator="Constant20"/>
+        <CaseDefault value="GeneratorTiertargets"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorSwitch id="HasMastery2">
+        <CaseArray Validator="HasCannonMastery2" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasWallMastery2" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasEconomyMastery2" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasHealerMastery2" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasGeneratorMastery2" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasMercenaryMastery2" Accumulator="Constant1Add"/>
+        <CaseDefault value="Constant0add"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorSwitch id="HasMastery22">
+        <CaseArray Validator="HasWallMastery3" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasCannonMastery3" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasEconomyMastery3" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasHealerMastery3" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasGeneratorMastery3" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasMercenaryMastery3" Accumulator="Constant1Add"/>
+        <CaseDefault value="Constant0add"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorSwitch id="HasMastery23">
+        <CaseArray Validator="HasWallMastery4" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasCannonMastery4" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasEconomyMastery4" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasHealerMastery4" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasGeneratorMastery4" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasMercenaryMastery4" Accumulator="Constant1Add"/>
+        <CaseDefault value="Constant0add"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorSwitch id="HasMastery24">
+        <CaseArray Validator="HasWallMastery5" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasCannonMastery5" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasEconomyMastery5" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasGeneratorMastery5" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasHealerMastery5" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasMercenaryMastery5" Accumulator="Constant1Add"/>
+        <CaseDefault value="Constant0add"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorSwitch id="HasMastery242">
+        <CaseArray Validator="HasDualMasteryWallCannons" Accumulator="Constant1Add"/>
+        <CaseArray Validator="HasDualMasteryHealGen" Accumulator="Constant1Add"/>
+        <CaseDefault value="Constant0add"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorArithmetic id="HasMasteryArithmetic">
+        <Parameters value="1">
+            <AccumulatorArray value="HasMastery2"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="HasMastery22"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="HasMastery23"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="HasMastery24"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="HasMastery242"/>
+        </Parameters>
+    </CAccumulatorArithmetic>
+    <CAccumulatorConstant id="Healers25EnergyCost">
+        <ApplicationRule value="Multiply"/>
+        <Amount value="0.83"/>
+    </CAccumulatorConstant>
+    <CAccumulatorArithmetic id="HealersDrainEnergyRate">
+        <ApplicationRule value="Multiply"/>
+        <Parameters value="1">
+            <AccumulatorArray value="Constant0add"/>
+        </Parameters>
+        <Parameters value="1">
+            <AccumulatorArray value="HealersBonusHealRate"/>
+        </Parameters>
+        <Operation value="Divide"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorConstant id="HealersBonusHealRate">
+        <ApplicationRule value="Multiply"/>
+        <Amount value="1"/>
+    </CAccumulatorConstant>
+    <CAccumulatorArithmetic id="HellStormMissilesDamage">
+        <Parameters value="0">
+            <AccumulatorArray value="Constant1Add"/>
+        </Parameters>
+        <Parameters value="8"/>
+        <Operation value="Divide"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorVeterancyLevel id="JunkDogsVeterancyThornsDamage">
+        <Amount value="0"/>
+        <Amount value="0.05"/>
+        <Amount value="0.1"/>
+        <Amount value="0.15"/>
+        <Amount value="0.2"/>
+        <Amount value="0.25"/>
+        <Amount value="0.3"/>
+        <Amount value="0.35"/>
+        <Amount value="0.4"/>
+        <Amount value="0.45"/>
+        <Amount value="0.5"/>
+        <Amount value="0.55"/>
+        <Amount value="0.6"/>
+        <Amount value="0.65"/>
+        <Amount value="0.7"/>
+        <Amount value="0.75"/>
+        <Amount value="0.8"/>
+        <Amount value="0.85"/>
+        <Amount value="0.9"/>
+        <Amount value="0.95"/>
+        <Amount value="1"/>
+        <BonusPerLevel value="0.05"/>
+    </CAccumulatorVeterancyLevel>
+    <CAccumulatorConstant id="OxygenReplenish">
+        <Amount value="1"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="OxygenOversaturationReplenish">
+        <Amount value="0.5"/>
+    </CAccumulatorConstant>
+    <CAccumulatorVeterancyLevel id="PenetratorSnipeDamage">
+        <LevelFactor value="7500"/>
+    </CAccumulatorVeterancyLevel>
+    <CAccumulatorVitals id="QuickReparationGetUnitCurrentHp"/>
+    <CAccumulatorSwitch id="TrueArchonDuration">
+        <CaseArray Validator="HasDestroyerPrestige" Accumulator="Constant2Multiply"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorConstant id="Upgrade3000coreConstant">
+        <Amount value="3000"/>
+    </CAccumulatorConstant>
+    <CAccumulatorArithmetic id="CountCurrentIncomeGreatest">
+        <Parameters value="0">
+            <AccumulatorArray value="CountBehaviorT5Greatest"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="Upgrade2000coreConstant"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorConstant id="Upgrade2000coreConstant">
+        <Amount value="2000"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Upgrade4000coreConstant">
+        <Amount value="4000"/>
+    </CAccumulatorConstant>
+</Catalog>

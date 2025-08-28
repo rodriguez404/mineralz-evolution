@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlacedObjects Version="27">
+    <ObjectDoodad Id="27" Variation="7" Position="55.0153,80.767,10.9658" Rotation="3.5146" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="16" Position="79.5798,81.95,12.5046" Rotation="5.6486" Scale="2,2,2" Type="FogGrey">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="55" Variation="5" Position="81.22,114.8398,2.9343" Rotation="4.081" Scale="1.2,1.2,1.2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="60" Variation="26" Position="61.06,95.405,10.9645" Rotation="6.1242" Scale="1.0761,1.0761,1.0761" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="87" Variation="3" Position="101.5075,67.6103,10.8674" Rotation="0.864" Scale="2,2,2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="18" Variation="1" Position="72.14,109.42,0.7441" Rotation="0.2385" Scale="0.9892,0.9892,0.9892" Type="RockVolcanicGiant" TintColor="255,0,255 3.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="25" Position="84.2614,57.1618,0.928" Rotation="4.0334" Scale="0.9821,0.9821,0.9821" Type="RockVolcanicGiant" TintColor="255,128,0">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="62" Variation="16" Position="62.0998,96.5197,10.9758" Rotation="1.107" Scale="1.0761,1.0761,1.0761" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="53" Variation="5" Position="77.551,115.4252,2.7607" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="37" Variation="17" Position="68.2138,68.942,10.9841" Rotation="4.501" Scale="2,2,2" Type="PlantsAlien" TintColor="0,222,0">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="46" Variation="7" Position="94.8354,73.973,10.9548" Rotation="3.515" Scale="2,2,2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="78" Variation="3" Position="108.4536,91.4287,10.9306" Rotation="3.9553" Scale="1.2,1.2,1.2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="69" Position="78.848,120.1765,2.2802" Rotation="0.3586" Scale="1.2,1.2,1.2" Type="RockVolcanicGiant" TintColor="255,255,0">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="9" Variation="1" Position="76.6525,68.3203,10.968" Rotation="5.562" Scale="0.9514,0.9514,0.9514" Type="CharBonesCliff">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="2" Variation="2" Position="78.5,104.5,10.934" Rotation="2.3774" Scale="1.2,1.2,1.2" Type="AiurTree">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="71" Position="76.484,102.6381,10.9243" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="76" Variation="3" Position="65.2692,74.0661,10.9707" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="44" Variation="22" Position="80.1208,113.48,3.156" Rotation="5.4372" Scale="2,2,2" Type="PlantsAlien" TintColor="0,255,0 4.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="39" Variation="5" Position="79.4787,53.7912,0.9941" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="11" Variation="1" Position="84,66,10.9267" Rotation="5.8005" Scale="1.0776,1.0776,1.0776" Type="XilFossils" TintColor="255,128,128">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="75" Variation="3" Position="59.728,92.251,10.9753" Rotation="3.9553" Scale="1.2,1.2,1.2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="64" Variation="26" Position="84.768,101.9011,10.9016" Rotation="6.124" Scale="1.0761,1.0761,1.0761" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="43" Variation="24" Position="78.828,113.4973,2.9333" Rotation="1.672" Scale="1.2,1.2,1.2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="12" Position="72,71,10.9645" Rotation="2.9272" Scale="1.5,1.5,1.5" Type="XilFossils">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="7" Position="90.5,82.5,10.9611" Rotation="1.8151" Scale="2,2,1" Type="RedstoneFlameGeyser">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="41" Variation="12" Position="90.9433,100.5688,10.913" Rotation="2.6928" Scale="1.08,1.08,1.08" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="66" Position="58.0512,72.0771,10.9746" Rotation="0.8642" Scale="2,2,2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="73" Variation="1" Position="60.81,79.048,10.965" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="5" Position="79.67,116.3198,2.8728" Rotation="2.7104" Scale="5,5,5" Type="AiurTree">
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="14" Variation="3" Position="64.2697,105,1.0966" Rotation="0.3801" Scale="0.8532,0.8532,0.8532" Type="RockVolcanicGiant" TintColor="255,255,0 4.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="21" Variation="3" Position="102.5798,73.9,0.9157" Rotation="0.3134" Scale="0.9313,0.9313,0.9313" Type="RockVolcanicGiant" TintColor="255,0,128">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="50" Variation="2" Position="51.9643,94.0522,10.7941" Rotation="0.8642" Scale="2,2,2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="57" Variation="9" Position="77.791,117.1215,3.0307" Rotation="6.1242" Scale="2,2,2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="23" Variation="5" Position="45.9187,93.3427,0.849" Rotation="1.5903" Scale="1.0502,1.0502,1.0502" Type="RockVolcanicGiant">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="59" Variation="8" Position="65.4731,97.9101,10.964" Rotation="6.1242" Scale="1.0761,1.0761,1.0761" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="48" Variation="18" Position="92.93,70.0898,10.9853" Rotation="0.824" Scale="1.1481,1.1481,1.1481" Type="PlantsAlien" TintColor="0,255,0 2.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="80" Variation="3" Position="104.9736,82.5944,10.9111" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="6" Variation="2" Position="70.5,87.5,10.9614" Rotation="0.9504" Scale="2,2,2" Type="TTosh01FlameGeyser">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="13" Variation="4" Position="91.5998,106.23,0.9135" Rotation="5.6083" Scale="1.0534,1.0534,1.0534" Type="RockVolcanicGiant" TintColor="0,255,255 3.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="65" Variation="7" Position="67.1132,70.7263,10.975" Rotation="3.515" Scale="2,2,2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="74" Position="83.7697,102.2697,10.9201" Rotation="0.4824" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="42" Variation="9" Position="67.2375,99.9118,10.9704" Rotation="6.1245" Scale="1.0761,1.0761,1.0761" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="33" Variation="1" Position="103.4362,111.9575,10.9204" Rotation="0.8637" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="15" Variation="4" Position="62.99,65.0097,0.971" Rotation="0.8991" Scale="1.5,1.5,1.5" Type="RockVolcanicGiant" TintColor="255,0,255">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="35" Variation="3" Position="71.7727,67.7075,10.9833" Rotation="0.8642" Scale="2,2,2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="40" Variation="10" Position="93.0644,99.5275,10.8066" Rotation="1.3916" Scale="1.0214,1.0214,1.0214" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="72" Position="57.7314,90.102,10.974" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="67" Variation="3" Position="95.0068,76.526,10.9697" Rotation="3.9555" Scale="1.2,1.2,1.2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="83" Variation="3" Position="98.0087,104.042,10.6191" Rotation="5.7426" Scale="2,2,2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="56" Variation="9" Position="82.4006,115.2321,2.7595" Rotation="2.6516" Scale="2,2,2" Type="PlantsAlien" TintColor="255,255,0 4.000000">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="51" Variation="1" Position="89.2902,68.9907,10.951" Rotation="0.8642" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="20" Variation="1" Position="71.5712,59.2304,0.5881" Rotation="1.5583" Scale="1.1352,1.1352,1.1352" Type="RockVolcanicGiant">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="49" Position="91.9782,99.844,10.9016" Rotation="0.8642" Scale="1.2,1.2,1.2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="58" Variation="10" Position="81.0698,115.24,2.9433" Rotation="6.1242" Scale="1.4,1.4,1.4" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="90" Variation="1" Position="83.3505,73.5217,10.9614" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightOffset" Value="1"/>
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="81" Variation="1" Position="76,66,10.9172" Rotation="3.0058" Scale="1.0773,1.0773,1.0773" Type="XilFossils" TintColor="255,128,128">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="22" Variation="5" Position="107.7487,82.294,0.9157" Rotation="4.4067" Scale="1.039,1.039,1.039" Type="RockVolcanicGiant">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="61" Variation="24" Position="76.3598,115.44,2.6391" Rotation="6.1242" Scale="1.2,1.2,1.2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="54" Variation="5" Position="81.5336,117.6953,2.6074" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="17" Variation="3" Position="96.5844,67.513,0.7033" Rotation="5.8955" Scale="0.7998,0.7998,0.7998" Type="RockVolcanicGiant">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="26" Position="79,55,0.8405" Rotation="3.9267" Scale="1,1,1" Type="CastanarStasisTubeLarge">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="84" Position="108.342,107.8281,10.9072" Rotation="0.4824" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="52" Variation="5" Position="76.9443,116.3098,2.8837" Rotation="0.8642" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="63" Variation="16" Position="75.5498,102.25,10.917" Rotation="4.2158" Scale="1.0761,1.0761,1.0761" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="24" Variation="4" Position="58.0197,96.5998,0.9165" Rotation="0.1323" Scale="0.8747,0.8747,0.8747" Type="RockVolcanicGiant" TintColor="0,222,255">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="19" Position="87.7336,110.2888,0.9116" Rotation="0.96" Scale="0.9316,0.9316,0.9316" Type="RockVolcanicGiant">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="8" Variation="1" Position="80.5,73.5,10.9614" Rotation="0.1242" Scale="1,1,1" Type="CharBones">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="47" Variation="24" Position="92.4716,69.1503,10.9392" Rotation="0.8635" Scale="0.803,0.803,0.803" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="36" Variation="8" Position="68.7614,100.6435,10.9753" Rotation="0.3627" Scale="0.9978,0.9978,0.9978" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="68" Position="87,88,10.9516" Rotation="5.8706" Scale="1,1,1" Type="MammothFossils">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="79" Position="98.3244,95.3376,10.932" Rotation="0.864" Scale="1.2,1.2,1.2" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="10" Variation="4" Position="76.97,65.0197,10.9172" Rotation="3.9196" Scale="2,2,2" Type="MarSaraBones" TintColor="255,128,128">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="1" Variation="2" Position="81.5,104.5,10.9277" Rotation="0.2111" Scale="1.2,1.2,1.2" Type="AiurTree">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="77" Variation="3" Position="98.4392,78.991,10.9645" Rotation="0.864" Scale="1,1,1" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="70" Variation="1" Position="80,69,10.9645" Rotation="2.173" Scale="1.0688,1.0688,1.0688" Type="MammothFossils">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="38" Variation="15" Position="77.3574,103.7094,10.9128" Rotation="5.866" Scale="1.1386,1.1386,1.1386" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectDoodad Id="45" Variation="20" Position="82.4841,103.632,10.9345" Rotation="4.9775" Scale="1.0693,1.0693,1.0693" Type="PlantsAlien">
+        <Flag Index="HeightAbsolute" Value="1"/>
+    </ObjectDoodad>
+    <ObjectPoint Id="905639316" Position="126,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 018" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="1032761552" Position="61.2827,37.2404,0" Scale="1,1,1" Type="Normal" Name="BotRocksMid" Color="0,0,0,0"/>
+    <ObjectPoint Id="599094049" Position="96.617,18.8652,0" Scale="1,1,1" Type="Normal" Name="BotCrystal4" Color="0,0,0,0"/>
+    <ObjectPoint Id="632191312" Position="35,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 005" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="342348071" Position="105,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 015" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="292" Position="80.1657,78.759,0" Scale="1,1,1" Type="Normal" Name="Center" Color="0,0,0,0"/>
+    <ObjectPoint Id="129" Position="77.9106,82.083,0" Scale="1,1,1" Type="Normal" Name="pop gauche" Color="0,0,0,0"/>
+    <ObjectPoint Id="1312890540" Position="70,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 010" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="976542191" Position="119,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 017" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="62929871" Position="147,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 021" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="2086963035" Position="21,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 003" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="1133997368" Position="63,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 009" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="1323644574" Position="56,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 008" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="2112244027" Position="110.1098,40.67,0" Scale="1,1,1" Type="Normal" Name="SouthMineralStart2" Color="0,0,0,0"/>
+    <ObjectPoint Id="474538325" Position="80.5014,33.26,0" Scale="1,1,1" Type="Normal" Name="BotRocksRight" Color="0,0,0,0"/>
+    <ObjectPoint Id="1609853894" Position="111.381,48.0527,0" Scale="1,1,1" Type="Normal" Name="SouthMineralStart" Color="0,0,0,0"/>
+    <ObjectPoint Id="1877655436" Position="88.8234,27.269,0" Scale="1,1,1" Type="Normal" Name="BotCrystal1" Color="0,0,0,0"/>
+    <ObjectPoint Id="337075699" Position="84,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 012" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="2060900822" Position="133,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 019" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="1376119464" Position="154,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 022" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="1128750434" Position="96.6115,26.379,0" Scale="1,1,1" Type="Normal" Name="BotCrystal2" Color="0,0,0,0"/>
+    <ObjectPoint Id="2103405770" Position="28,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 004" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="128" Position="83.2934,82.2458,0" Scale="1,1,1" Type="Normal" Name="pop droite" Color="0,0,0,0"/>
+    <ObjectPoint Id="235340282" Position="42,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 006" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="888842988" Position="91,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 013" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="679018206" Position="98,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 014" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="1993218726" Position="14,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 002" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="1777419990" Position="49,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 007" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="1836848230" Position="77,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 011" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="553420024" Position="140,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 020" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="146600874" Position="7,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 001" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="278988110" Position="88.5346,18.346,0" Scale="1,1,1" Type="Normal" Name="BotCrystal3" Color="0,0,0,0"/>
+    <ObjectPoint Id="1484989884" Position="112,166,0" Scale="1,1,1" Type="NoFlyZone" Name="No Fly Zone 016" Color="0,0,0,0" PathingRadiusSoft="7.75" PathingRadiusHard="7.75"/>
+    <ObjectPoint Id="1949622102" Position="39.47,36.47,0" Scale="1,1,1" Type="Normal" Name="BotRocksLeft" Color="0,0,0,0"/>
+    <ObjectUnit Id="108252808" Position="138.9694,195.126,0" Rotation="2.0593" Scale="1,1,1" UnitType="StarShipAdunTeleportPadDoodad"/>
+    <ObjectUnit Id="1995158228" Position="98,41,0" Rotation="2.2832" Scale="1,1,1" UnitType="DestructibleRock4x42"/>
+    <ObjectUnit Id="1040530646" Variation="1" Position="96,40,0" Rotation="5.7358" Scale="1,1,1" UnitType="DestructibleRock4x422"/>
+    <ObjectUnit Id="346292544" Position="22.9436,192.8012,0" Rotation="3.5444" Scale="1,1,1" UnitType="StarShipAdunTeleportPadDoodad"/>
+    <ObjectUnit Id="755417269" Position="79.9262,105.1362,0" Rotation="4.66" Scale="1,1,1" UnitType="StarShipAdunTeleportPadDoodad"/>
+    <ObjectUnit Id="85" Variation="6" Position="82,102,0" Scale="1,1,1" UnitType="DestructibleRock4x422"/>
+    <ObjectUnit Id="1467738661" Position="83.8364,194.2021,0" Rotation="3.3845" Scale="1,1,1" UnitType="StarShipAdunTeleportPadDoodad"/>
+    <ObjectUnit Id="186713727" Position="116.226,195.1762,0" Rotation="5.615" Scale="1,1,1" UnitType="StarShipAdunTeleportPadDoodad"/>
+    <ObjectUnit Id="88" Position="74,87,0" Rotation="2.4086" Scale="1,1,1" UnitType="SporeCannon" Player="15"/>
+    <ObjectUnit Id="31" Variation="5" Position="78,102,0" Scale="1,1,1" UnitType="DestructibleRock4x422"/>
+    <ObjectUnit Id="648226963" Position="100,40,0" Rotation="5.3054" Scale="1,1,1" UnitType="DestructibleRock4x42"/>
+    <ObjectUnit Id="290" Position="80,82,0" Rotation="0.523" Scale="1,1,1" UnitType="NydusCanal" Player="15">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="29" Position="75.4958,71.8635,0" Rotation="6.1135" Scale="1,1,1" UnitType="KarakFemale"/>
+    <ObjectUnit Id="86" Variation="7" Position="84,101,0" Scale="1,1,1" UnitType="DestructibleRock4x422"/>
+    <ObjectUnit Id="32" Position="77.9375,64.5864,0" Rotation="5.2697" Scale="1,1,1" UnitType="CarrionBird"/>
+    <ObjectUnit Id="757137163" Position="98,39,0" Rotation="0.403" Scale="1,1,1" UnitType="DestructibleRock4x42"/>
+    <ObjectUnit Id="34" Position="79.6535,65.4033,0" Rotation="5.671" Scale="1,1,1" UnitType="CarrionBird"/>
+    <ObjectUnit Id="87436536" Position="96,38,0" Rotation="0.4028" Scale="1,1,1" UnitType="DestructibleRock4x42"/>
+    <ObjectUnit Id="30" Variation="7" Position="76,101,0" Scale="1,1,1" UnitType="DestructibleRock4x422"/>
+    <ObjectUnit Id="3" Position="32,84,0" Rotation="0.6872" Scale="1,1,1" UnitType="DestructibleRock4x422"/>
+    <ObjectUnit Id="82" Variation="1" Position="114,116,0" Rotation="5.6464" Scale="1,1,1" UnitType="DestructibleRock4x422"/>
+    <ObjectUnit Id="428134905" Position="20.9631,231.231,0" Rotation="0.5036" Scale="1,1,1" UnitType="StarShipAdunTeleportPadDoodad"/>
+    <ObjectUnit Id="28" Position="82.5847,70.9414,0" Rotation="1.776" Scale="1,1,1" UnitType="KarakMale"/>
+    <ObjectUnit Id="1508236137" Position="68.8256,239.0705,0" Rotation="0.326" Scale="1,1,1" UnitType="StarShipAdunTeleportPadDoodad"/>
+    <ObjectUnit Id="796566365" Position="100,42,0" Rotation="2.852" Scale="1,1,1" UnitType="DestructibleRock4x42"/>
+</PlacedObjects>

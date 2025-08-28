@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CGameUI id="Dflt">
+        <CustomLayoutFileArray value="StarCraft II\Map SC2\HideBottomConsole.SC2Layout"/>
+    </CGameUI>
+</Catalog>

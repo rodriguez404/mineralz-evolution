@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CValidatorPlayerRequirement id="1Player">
+        <Value value="1Players"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareBehaviorCount id="BehemothConcentrationUpperLimit">
+        <WhichUnit Value="Caster"/>
+        <Value value="20"/>
+        <Behavior value="BehemothConcentration"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="BehemothLifeLeechModifyLimitSet">
+        <Type value="And"/>
+        <CombineArray value="LifeNotFullOrShieldsNotFull"/>
+        <CombineArray value="BehemothLifeLeechisnotSupressed"/>
+        <CombineArray value="BehemothLifeLeechisnotSupressedArtifact"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="BehemothLifeLeechisnotSupressed">
+        <WhichUnit Value="Caster"/>
+        <Compare value="LT"/>
+        <Value value="1"/>
+        <Behavior value="PoisonShotDoT"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="BehemothLifeLeechisnotSupressedArtifact">
+        <WhichUnit Value="Caster"/>
+        <Compare value="LT"/>
+        <Value value="1"/>
+        <Behavior value="SuppresionAB"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareVital id="CasterEnergyGE0" parent="CasterEnergyLT170">
+        <Compare value="GE"/>
+        <Value value="0"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitType id="CasterisHealerT2">
+        <WhichUnit Value="Caster"/>
+        <Value value="FleetBeacon2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisHealerT3">
+        <WhichUnit Value="Caster"/>
+        <Value value="FleetBeacon22"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisHealerT4">
+        <WhichUnit Value="Caster"/>
+        <Value value="FleetBeacon222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisHealerT5">
+        <WhichUnit Value="Caster"/>
+        <Value value="FleetBeacon2222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisHealerT6">
+        <WhichUnit Value="Caster"/>
+        <Value value="FleetBeacon3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisHealerT1">
+        <WhichUnit Value="Caster"/>
+        <Value value="FleetBeacon"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="CasterisT2">
+        <CombineArray value="CasterisWallT2Drone"/>
+        <CombineArray value="CasterisFirebats2"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="CasterisT3">
+        <CombineArray value="CasterisWallT3Drone"/>
+        <CombineArray value="CasterisFirebats3"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="CasterisT4">
+        <CombineArray value="CasterisWallT4Drone"/>
+        <CombineArray value="CasterisFirebats4"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="CasterisT5">
+        <CombineArray value="CasterisWallT5Drone"/>
+        <CombineArray value="CasterisFirebats5"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="CasterisT6">
+        <CombineArray value="CasterisWallT6Drone"/>
+        <CombineArray value="CasterisFirebats6"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="CasterisWallT1Drone">
+        <WhichUnit Value="Caster"/>
+        <Value value="Pylon"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisWallT2Drone">
+        <WhichUnit Value="Caster"/>
+        <Value value="Pylon3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisWallT3Drone">
+        <WhichUnit Value="Caster"/>
+        <Value value="Pylon32"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisWallT4Drone">
+        <WhichUnit Value="Caster"/>
+        <Value value="Pylon322"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisWallT5Drone">
+        <WhichUnit Value="Caster"/>
+        <Value value="Pylon3222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisWallT6Drone">
+        <WhichUnit Value="Caster"/>
+        <Value value="Pylon32222F"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="DNAPickupABTargetFilters">
+        <CombineArray value="DNAPickupisHybridBehemoth"/>
+        <CombineArray value="DNAPickupisHybridDestroyer"/>
+        <CombineArray value="DNAPickupisZeratul"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="DNAPickupABTargetFiltersNOT">
+        <CombineArray value="DNAPickupABTargetFilters"/>
+        <Negate value="1"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="DNAPickupHasDNAEnableBehavior">
+        <Compare value="GE"/>
+        <Value value="1"/>
+        <Behavior value="DNAPickupEnableBehavior"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="DNAPickupHybridBehemothHaveDNAEnabled">
+        <Type value="And"/>
+        <CombineArray value="DNAPickupHasDNAEnableBehavior"/>
+        <CombineArray value="DNAPickupisHybridBehemoth"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="DNAPickupHybridDestroyerHaveDNAEnabled">
+        <Type value="And"/>
+        <CombineArray value="DNAPickupHasDNAEnableBehavior"/>
+        <CombineArray value="DNAPickupisHybridDestroyer"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="DNAPickupZeratulHaveDNAEnabled">
+        <Type value="And"/>
+        <CombineArray value="DNAPickupHasDNAEnableBehavior"/>
+        <CombineArray value="DNAPickupisZeratul"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="DNAPickupisHybridDestroyer">
+        <Value value="Maar2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="DNAPickupisHybridBehemoth">
+        <Value value="Hybrid2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="DNAPickupisZeratul">
+        <Value value="Zeratul"/>
+    </CValidatorUnitType>
+    <CValidatorPlayerRequirement id="EasyDifficulty">
+        <Value value="EasyDifficulty"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="2Players">
+        <Value value="2Players"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="3Players">
+        <Value value="3Players"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="4Players">
+        <Value value="4Players"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="5Players">
+        <Value value="5Players"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareResourceContents id="AutoHarvesterFinish2">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GT"/>
+        <Behavior value="AutomaticHarvestableVespene"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorPlayerRequirement id="AutoHarvesterHarvest">
+        <Value value=""/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="AutoHarvesterHarvest2">
+        <WhichPlayer Value="Caster"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareVital id="Bouclieraumax" parent="CasterLifePercent">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Vital value="Shields"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="CurrentLifeLessThan495k">
+        <ResultFailed value="RequiresHealTarget"/>
+        <Compare value="LT"/>
+        <Value value="510000"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorPlayerRequirement id="EliteDifficulty">
+        <Value value="EliteDifficulty"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="NoMarineShield">
+        <Value value="CombatShield"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="PunisherGrenadesResearched">
+        <Value value="LearnConcussiveShells"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitType id="RedCrystal">
+        <Value value="MineralField2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="VespeneOre">
+        <Value value="MineralField222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareVital id="TargetEnergyLT98">
+        <ResultFailed value="Error,Error/FullEnergy"/>
+        <Compare value="LT"/>
+        <Type value="Fraction"/>
+        <Value value="0.98"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorPlayerRequirement id="HasMercenaryMastery2">
+        <Find value="1"/>
+        <Value value="MercenaryMastery2"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasMercenaryMastery3">
+        <Find value="1"/>
+        <Value value="MercenaryMastery3"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasMercenaryMastery4">
+        <Find value="1"/>
+        <Value value="MercenaryMastery4"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasMercenaryMastery5">
+        <Find value="1"/>
+        <Value value="MercenaryMastery5"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareVital id="HealCasterMinEnergyT6">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="250"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="HealCasterMinEnergyT1">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="2"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorCombine id="IsAssaultModeDrone">
+        <CombineArray value="IsAssaultModeDroneT1"/>
+        <CombineArray value="IsAssaultModeDroneT2"/>
+        <CombineArray value="IsAssaultModeDroneT3"/>
+        <CombineArray value="IsAssaultModeDroneT4"/>
+        <CombineArray value="IsAssaultModeDroneT5"/>
+        <CombineArray value="IsAssaultModeDroneT6"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsDroneDroneT2">
+        <Value value="DroneT2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDroneDroneT3">
+        <Value value="DroneT3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDroneDroneT4">
+        <Value value="DroneT4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDroneDroneT5">
+        <Value value="DroneT5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDroneDroneT6">
+        <Value value="DroneT6"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="IsFinalBoss">
+        <CombineArray value="IsKerriganBoss"/>
+        <CombineArray value="isLeviathanBoss"/>
+        <CombineArray value="IsMeleeHybridBoss"/>
+        <CombineArray value="IsFlyingHybridBoss"/>
+        <CombineArray value="IsFlyingHybridBossImpossible"/>
+        <CombineArray value="IsMeleeHybridBossImpossible"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsFlyingHybridBoss">
+        <Value value="Maar"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsFlyingHybridBossImpossible">
+        <Value value="Maar2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGodlisk">
+        <Value value="Godlisk"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsKerriganBoss">
+        <Value value="KerriganChar"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="IsMatrixModeDrone">
+        <CombineArray value="IsMatrixModeDroneT1"/>
+        <CombineArray value="IsMatrixModeDroneT2"/>
+        <CombineArray value="IsMatrixModeDroneT3"/>
+        <CombineArray value="IsMatrixModeDroneT4"/>
+        <CombineArray value="IsMatrixModeDroneT5"/>
+        <CombineArray value="IsMatrixModeDroneT6"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsDroneDroneMode">
+        <CombineArray value="IsDroneDroneT1"/>
+        <CombineArray value="IsDroneDroneT2"/>
+        <CombineArray value="IsDroneDroneT3"/>
+        <CombineArray value="IsDroneDroneT4"/>
+        <CombineArray value="IsDroneDroneT5"/>
+        <CombineArray value="IsDroneDroneT6"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsMeleeHybridBoss">
+        <Value value="Hybrid"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsMeleeHybridBossImpossible">
+        <Value value="Hybrid2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareBehaviorCount id="IsNonSlowable">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="IsNonSlowable"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="IsSeekerModeDrone">
+        <CombineArray value="IsSeekerModeDroneT1"/>
+        <CombineArray value="IsSeekerModeDroneT2"/>
+        <CombineArray value="IsSeekerModeDroneT3"/>
+        <CombineArray value="IsSeekerModeDroneT4"/>
+        <CombineArray value="IsSeekerModeDroneT5"/>
+        <CombineArray value="IsSeekerModeDroneT6"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsRepairModeDrone">
+        <CombineArray value="IsRepairModeDroneT1"/>
+        <CombineArray value="IsRepairModeDroneT2"/>
+        <CombineArray value="IsRepairModeDroneT3"/>
+        <CombineArray value="IsRepairModeDroneT4"/>
+        <CombineArray value="IsRepairModeDroneT5"/>
+        <CombineArray value="IsRepairModeDroneT6"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsMatrixModeDroneT2">
+        <Value value="MatrixDroneT2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsMatrixModeDroneT3">
+        <Value value="MatrixDroneT3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsMatrixModeDroneT4">
+        <Value value="MatrixDroneT4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsMatrixModeDroneT5">
+        <Value value="MatrixDroneT5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsMatrixModeDroneT6">
+        <Value value="MatrixDroneT6"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsPointDefenseModeDroneT1">
+        <Value value="PointDefenseDrone"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsPointDefenseModeDroneT2">
+        <Value value="PointDefenseDroneT2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsPointDefenseModeDroneT3">
+        <Value value="PointDefenseDroneT3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsPointDefenseModeDroneT4">
+        <Value value="PointDefenseDroneT4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsPointDefenseModeDroneT5">
+        <Value value="PointDefenseDroneT5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsPointDefenseModeDroneT6">
+        <Value value="PointDefenseDroneT6"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="IsPointDefenseModeDrone">
+        <CombineArray value="IsPointDefenseModeDroneT1"/>
+        <CombineArray value="IsPointDefenseModeDroneT2"/>
+        <CombineArray value="IsPointDefenseModeDroneT3"/>
+        <CombineArray value="IsPointDefenseModeDroneT4"/>
+        <CombineArray value="IsPointDefenseModeDroneT5"/>
+        <CombineArray value="IsPointDefenseModeDroneT6"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsSeekerModeDroneT1">
+        <Value value="SeekerDroneT1"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsRepairModeDroneT3">
+        <Value value="RepairDroneT3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsRepairModeDroneT4">
+        <Value value="RepairDroneT4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsRepairModeDroneT5">
+        <Value value="RepairDroneT5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsRepairModeDroneT6">
+        <Value value="RepairDroneT6"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsAssaultModeDroneT1">
+        <Value value="AssaultDroneT1"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="CasterisT1">
+        <CombineArray value="CasterisWallT1Drone"/>
+        <CombineArray value="CasterisFirebats1"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsRepairModeDroneT1">
+        <Value value="RepairDroneT1"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsRepairModeDroneT2">
+        <Value value="RepairDroneT2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsAssaultModeDroneT2">
+        <Value value="AssaultDroneT2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsAssaultModeDroneT3">
+        <Value value="AssaultDroneT3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsAssaultModeDroneT4">
+        <Value value="AssaultDroneT4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsAssaultModeDroneT5">
+        <Value value="AssaultDroneT5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsAssaultModeDroneT6">
+        <Value value="AssaultDroneT6"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsMatrixModeDroneT1">
+        <Value value="MatrixDroneT1"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDroneDroneT1">
+        <Value value="DroneT1"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsSeekerModeDroneT2">
+        <Value value="SeekerDroneT2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsSeekerModeDroneT3">
+        <Value value="SeekerDroneT3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsSeekerModeDroneT4">
+        <Value value="SeekerDroneT4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsSeekerModeDroneT5">
+        <Value value="SeekerDroneT5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsSeekerModeDroneT6">
+        <Value value="SeekerDroneT6"/>
+    </CValidatorUnitType>
+    <CValidatorIsUnitTracked id="IsUnitTrackedByWallDroneTracker">
+        <Find value="1"/>
+        <BehaviorLink value="DroneTracker"/>
+        <TrackerUnit Value="Target"/>
+    </CValidatorIsUnitTracked>
+    <CValidatorIsUnitTracked id="IsUnitTrackedByDroneWallTracker">
+        <Find value="1"/>
+        <BehaviorLink value="WallTracker"/>
+        <TrackedUnit Value="Target"/>
+    </CValidatorIsUnitTracked>
+    <CValidatorCombine id="IsVersusUnstoppable2">
+        <Type value="And"/>
+        <CombineArray value="VersusGameMode"/>
+        <CombineArray value="IsUnstoppable"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="IsNonInstaKillable">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="IsNonInstaKillable"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitFilters id="NotHarvestableResources">
+        <Filters value="-;HarvestableResource"/>
+    </CValidatorUnitFilters>
+    <CValidatorPlayerRequirement id="HasCannonMastery3">
+        <Find value="1"/>
+        <Value value="CannonMastery3"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasCannonMastery4">
+        <Find value="1"/>
+        <Value value="CannonMastery4"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasCannonMastery5">
+        <Find value="1"/>
+        <Value value="CannonMastery5"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareBehaviorCount id="HasDestroyerPrestige">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="1"/>
+        <Behavior value="Destroyer"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorPlayerRequirement id="HasEconomyMastery3">
+        <Find value="1"/>
+        <Value value="EconomyMastery3"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasEconomyMastery4">
+        <Find value="1"/>
+        <Value value="EconomyMastery4"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasEconomyMastery5">
+        <Find value="1"/>
+        <Value value="EconomyMastery5"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasGeneratorMastery2">
+        <Find value="1"/>
+        <Value value="GeneratorMastery2"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasGeneratorMastery3">
+        <Find value="1"/>
+        <Value value="GeneratorMastery3"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasGeneratorMastery4">
+        <Find value="1"/>
+        <Value value="GeneratorMastery4"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasGeneratorMastery5">
+        <Find value="1"/>
+        <Value value="GeneratorMastery5"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasHealerMastery2">
+        <Find value="1"/>
+        <Value value="HealerMastery2"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasHealerMastery3">
+        <Find value="1"/>
+        <Value value="HealerMastery3"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasHealerMastery4">
+        <Find value="1"/>
+        <Value value="HealerMastery14"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasHealerMastery5">
+        <Find value="1"/>
+        <Value value="HealerMastery15"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasEconomyMastery2">
+        <Find value="1"/>
+        <Value value="EconomyMastery2"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareBehaviorCount id="HasLowOxygenBehavior">
+        <Compare value="GE"/>
+        <Value value="1"/>
+        <Behavior value="LowOxygen"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="HasLowOxygenBehavior2">
+        <Compare value="GE"/>
+        <Value value="1"/>
+        <Behavior value="LowOxygen2"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="HasLowOxygenBehavior22">
+        <Compare value="LT"/>
+        <Value value="1"/>
+        <Behavior value="LowOxygen2"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="HasLowOxygenBehaviorCombine">
+        <CombineArray value="HasLowOxygenBehavior"/>
+        <CombineArray value="HasLowOxygenBehavior2"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="HasLowOxygenBehaviorCombineNegated">
+        <Type value="And"/>
+        <CombineArray value="HasLowOxygenBehavior"/>
+        <CombineArray value="HasLowOxygenBehavior2"/>
+        <Negate value="1"/>
+    </CValidatorCombine>
+    <CValidatorPlayerRequirement id="HasWallMastery2">
+        <Find value="1"/>
+        <Value value="WallMastery2"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasWallMastery3">
+        <Find value="1"/>
+        <Value value="WallMastery3"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasWallMastery4">
+        <Find value="1"/>
+        <Value value="WallMastery4"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasWallMastery5">
+        <Find value="1"/>
+        <Value value="WallMastery5"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasCannonMastery2">
+        <Find value="1"/>
+        <Value value="CannonMastery2"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasDualMasteryWallCannons">
+        <Find value="1"/>
+        <Value value="WallCannonMastery6"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HasDualMasteryHealGen">
+        <Find value="1"/>
+        <Value value="HealGenMastery6"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HaveHideSpecialEffects">
+        <ResultNoPlayer value="Error"/>
+        <Find value="1"/>
+        <Value value="HaveHideSpecialEffects"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorCombine id="HealQuantumHealShieldsCombine">
+        <CombineArray value="ShieldsNotFull"/>
+        <CombineArray value="TargetLifeFull"/>
+        <Type value="And"/>
+    </CValidatorCombine>
+    <CValidatorPlayerRequirement id="HellDifficulty">
+        <Value value="HellDifficulty"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HellStormMissilesresearched">
+        <Find value="1"/>
+        <Value value="HellStormMissilesnotresearched"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorCombine id="HybridDestroyerPsionicStormtargets">
+        <CombineArray value="isTank"/>
+        <CombineArray value="isSiegedTank"/>
+        <CombineArray value="isSpecialistGhost"/>
+    </CValidatorCombine>
+    <CValidatorPlayerRequirement id="ImpossibleDifficulty">
+        <Value value="ImpossibleDifficulty"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorCombine id="HybridDestroyerPlasmaBlasttargets">
+        <CombineArray value="isOdin"/>
+        <CombineArray value="isImmortal"/>
+        <CombineArray value="isARES"/>
+        <CombineArray value="isTeslaTower"/>
+        <CombineArray value="isThunderTower"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsVersusUnstoppableGodlisk">
+        <CombineArray value="IsVersusUnstoppable2"/>
+        <CombineArray value="IsGodlisk"/>
+    </CValidatorCombine>
+    <CValidatorUnitFilters id="IsUnstoppable">
+        <Filters value="Unstoppable;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="IsNotUnstoppable">
+        <Filters value="-;Unstoppable"/>
+    </CValidatorUnitFilters>
+    <CValidatorCombine id="IsNotVersusUnstoppable">
+        <CombineArray value="VersusGameMode"/>
+        <CombineArray value="IsUnstoppable"/>
+        <Negate value="1"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="Isnotgodmoded">
+        <WhichUnit Value="Caster"/>
+        <Compare value="LE"/>
+        <Behavior value="Godmode"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorPlayerRequirement id="NightmareDifficulty">
+        <Value value="NightmareDifficulty"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareVital id="Energie6">
+        <WhichUnit Value="Source"/>
+        <Compare value="GE"/>
+        <Value value="6"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="Energie62">
+        <WhichUnit Value="Source"/>
+        <Compare value="GE"/>
+        <Type value="Fraction"/>
+        <Value value="0.5"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="Energiepas0">
+        <WhichUnit Value="Source"/>
+        <Compare value="GT"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitType id="Gen1">
+        <Value value="FusionCore"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="Gen12">
+        <Value value="FusionCore3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="Gen13">
+        <Value value="FusionCore32"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="Gen14">
+        <Value value="FusionCore322"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="Gen15">
+        <Value value="FusionCore3222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="Gen152">
+        <Value value="FusionCore32222"/>
+    </CValidatorUnitType>
+    <CValidatorPlayerRequirement id="GeneratorrolePlayerrequirement">
+        <Find value="1"/>
+        <Value value="Generatorrole"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="GeneratorMastery3PlayerRequirement">
+        <Find value="1"/>
+        <Value value="GeneratorMastery3"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="HaveEffects">
+        <ResultNoPlayer value="Error"/>
+        <Find value="1"/>
+        <Value value="HaveHideSpecialEffects"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorCombine id="HaveNoEffects">
+        <CombineArray value="HaveEffects"/>
+        <Negate value="1"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsGenerator">
+        <ResultFailed value="Error,Generator validator"/>
+        <CombineArray value="Gen1"/>
+        <CombineArray value="Gen12"/>
+        <CombineArray value="Gen13"/>
+        <CombineArray value="Gen14"/>
+        <CombineArray value="Gen15"/>
+        <CombineArray value="Gen152"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="IsNotAbsorberShielded">
+        <ResultFailed value="Error,targetisalreadyshielded"/>
+        <Behavior value="VoodooShield"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="IsNotAlreadyDefensiveMatrixed">
+        <ResultFailed value="Error,AlreadyhasDefensiveMatrix"/>
+        <Type value="And"/>
+        <CombineArray value="defensivematrixed1"/>
+        <CombineArray value="defensivematrixed12"/>
+        <CombineArray value="defensivematrixed13"/>
+        <CombineArray value="defensivematrixed14"/>
+        <CombineArray value="defensivematrixed15"/>
+        <CombineArray value="defensivematrixed16"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsNotAlreadyGuardShielded">
+        <ResultFailed value="Error,GuardianShieldError"/>
+        <Type value="And"/>
+        <CombineArray value="guardshielded1"/>
+        <CombineArray value="guardshielded12"/>
+        <CombineArray value="guardshielded13"/>
+        <CombineArray value="guardshielded14"/>
+        <CombineArray value="guardshielded15"/>
+        <CombineArray value="guardshielded16"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="IsNotChronoBoosted">
+        <Behavior value="Chronoboostpermanent"/>
+        <ResultFailed value="Error,targetispermanentlyboosted"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="IsNotChronoBoosted9s">
+        <ResultFailed value="Error,targetcurrentlyboosted"/>
+        <Behavior value="TimeWarpProduction"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="IsNotShieldedARES">
+        <ResultFailed value="Error,targetisalreadyshielded"/>
+        <Behavior value="ARESshield50"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="IsNotSpedUp">
+        <Behavior value="Speedupgenerator"/>
+        <ResultFailed value="Error,IsNotSpedUp2"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="IsNotSpedUp2">
+        <Behavior value="Acceleratedgeneratorspeedup"/>
+        <ResultFailed value="Error,IsNotSpedUp2"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="IsT1towerwall">
+        <CombineArray value="TargetisFirebats1"/>
+        <CombineArray value="TargetisWallT1"/>
+        <CombineArray value="t1robo"/>
+        <CombineArray value="photon1"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsT2towerwall">
+        <CombineArray value="TargetisFirebats2"/>
+        <CombineArray value="TargetisWallT2"/>
+        <CombineArray value="t1robo2"/>
+        <CombineArray value="photon12"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsT3towerwall">
+        <CombineArray value="TargetisFirebats3"/>
+        <CombineArray value="TargetisWallT3"/>
+        <CombineArray value="t1robo3"/>
+        <CombineArray value="photon13"/>
+        <CombineArray value="goliath"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsT4towerwall">
+        <CombineArray value="TargetisFirebats4"/>
+        <CombineArray value="t1robo4"/>
+        <CombineArray value="photon14"/>
+        <CombineArray value="TargetisWallT4"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsT6towerwall">
+        <CombineArray value="TargetisFirebats6"/>
+        <CombineArray value="TargetisWallT6"/>
+        <CombineArray value="t1robo6"/>
+        <CombineArray value="photon16"/>
+        <CombineArray value="isobelisk"/>
+        <CombineArray value="drakkenlaser"/>
+        <CombineArray value="ares"/>
+        <CombineArray value="odin"/>
+        <CombineArray value="teslatower"/>
+        <CombineArray value="IsColossus"/>
+        <CombineArray value="IsImmortal"/>
+        <CombineArray value="raynor"/>
+        <CombineArray value="quantumdiamond"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsT5towerwall">
+        <CombineArray value="TargetisFirebats5"/>
+        <CombineArray value="t1robo5"/>
+        <CombineArray value="photon15"/>
+        <CombineArray value="TargetisWallT5"/>
+        <CombineArray value="antiairturret"/>
+        <CombineArray value="siegetank"/>
+        <CombineArray value="siegetanksieged"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsUtilitybuilding">
+        <CombineArray value="IsHealer"/>
+        <CombineArray value="IsGenerator"/>
+        <CombineArray value="IsTowerAura"/>
+        <CombineArray value="Iscoreforincome"/>
+        <CombineArray value="IsRefinery"/>
+        <CombineArray value="IsBase"/>
+        <CombineArray value="IsGhost"/>
+        <CombineArray value="isArtifact"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="Islegitguardiantarget">
+        <ResultFailed value="Error,legitguardiantarget"/>
+        <CombineArray value="IsT1towerwall"/>
+        <CombineArray value="IsT2towerwall"/>
+        <CombineArray value="IsT3towerwall"/>
+        <CombineArray value="IsT4towerwall"/>
+        <CombineArray value="IsT5towerwall"/>
+        <CombineArray value="IsT6towerwall"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="LifeandShieldsFull">
+        <ResultFailed value="Error,Error/FullLifeAndShields"/>
+        <CombineArray value="LifeNotFull"/>
+        <CombineArray value="ShieldsNotFull"/>
+        <Negate value="1"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareVital id="MedivacHasEnergy2">
+        <WhichUnit Value="Source"/>
+        <Compare value="GE"/>
+        <Value value="60"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareBehaviorCount id="NaPasTime">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="TimeAuraC"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="NaPasTime2">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="TimeAuraC2"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="NaPasTime22">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="TimeAuraC22"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="NaPasTime23">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="TimeAuraC222"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="NaPasTime232">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="TimeAuraC2222"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="NaPasTimeunivers6">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="TimeAuraC22222"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="NaPasTimeunivers62">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="TimeAuraC222223"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="NaPasconnectedgene">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="Connectedwithgenerators"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareMarkerCount id="NoMedivacMarkers2">
+        <ResultFailed value="AlreadyTargeted"/>
+        <WhichUnit Effect="Generator123232"/>
+    </CValidatorUnitCompareMarkerCount>
+    <CValidatorUnitFilters id="NotLight">
+        <ResultFailed value="Error,NotLight"/>
+        <Filters value="-;Light"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitType id="NotOvermindMissile">
+        <Value value="ParasiteSporeWeapon2"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="NuclearGeneratorV">
+        <Value value="Generator3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="NuclearGeneratorV2">
+        <Value value="Generator2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="NuclearGeneratorV22">
+        <Value value="DarkShrine"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="NuclearGeneratorV222">
+        <Value value="Assimilator2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="NuclearGeneratorV3">
+        <Value value="FleetBeacon"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="NuclearGeneratorV32">
+        <Value value="WarpGate"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="PlayerTheThingTargetisNotTheThing">
+        <Value value="HybridReaver"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="PointDefenseDroneUnitFilter">
+        <CombineArray value="NotOvermindMissile"/>
+    </CValidatorCombine>
+    <CValidatorUnitFilters id="PreviousChronoBoostTargetIsDead">
+        <WhichUnit Effect="TimeWarpCP"/>
+        <Filters value="Dead;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitCompareVital id="QuickReparationCasterLifeLT85">
+        <Compare value="LT"/>
+        <Type value="Fraction"/>
+        <Value value="0.85"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorPlayerRequirement id="RailgunSnipeSnipedresearched">
+        <Find value="1"/>
+        <Value value="RailgunSnipeSnipedresearched"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitCompareBehaviorCount id="OxygenAutoRefill">
+        <WhichUnit Value="Caster"/>
+        <Behavior value="OxygenAutoRefiller"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="RockDissolutionStackCount">
+        <WhichUnit Value="Caster"/>
+        <Compare value="LT"/>
+        <Behavior value="RockDissolution2"/>
+        <Value value="50"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareVital id="TargetHPGTE50">
+        <Compare value="GE"/>
+        <Value value="50"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitType id="TargetLockdownTargetFilters">
+        <Value value="SpartanCompany"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareVital id="TargetShields90">
+        <Compare value="LE"/>
+        <Type value="Fraction"/>
+        <Value value="0.9"/>
+        <Vital value="Shields"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="TargetLife90">
+        <Compare value="LE"/>
+        <Type value="Fraction"/>
+        <Value value="0.9"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="Targetis520kCurrentHP">
+        <Compare value="GE"/>
+        <Value value="520000"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitType id="CasterisFirebats4">
+        <WhichUnit Value="Caster"/>
+        <Value value="PerditionTurret4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisFirebats5">
+        <WhichUnit Value="Caster"/>
+        <Value value="PerditionTurret5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisFirebats6">
+        <WhichUnit Value="Caster"/>
+        <Value value="PerditionTurret6"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisRock">
+        <Value value="DestructibleRock4x42"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="TowerAuraBuffExcludedTargets">
+        <CombineArray value="IsPointDefenseModeDrone"/>
+        <CombineArray value="drakkenlaser"/>
+        <CombineArray value="IsProbe"/>
+        <Negate value="1"/>
+        <Type value="And"/>
+    </CValidatorCombine>
+    <CValidatorPlayerRequirement id="VersusGameMode">
+        <Value value="VersusGameMode"/>
+        <Find value="1"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorPlayerRequirement id="NotVersusGameMode">
+        <Value value="NotVersusGameMode"/>
+        <Find value="1"/>
+    </CValidatorPlayerRequirement>
+    <CValidatorUnitType id="PlasmaOre">
+        <Value value="MineralField22"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareVital id="Vie1">
+        <Compare value="LT"/>
+        <Type value="Fraction"/>
+        <Value value="1"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="Vie100">
+        <ResultFailed value="TooMuchLife"/>
+        <Compare value="GE"/>
+        <Type value="Fraction"/>
+        <Value value="1"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitType id="antiairturret">
+        <Value value="MissileTurret"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="ares">
+        <Value value="Warbot"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareBehaviorCount id="defensivematrixed12">
+        <Behavior value="DefensiveMatrixAB12"/>
+        <WhichUnit Effect="DefensiveMatrix"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="defensivematrixed13">
+        <Behavior value="DefensiveMatrixAB13"/>
+        <WhichUnit Effect="DefensiveMatrix"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="defensivematrixed14">
+        <Behavior value="DefensiveMatrixAB14"/>
+        <WhichUnit Effect="DefensiveMatrix"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="defensivematrixed15">
+        <Behavior value="DefensiveMatrixAB15"/>
+        <WhichUnit Effect="DefensiveMatrix"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="defensivematrixed16">
+        <Behavior value="DefensiveMatrixAB16"/>
+        <WhichUnit Effect="DefensiveMatrix"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitType id="drakkenlaser">
+        <Value value="DrakkenLaserDrill"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisFirebats2">
+        <Value value="PerditionTurret2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisFirebats2">
+        <WhichUnit Value="Caster"/>
+        <Value value="PerditionTurret2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisFirebats3">
+        <Value value="PerditionTurret3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisFirebats3">
+        <WhichUnit Value="Caster"/>
+        <Value value="PerditionTurret3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisFirebats4">
+        <Value value="PerditionTurret4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisFirebats5">
+        <Value value="PerditionTurret5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisFirebats6">
+        <Value value="PerditionTurret6"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="CasterisFirebats1">
+        <WhichUnit Value="Caster"/>
+        <Value value="PerditionTurret"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="goliath">
+        <Value value="SpartanCompany"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareBehaviorCount id="guardshielded1">
+        <Behavior value="GuardianShield35reduction"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="guardshielded12">
+        <Behavior value="GuardianShield30reduction"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="guardshielded13">
+        <Behavior value="GuardianShield25reduction"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="guardshielded14">
+        <Behavior value="GuardianShield20reduction"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="guardshielded15">
+        <Behavior value="GuardianShield15reduction"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="guardshielded16">
+        <Behavior value="GuardianShield8reduction"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="defensivematrixed1">
+        <Behavior value="DefensiveMatrixAB1"/>
+        <WhichUnit Effect="DefensiveMatrix"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareVital id="HealCasterMinEnergyT5">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="128"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="HealCasterMinEnergyT3">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="8"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="HealCasterMinEnergyT2">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="4"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitCompareVital id="HealCasterMinEnergyT4">
+        <WhichUnit Value="Caster"/>
+        <Compare value="GE"/>
+        <Value value="32"/>
+        <Vital value="Energy"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitType id="isKillSquadMedicT1">
+        <Value value="KillSquadMedicT1"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isKillSquadMedicT2">
+        <Value value="KillSquadMedicT2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isKillSquadMedicT3">
+        <Value value="KillSquadMedicT3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isKillSquadMedicT4">
+        <Value value="KillSquadMedicT4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isKillSquadMedicT5">
+        <Value value="KillSquadMedicT5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isKillSquadMedicT6">
+        <Value value="KillSquadMedicT6"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isSkibisAngelT1">
+        <Value value="SkibisAngelT1"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isLeviathanBoss">
+        <Value value="Leviathan"/>
+    </CValidatorUnitType>
+    <CValidatorUnitFilters id="isMapBoss">
+        <Filters value="MapBoss;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorCombine id="isMedic">
+        <CombineArray value="isMedicT1"/>
+        <CombineArray value="isMedicT2"/>
+        <CombineArray value="isMedicT3"/>
+        <CombineArray value="isMedicT4"/>
+        <CombineArray value="isMedicT5"/>
+        <CombineArray value="isMedicT6"/>
+        <CombineArray value="isKillSquadMedicT1"/>
+        <CombineArray value="isKillSquadMedicT2"/>
+        <CombineArray value="isKillSquadMedicT3"/>
+        <CombineArray value="isKillSquadMedicT4"/>
+        <CombineArray value="isKillSquadMedicT5"/>
+        <CombineArray value="isKillSquadMedicT6"/>
+        <CombineArray value="isSkibisAngelT1"/>
+        <CombineArray value="isSkibisAngelT2"/>
+        <CombineArray value="isSkibisAngelT3"/>
+        <CombineArray value="isSkibisAngelT4"/>
+        <CombineArray value="isSkibisAngelT5"/>
+        <CombineArray value="isSkibisAngelT6"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="isMedicT1">
+        <Value value="MedicT1"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isMedicT2">
+        <Value value="MedicT2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isMedicT3">
+        <Value value="MedicT3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isMedicT4">
+        <Value value="MedicT4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isMedicT5">
+        <Value value="MedicT5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isMedicT6">
+        <Value value="MedicT6"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isRaynor">
+        <Value value="RaynorCommando"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isSiegedTank">
+        <Value value="SiegeBreakerSieged"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isSkibisAngelT2">
+        <Value value="SkibisAngelT2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isSkibisAngelT3">
+        <Value value="SkibisAngelT3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isSkibisAngelT4">
+        <Value value="SkibisAngelT4"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isSkibisAngelT5">
+        <Value value="SkibisAngelT5"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isSkibisAngelT6">
+        <Value value="SkibisAngelT6"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isSpecialistGhost">
+        <Value value="Ghost"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isNotSpecialistGhost">
+        <Value value="Ghost"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isTank">
+        <Value value="SiegeBreaker"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isTeslaTower">
+        <Value value="DarkShrine"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isOdin">
+        <Value value="Odin"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isARES">
+        <Value value="Warbot"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isImmortal">
+        <Value value="Immortal"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="isThunderTower">
+        <Value value="ThunderTower"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="isobelisk">
+        <CombineArray value="obelisk"/>
+        <CombineArray value="obelisksentinel"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="obelisk">
+        <Value value="Obelisk2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="obelisksentinel">
+        <Value value="SentinelObelisk"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="odin">
+        <Value value="Odin"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="photon12">
+        <Value value="PhotonCannon2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="photon13">
+        <Value value="PhotonCannon22"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="photon14">
+        <Value value="PhotonCannon222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="photon15">
+        <Value value="PhotonCannon2222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="photon16">
+        <Value value="PhotonCannonFinalF"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="quantumdiamond">
+        <Value value="QuantumDiamond"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="raynor">
+        <Value value="RaynorCommando"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="siegetank">
+        <Value value="SiegeBreaker"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="siegetanksieged">
+        <Value value="SiegeBreakerSieged"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="t1robo2">
+        <Value value="RoboticsBay2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="t1robo3">
+        <Value value="RoboticsBay22"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="t1robo4">
+        <Value value="RoboticsBay222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="t1robo5">
+        <Value value="RoboticsBay2222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="t1robo6">
+        <Value value="RoboticCannonFinalF"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisWallT1">
+        <Value value="Pylon"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisFirebats1">
+        <Value value="PerditionTurret"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="t1robo">
+        <Value value="RoboticsBay"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="photon1">
+        <Value value="PhotonCannon"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisWallT2">
+        <Value value="Pylon3"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisWallT3">
+        <Value value="Pylon32"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisWallT4">
+        <Value value="Pylon322"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisWallT5">
+        <Value value="Pylon3222"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="TargetisWallT6">
+        <Value value="Pylon32222F"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="teslatower">
+        <Value value="DarkShrine"/>
+    </CValidatorUnitType>
+</Catalog>

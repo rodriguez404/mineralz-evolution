@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CGame default="1">
+        <!-- Violet -->
+        <TeamColors index="9" MinPlayerCount="0"/>
+        <!-- Light Grey -->
+        <TeamColors index="10" MinPlayerCount="0"/>
+        <!-- Dark Green -->
+        <TeamColors index="11" MinPlayerCount="0"/>
+        <!-- Brown -->
+        <TeamColors index="12" MinPlayerCount="0"/>
+        <!-- Light Green -->
+        <TeamColors index="13" MinPlayerCount="0"/>
+        <!-- Dark Grey -->
+        <TeamColors index="14" MinPlayerCount="0"/>
+        <!-- Pink -->
+        <TeamColors index="15" MinPlayerCount="0">
+            <Value index="Diffuse" value="1.000000,1.000000,1.000000,1.000000"/>
+            <Value index="Emissive" value="0.764600,0.764600,0.764600,1.000000"/>
+            <Value index="Selected" value="0.000000,0.902000,0.941176,1.000000"/>
+        </TeamColors>
+        <CreepDecayTime value="0.75"/>
+    </CGame>
+    <CGame id="Dflt">
+        <TeamColors index="8" HDRMultiplier="0.000000"/>
+        <TeamColors index="9" MinPlayerCount="0"/>
+        <TeamColors index="10" MinPlayerCount="0"/>
+        <TeamColors index="11" MinPlayerCount="0"/>
+        <TeamColors index="12" MinPlayerCount="0"/>
+        <TeamColors index="13" MinPlayerCount="0"/>
+        <TeamColors index="14" MinPlayerCount="0"/>
+        <TeamColors index="15" MinPlayerCount="0">
+            <Value index="Diffuse" value="1.000000,1.000000,1.000000,1.000000"/>
+            <Value index="Emissive" value="0.764600,0.764600,0.764600,1.000000"/>
+            <Value index="Selected" value="0.000000,0.901961,0.941176,1.000000"/>
+        </TeamColors>
+        <TeamColors Name="UI/TeamColor16" AttributeId="tc16">
+            <Value index="Diffuse" value="0.898000,0.357000,0.690100,1.000000"/>
+            <Value index="Emissive" value="0.898000,0.357000,0.690100,1.000000"/>
+            <Value index="Selected" value="0.960784,0.756863,0.882353,1.000000"/>
+            <Value index="Attacked" value="1.000000,0.000000,0.000000,1.000000"/>
+        </TeamColors>
+        <PlayersRequiredForLargeFormat value="0"/>
+        <CreepDecayTime value="0.75"/>
+    </CGame>
+</Catalog>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CCharacter id="Zagara">
+        <Variations index="0" Actor="WickedWolfPortrait"/>
+    </CCharacter>
+</Catalog>

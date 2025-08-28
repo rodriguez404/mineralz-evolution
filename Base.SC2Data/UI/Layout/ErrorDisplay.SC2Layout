@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+                <Frame type="GameMessageDisplay" name="GameUI/UIContainer/FullscreenUpperContainer/ErrorDisplay" file="GameUI">
+                    <MaxMessages val="2"/>
+                    <Width val="500"/>
+                    <Height val="206"/>
+                </Frame>
+</Desc>

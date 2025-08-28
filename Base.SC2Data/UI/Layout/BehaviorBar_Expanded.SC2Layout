@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame type="BehaviorBar" name="BehaviorBarTemplate" file="BehaviorBar">
+        <Width val="96"/>
+        <Frame type="BehaviorIcon" name="BehaviorIcon0" template="BehaviorBar/BehaviorIconTemplate">
+            <Anchor side="Top" relative="$parent/$parent/BehaviorBarAnchor" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$this" pos="Max" offset="0"/>
+            <Anchor side="Right" relative="$parent/$parent/BehaviorBarAnchor" pos="Max" offset="0"/>
+        </Frame>
+        <Frame type="BehaviorIcon" name="BehaviorIcon6" template="BehaviorBar/BehaviorIconTemplate">
+            <Anchor side="Top" relative="$sibling-6" pos="Min" offset="0"/>
+            <Anchor side="Left" relative="$sibling-6" pos="Min" offset="-32"/> 
+         </Frame>
+         <Frame type="BehaviorIcon" name="BehaviorIcon7" template="BehaviorBar/BehaviorIconTemplate">
+            <Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$sibling-1" pos="Min" offset="0"/>
+        </Frame>
+        <Frame type="BehaviorIcon" name="BehaviorIcon8" template="BehaviorBar/BehaviorIconTemplate">
+            <Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$sibling-1" pos="Min" offset="0"/>
+        </Frame>
+        <Frame type="BehaviorIcon" name="BehaviorIcon9" template="BehaviorBar/BehaviorIconTemplate">
+            <Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$sibling-1" pos="Min" offset="0"/>
+        </Frame>
+        <Frame type="BehaviorIcon" name="BehaviorIcon10" template="BehaviorBar/BehaviorIconTemplate">
+            <Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$sibling-1" pos="Min" offset="0"/>
+        </Frame>
+        <Frame type="BehaviorIcon" name="BehaviorIcon11" template="BehaviorBar/BehaviorIconTemplate">
+            <Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
+            <Anchor side="Left" relative="$sibling-1" pos="Min" offset="0"/>
+        </Frame>
+    </Frame>
+
+    <Frame type="Frame" name="AnchorTemplate">
+        <Height val="192"/>
+        <Width val="32"/>
+        <Alpha val="0"/>
+        <AcceptsMouse val="False"/>
+        <CollapseLayout val="True"/>
+        <Visible val="False"/>
+    </Frame>
+
+    <Frame type="Frame" name="GameUI/UIContainer/ConsoleUIContainer" file="GameUI">
+        <Frame type="Frame" name="BehaviorBarOptionsPanel">
+            <Anchor side="Bottom" relative="$parent/MinimapPanel/ColorButton" pos="Max" offset="166"/>
+            <Anchor side="Right" relative="$parent/MinimapPanel/ColorButton" pos="Max" offset="1"/>
+            <Height val="86"/>
+            <Width val="44"/>
+            <Visible val="{$parent/InfoPanel/UnitPanel/BehaviorBar/BehaviorIcon0/@Visible}"/>
+        </Frame>
+   
+        <Frame type="Frame" name="InfoPanel">
+            <Anchor side="Right" relative="$parent" pos="Mid" offset="440"/>
+
+            <Frame type="Frame" name="InfoPanelCopy">
+                <Anchor side="Left" relative="$parent/$parent" pos="Mid" offset="-395"/>
+                <Anchor side="Bottom" relative="$parent/$parent" pos="Max" offset="-20"/>
+                <Anchor side="Right" relative="$parent/$parent" pos="Mid" offset="185"/>
+                <Height val="199"/>
+            </Frame>
+            
+            <Frame type="Frame" name="UnitPanel">
+                <Anchor relative="$parent"/>
+                
+                <Frame type="AspectRatioFrame" name="AspectRatioListener">
+                    <Anchor side="Top" relative="$parent" pos="Max" offset="0"/>
+                    <Anchor side="Left" relative="$parent" pos="Max" offset="0"/>
+                    <Width val="1"/>
+                    <Height val="1"/>
+                    <MinVisibleAspectRatio val="1.6"/>
+                
+                    <StateGroup name="AlignmentRatioCheck">
+                        <DefaultState val="Default"/>
+                        <State name="Adjust">
+                            <When type="Property" frame="$this" Visible="False"/>
+                            <Action type="SetAnchor" frame="$parent/$parent" side="Right" relative="$parent" pos="Mid" offset="185"/>
+                            <Action type="SetAnchor" frame="$parent/BehaviorBar" side="Left" relative="$parent" pos="Min" offset="18"/>
+                            <Action type="SetAnchor" frame="$parent/$parent/InfoPaneHero/NameLabel" side="Left" relative="$parent" pos="Min" offset="-85"/>
+                            <Action type="SetAnchor" frame="$parent/$parent/InfoPaneHero/ExperienceLabel" side="Left" relative="$parent" pos="Min" offset="-85"/>
+                            <Action type="SetAnchor" frame="$parent/$parent/InfoPaneHero/TypeLabel" side="Left" relative="$parent" pos="Min" offset="-85"/>
+                            <Action type="SetAnchor" frame="$parent/$parent/InfoPaneHero/AttributeLabel1" side="Left" relative="$parent" pos="Mid" offset="-30"/>
+                        </State>
+                        <State name="Default"/>
+                    </StateGroup>
+                </Frame>
+
+                <Frame type="UnitWireframe" name="UnitWireframe">
+                    <Anchor side="Top" relative="$parent/WireframeAnchor" pos="Min" offset="5"/>
+                    <Anchor side="Left" relative="$parent/WireframeAnchor" pos="Max" offset="50"/>
+            
+                    <StateGroup name="WireframeAnchor">
+                        <DefaultState val="Default" />
+                        <State name="Adjust">
+                            <When type="Property" frame="$parent/$parent" Visible="True"/>
+                            <Action type="SetAnchor" frame="$this" side="Left" relative="$parent/WireframeAnchor" pos="Max" offset="55"/>
+                        </State>
+                        <State name="Default"/>
+                    </StateGroup>
+                </Frame>
+
+                <Frame type="Frame" name="WireframeAnchor" template="BehaviorBar_Expanded/AnchorTemplate">
+                    <Anchor side="Top" relative="$parent/$parent/InfoPanelCopy" pos="Min" offset="0"/>
+                    <Anchor side="Left" relative="$parent/$parent/InfoPanelCopy" pos="Min" offset="0"/>
+                    <Visible val="True"/>
+                </Frame>
+
+                <Frame type="Frame" name="BehaviorBarAnchor" template="BehaviorBar_Expanded/AnchorTemplate">
+                    <Anchor side="Top" relative="$parent/$parent/InfoPanelCopy" pos="Min" offset="4"/>
+                    <Anchor side="Left" relative="$parent/$parent/InfoPanelCopy" pos="Min" offset="44"/>
+                    <Height val="32"/>
+                    <Width val="32"/>
+                    <Visible val="True"/>
+                </Frame>
+
+                <Frame type="BehaviorBar" name="BehaviorBar" template="BehaviorBar_Expanded/BehaviorBarTemplate">
+                    <Anchor side="Top" relative="$parent" pos="Min" offset="6"/>
+                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                    <Anchor side="Right" relative="$parent/BehaviorBarAnchor" pos="Max" offset="0"/>
+                    <Handle val="BehaviorBar"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="InfoPaneCoopAI" name="InfoPaneCoopAI">
+                <Anchor relative="$parent/InfoPanelCopy"/>
+            </Frame>
+
+            <Frame type="InfoPaneUnit" name="InfoPaneUnit">
+                <Anchor side="Top" relative="$parent/InfoPanelCopy" pos="Min" offset="0"/>
+                <Anchor side="Bottom" relative="$parent/InfoPanelCopy" pos="Max" offset="0"/>
+                <Anchor side="Right" relative="$parent/InfoPanelCopy" pos="Max" offset="0"/>
+            </Frame>
+
+            <Frame type="Frame" name="InfoPaneHero">            
+                <Anchor side="Top" relative="$parent/InfoPanelCopy" pos="Min" offset="0"/>
+                <Anchor side="Bottom" relative="$parent/InfoPanelCopy" pos="Max" offset="0"/>
+                <Anchor side="Right" relative="$parent/InfoPanelCopy" pos="Min" offset="675"/>
+                <Width val="442"/>
+            </Frame>
+
+            <Frame type="InfoPaneQueue" name="InfoPaneQueue">
+                <Anchor side="Top" relative="$parent/InfoPanelCopy" pos="Min" offset="0"/>
+                <Anchor side="Bottom" relative="$parent/InfoPanelCopy" pos="Max" offset="0"/>
+                <Anchor side="Right" relative="$parent/InfoPanelCopy" pos="Max" offset="0"/>
+            </Frame>
+
+            <Frame type="InfoPaneProgress" name="InfoPaneProgress">
+                <Anchor side="Top" relative="$parent/InfoPanelCopy" pos="Min" offset="0"/>
+                <Anchor side="Bottom" relative="$parent/InfoPanelCopy" pos="Max" offset="0"/>
+                <Anchor side="Right" relative="$parent/InfoPanelCopy" pos="Max" offset="0"/>
+            </Frame>
+
+            <Frame type="InfoPaneCargo" name="InfoPaneCargo">
+                <Anchor side="Top" relative="$parent/InfoPanelCopy" pos="Min" offset="0"/>
+                <Anchor side="Bottom" relative="$parent/InfoPanelCopy" pos="Max" offset="0"/>
+                <Anchor side="Right" relative="$parent/InfoPanelCopy" pos="Max" offset="0"/>
+            </Frame>
+        </Frame>
+
+        <Frame type="ControlGroupPanel" name="ControlGroupPanel">
+            <Anchor side="Left" relative="$parent/InfoPanel/InfoPanelCopy" pos="Mid" offset="-383"/>
+            <Anchor side="Bottom" relative="$parent/InfoPanel/InfoPanelCopy" pos="Min" offset="-5"/>
+
+            <StateGroup name="AlignmentRatioCheck">
+                <DefaultState val="CenterAligned"/>
+                <State name="LeftAligned">
+                    <When type="Property" frame="AspectRatioListener_16x10" Visible="False"/>
+                    <Action type="SetAnchor" frame="$this" side="Left" relative="$parent/MinimapPanel" pos="Max" offset="0"/>
+                </State>
+                <State name="CenterAligned">
+                    <Action type="SetAnchor" frame="$this" side="Left" relative="$parent/InfoPanel/InfoPanelCopy" pos="Mid" offset="-383"/>
+                </State>
+            </StateGroup>
+        </Frame>
+    </Frame>
+</Desc>

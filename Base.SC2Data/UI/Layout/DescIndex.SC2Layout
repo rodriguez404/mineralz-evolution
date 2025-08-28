@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Include path="UI/Layout/ChatDisplay.SC2Layout"/>
+    <Include path="UI/Layout/ErrorDisplay.SC2Layout"/>
+    <Include path="UI/Layout/BehaviorBar_Expanded.SC2Layout"/>
+</Desc>

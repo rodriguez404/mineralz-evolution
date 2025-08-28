@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+  <!-- hide entire console panel -->
+  <Frame name="GameUI/UIContainer/ConsolePanel" type="ConsolePanel" file="GameUI">
+        <Frame type="Model" name="InfopanelModel">
+            <Visible val="false"/>
+        </Frame>
+        
+        <Frame type="Model" name="MinimapModel">
+            <Visible val='False'/>
+        </Frame>
+
+        <Frame type="PortraitPanel" name="PortraitPanel">
+            <Visible val='False'/>
+        </Frame>
+        
+        <Frame type="Model" name="CommandPanelModel">
+            <Visible val='False'/>
+        </Frame>
+
+        <Frame type="Frame" name="MinimapStub">
+            <Visible val='False'/>
+        </Frame>
+
+        <Frame type="Frame" name="InfoStub">
+            <Visible val='False'/>
+        </Frame>
+
+        <Frame type="Frame" name="CommandStub">
+            <Visible val='False'/>
+        </Frame>
+  </Frame>
+</Desc>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTerrainTex id="AgriaConcrete">
+        <Normalmap value="Assets\Textures\marsara_dark_sand_low.dds"/>
+    </CTerrainTex>
+</Catalog>
